@@ -82,8 +82,8 @@ function MonthlyMatrix({ data }) {
   };
 
   return html`
-    <div style=${{ overflow: "auto", flex: 1, minHeight: 0 }}>
-      <table style=${{ width: "100%", borderCollapse: "collapse" }}>
+    <div style=${{ overflow: "auto", flex: 1, minHeight: 0, maxWidth: "100%" }}>
+      <table style=${{ width: "max-content", minWidth: "100%", borderCollapse: "collapse" }}>
         <thead>
           <tr>
             ${byYear.map(({ yr, months }) => html`
@@ -151,8 +151,8 @@ function PermitTable({ visual, plant }) {
   const data = (plant && visual?.data_by_plant?.[plant]) || visual?.data;
   const rows = data?.rows || [];
   return html`
-    <div style=${{ overflowX: "auto" }}>
-      <table style=${{ width: "100%", borderCollapse: "collapse", fontSize: 11 }}>
+    <div style=${{ overflowX: "auto", maxWidth: "100%" }}>
+      <table style=${{ width: "max-content", minWidth: "100%", borderCollapse: "collapse", fontSize: 11 }}>
         <thead>
           <tr>
             ${["S. Name", "Description", "Limit Value", "Units", "Type", "Limit Type", "End Date"].map((header) => html`
@@ -352,7 +352,7 @@ export function Dmr5yrHistoricalMetricPage({ page, manifest, currentDateRange })
         <${StatCard} label="Last refresh" value=${refresh} />
       </section>
 
-      <main style=${{ display: "grid", gridTemplateColumns: "220px 1fr", gap: 12, minHeight: 0 }}>
+      <main style=${{ display: "grid", gridTemplateColumns: "220px minmax(0, 1fr)", gap: 12, minHeight: 0 }}>
         <aside style=${{
           background: `linear-gradient(180deg,${C.card},#0d2139)`,
           border: `1px solid ${C.line}`,
@@ -372,16 +372,16 @@ export function Dmr5yrHistoricalMetricPage({ page, manifest, currentDateRange })
           </div>
         </aside>
 
-        <div style=${{ display: "grid", gap: 10, minHeight: 0, gridTemplateRows: "auto auto 1fr" }}>
-          <section style=${panelStyle()}>
+        <div style=${{ display: "grid", gap: 10, minHeight: 0, minWidth: 0, gridTemplateRows: "auto auto 1fr" }}>
+          <section style=${panelStyle({ minWidth: 0 })}>
             <div style=${sectionTitleStyle()}>Permit Limits</div>
             <${PermitTable} visual=${tableVis} plant=${plant} />
           </section>
-          <section style=${panelStyle({ minHeight: 0 })}>
+          <section style=${panelStyle({ minHeight: 0, minWidth: 0 })}>
             <div style=${sectionTitleStyle()}>${pivotVis?.title || "Monthly values (same as DMR Report)"}</div>
             <${MonthlyMatrix} data=${matrixData} />
           </section>
-          <section style=${panelStyle({ display: "flex", flexDirection: "column", minHeight: 0 })}>
+          <section style=${panelStyle({ display: "flex", flexDirection: "column", minHeight: 0, minWidth: 0 })}>
             <div style=${sectionTitleStyle()}>Monthly trend and permit reference lines</div>
             <${ComboChart} data=${chartData} units=${units} />
           </section>
