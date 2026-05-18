@@ -1,0 +1,28 @@
+TableName,Name,Expression,FormatString,Notes
+DATATBL,100th Percentile,"PERCENTILE.INC(DATATBL[CURVALUE],1)","#,0.00",
+DATATBL,25th Percentile,"PERCENTILE.INC(DATATBL[CURVALUE],.25)","#,0.00",
+DATATBL,50th Percentile,"PERCENTILE.INC(DATATBL[CURVALUE],.50)","#,0.00",
+DATATBL,75th Percentile,"PERCENTILE.INC(DATATBL[CURVALUE],.75)","#,0.00",
+DATATBL,95th Percentile,"PERCENTILE.INC(DATATBL[CURVALUE],.95)","#,0.00",
+DATATBL,99th Percentile,"PERCENTILE.INC(DATATBL[CURVALUE],.99)","#,0.00",
+DATATBL,AVG_Calc,"AVERAGEX('DATATBL', AVerage(DATATBL[CURVALUE]))",,AVERAGEX of averages
+DATATBL,Average Curval,"AVERAGEA(DATATBL[CURVALUE])",,Includes text coercions
+DATATBL,Average Monthly,,,Blank — no DAX defined
+DATATBL,Avg_CurValue,"Average('DATATBL'[CURVALUE])",0.00,Simple average
+DATATBL,Average of Color Format for Flow minus Max of CURVALUE,"AVERAGE('DATATBL'[Color Format for Flow]) - MAX('DATATBL'[CURVALUE])",0.00,Headroom below permit
+DATATBL,CurValue_Record_Count,"CALCULATE(COUNTROWS('DATATBL'), SUMMARIZE('DATATBL', 'DATATBL'[Name]))",0,Unique parameter count
+DATATBL,MAX Curval,"MAXA(DATATBL[CURVALUE])",,Max incl text coercions
+DATATBL,Max AAF,"Maxx('DATATBL', max('DATATBL'[CURVALUE]))",0,Overall max CURVALUE
+DATATBL,Measure Max AAF%,"DIVIDE('DATATBL'[Max AAF], AVERAGE('DATATBL'[Color Format for Flow]))","0%;-0%;0%",Max as % of permitted AAF
+DATATBL,Measure1,"Var Maxvale = UNION(ROW(""Value"",SELECTEDVALUE(DATATBL[CURVALUE])),Row(""Value"",[Rolling 3 Months Minimum])) return MINX(Maxvale,[Value])",,Min of selected vs rolling 3-mo min
+DATATBL,Min Curval,"MINA(DATATBL[CURVALUE])",,Min incl text coercions
+DATATBL,Rolling 3 Months Minimum,"CALCULATE(MINX(DATATBL,DATATBL[CURVALUE]),DATESINPERIOD(DATATBL[DATESTAMP],LASTDATE(DATATBL[DATESTAMP]),-3,MONTH))",,Min CURVALUE over trailing 3 months
+DATATBL,Rolling 3 Months Minimum max per DATESTAMP,"MAXX(KEEPFILTERS(VALUES('DATATBL'[DATESTAMP])),CALCULATE([Rolling 3 Months Minimum]))",,Max of rolling-3mo-min across dates
+DATATBL,Rolling 3 Months Minimum max per DATESTAMP divided by Color Format for Flow,"DIVIDE([Rolling 3 Months Minimum max per DATESTAMP],AVERAGE('DATATBL'[Color Format for Flow]))","0.00%;-0.00%;0.00%",75/90 Rule KPI
+DATATBL,Rolling 30 day Average,"AVERAGEX(DATESINPERIOD(DATATBL[Date].[Date],LASTDATE(DATATBL[Date].[Date]),-30,DAY),CALCULATE(SUM(DATATBL[CURVALUE])))",,30-day rolling avg
+DATATBL,STDEV.P,"STDEV.P(DATATBL[CURVALUE])",,Population std dev
+DATATBL,STDEV.S,"STDEV.S(DATATBL[CURVALUE])",,Sample std dev
+DATATBL,Color Format for Flow % difference from Rolling 3 Months Minimum max per DATESTAMP,"VAR __BASELINE_VALUE = [Rolling 3 Months Minimum max per DATESTAMP] VAR __VALUE_TO_COMPARE = SUM('DATATBL'[Color Format for Flow]) RETURN IF(NOT ISBLANK(__VALUE_TO_COMPARE),DIVIDE(__VALUE_TO_COMPARE - __BASELINE_VALUE, __BASELINE_VALUE))","0.00%;-0.00%;0.00%",% headroom vs rolling min
+vt_SelectParams_byWWTP,CURParameterValue_AVG,"Calculate(average('vt_SelectParams_byWWTP'[CURVALUE]),Filter('vt_SelectParams_byWWTP','vt_SelectParams_byWWTP'[S. Name 2]=SELECTEDVALUE('vt_SelectParams_byWWTP'[S. Name 2])))",,Avg for slicer-selected parameter
+vt_SelectParams_byWWTP,CURParameterValue_MAX,"Calculate(MAX('vt_SelectParams_byWWTP'[CURVALUE]),Filter('vt_SelectParams_byWWTP','vt_SelectParams_byWWTP'[S. Name 2]=SELECTEDVALUE('vt_SelectParams_byWWTP'[S. Name 2])))",,Max for slicer-selected parameter
+vt_SelectParams_byWWTP,CURParameterValue_MIN,"Calculate(MIN('vt_SelectParams_byWWTP'[CURVALUE]),Filter('vt_SelectParams_byWWTP','vt_SelectParams_byWWTP'[S. Name 2]=SELECTEDVALUE('vt_SelectParams_byWWTP'[S. Name 2])))",,Min for slicer-selected parameter

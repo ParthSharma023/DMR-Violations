@@ -1,0 +1,43 @@
+{
+  "slug": "wwtp-optimization",
+  "guid": "7d48f8de3188a8e3bc09",
+  "display_name": "WWTP Optimization",
+  "category": "wwtp-specific",
+  "ordinal": 2,
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "page_filters": [],
+  "visuals": [
+    {
+      "name": "e5472313c2836b608843",
+      "type": "image",
+      "title": null,
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "z": 0
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": {
+        "type": "WebUrl",
+        "navigationSection": null,
+        "bookmark": null,
+        "webUrl": "https://app.powerbigov.us/reportEmbed?reportId=bbb2c043-4110-46e1-b49b-5f53724693f2&autoAuth=true&ctid=57a85a10-258b-45b4-a519-c96c7721094c"
+      }
+    }
+  ],
+  "date_slicer": null,
+  "plant_slicer": null
+}

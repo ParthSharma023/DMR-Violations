@@ -1,0 +1,11 @@
+{
+  "bucket": "aventdtlkps3stg01",
+  "prefix": "processed/mdm/hachwims",
+  "tables": {
+    "LIMITS": "rs10013btb_hachwims_limits/rs10013btb_hachwims_limits_000.parquet",
+    "LOCATION": "rs10013ftb_hachwims_location/rs10013ftb_hachwims_location_000.parquet",
+    "VARDESC": "rs10013gtb_hachwims_vardesc/rs10013gtb_hachwims_vardesc_000.parquet",
+    "VAREQ": "rs10013etb_hachwims_vareq/rs10013etb_hachwims_vareq_000.parquet",
+    "DATATBL": "rs10013tb_hachwims_data/rs10013tb_hachwims_data_000.parquet"
+  }
+}

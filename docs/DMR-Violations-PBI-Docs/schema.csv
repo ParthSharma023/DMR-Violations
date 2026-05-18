@@ -1,0 +1,84 @@
+﻿TableName,ColumnName,DataType
+DATATBL,75%,unknown
+DATATBL,90%,unknown
+DATATBL,Categories One,unknown
+DATATBL,Category Two,unknown
+DATATBL,Color Format for Flow,unknown
+DATATBL,CURVALUE,unknown
+DATATBL,Date,unknown
+DATATBL,DATESTAMP,unknown
+DATATBL,Day of Year,unknown
+DATATBL,Limit,unknown
+DATATBL,Month,unknown
+DATATBL,Primary Parameter,unknown
+DATATBL,Violation,unknown
+DATATBL,Week Number,unknown
+DATATBL,WWTP,unknown
+Effluent Flow Limits,LIMIT_VALUE,decimal
+"Key Lab Data for WWTP","Aer MLVSS/MLSS",unknown
+"Key Lab Data for WWTP","Aeration Basin MLSS",unknown
+"Key Lab Data for WWTP","Day",unknown
+"Key Lab Data for WWTP","Effluent BOD",unknown
+"Key Lab Data for WWTP","Effluent NH3-N",unknown
+"Key Lab Data for WWTP","Effluent TSS",unknown
+"Key Lab Data for WWTP","F/M",unknown
+"Key Lab Data for WWTP","Flow,MGD",unknown
+"Key Lab Data for WWTP","Influent BOD",unknown
+"Key Lab Data for WWTP","Influent NH3-N",unknown
+"Key Lab Data for WWTP","Influent TSS",unknown
+"Key Lab Data for WWTP","Month",unknown
+"Key Lab Data for WWTP","RAS MLSS",unknown
+"Key Lab Data for WWTP","RAS MLVSS/MLSS",unknown
+"Key Lab Data for WWTP","SVI",unknown
+"Key Lab Data for WWTP","Total MLVSS",unknown
+"Key Lab Data for WWTP","Waste",unknown
+"Key Lab Data for WWTP","WWTP",unknown
+"Key Lab Data for WWTP","Year",unknown
+LIMITS,AUDITTIMESTAMP,unknown
+LIMITS,AUDITUSER,unknown
+LIMITS,COMPARE,unknown
+LIMITS,DESCRIPTION,unknown
+LIMITS,DOCID,unknown
+LIMITS,ENDDATE,unknown
+LIMITS,EVENTTYPEID,unknown
+LIMITS,GROUPING,unknown
+LIMITS,ID,unknown
+LIMITS,LIMIT_VALUE,unknown
+LIMITS,LIMIT_VALUE_MGD,unknown
+LIMITS,NAME,unknown
+LIMITS,STARTDATE,unknown
+LIMITS,STATISTIC,unknown
+LIMITS,VARID,unknown
+LOCATION,DESCRIPTION,unknown
+LOCATION,LOCATION,unknown
+LOCATION,LOCID,unknown
+LOCATION,PARENTID,unknown
+Refresh_DateTime,Date,unknown
+Refresh_DateTime,DateTime2,unknown
+Refresh_DateTime,Update,unknown
+VARDESC,LOCID,unknown
+VARDESC,NAME,unknown
+VARDESC,S. NAME,unknown
+VARDESC,S. Name 2,unknown
+VARDESC,STORETCODE,unknown
+VARDESC,UD1,unknown
+VARDESC,UD2,unknown
+VARDESC,UNITS,unknown
+VARDESC,VARID,unknown
+VARDESC,VARNUM,unknown
+VARDESC,VARTYPE,unknown
+VARDESC,WWTP,unknown
+vt_PlntChemicals_byWWTP,CURVALUE,unknown
+vt_PlntChemicals_byWWTP,DATESTAMP,unknown
+vt_PlntChemicals_byWWTP,S. Name 2,unknown
+vt_PlntElectricity_byWWTP,CURVALUE,unknown
+vt_PlntElectricity_byWWTP,DATESTAMP,unknown
+vt_PlntElectricity_byWWTP,S. Name 2,unknown
+vt_PlntIFParameters_byWWTP,CURVALUE,unknown
+vt_PlntIFParameters_byWWTP,DATESTAMP,unknown
+vt_PlntIFParameters_byWWTP,S. Name 2,unknown
+vt_PlntIFParameters_byWWTP,WWTP,unknown
+vt_SelectParams_byWWTP,CURVALUE,unknown
+vt_SelectParams_byWWTP,DATESTAMP,unknown
+vt_SelectParams_byWWTP,S. Name 2,unknown
+vt_SelectParams_byWWTP,WWTP,unknown

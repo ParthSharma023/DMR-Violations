@@ -1,0 +1,1272 @@
+[
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Month",
+    "Expression": "FORMAT(MONTH(DATATBL[DATESTAMP]), \"MM\")"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Year",
+    "Expression": "Year(DATATBL[DATESTAMP])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Short Name",
+    "Expression": "LOOKUPVALUE(VARDESC[S. NAME],VARDESC[VARID],DATATBL[VARID])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "WWTP",
+    "Expression": "LOOKUPVALUE(VARDESC[WWTP],VARDESC[VARID],DATATBL[VARID])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Day",
+    "Expression": "DAY(DATATBL[DATESTAMP])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Limit",
+    "Expression": "CALCULATE(\n        SELECTEDVALUE('Effluent Flow Limits'[LIMIT_VALUE]),\n        FILTER(\n            'Effluent Flow Limits',\n            'Effluent Flow Limits'[GROUPING] = \"V\" || \n            ('Effluent Flow Limits'[GROUPING] = \"M\" && CONTAINSSTRING('Effluent Flow Limits'[Parameter Name],\"Efncy Pr Eff\") && NOT(CONTAINSSTRING('Effluent Flow Limits'[Parameter Name],\"MAvg\"))) \n        ),\n        Filter(\n            'Effluent Flow Limits',\n            'Effluent Flow Limits'[VARID] = DATATBL[VARID] && 'Effluent Flow Limits'[All Dates] = DATATBL[DATESTAMP]\n        )\n)"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Violation",
+    "Expression": "IF(DATATBL[Limit] < DATATBL[CURVALUE] && NOT(ISBLANK(DATATBL[Limit])) && DATATBL[Compare] = \">\", 1, 0)"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Name",
+    "Expression": "LOOKUPVALUE(VARDESC[NAME],VARDESC[VARID],DATATBL[VARID])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Compare",
+    "Expression": "CALCULATE(\n        FIRSTNONBLANK('Effluent Flow Limits'[COMPARE],\"N/A\"),\n        FILTER(\n            'Effluent Flow Limits',\n            'Effluent Flow Limits'[VARID] = DATATBL[VARID] && 'Effluent Flow Limits'[All Dates] = DATATBL[DATESTAMP]\n        )\n)"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Categories One",
+    "Expression": "IF(CONTAINSSTRING(DATATBL[Short Name],\"Plnt Ef Bod Carb 5 D\"),\"CBOD Daily\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef CBOD 7-Day Avg\"),\"CBOD Weekly\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef CBOD MAvg\"),\"CBOD Monthly\",\n                 IF(CONTAINSSTRING(DATATBL[Short Name],\"Plnt Ef Nh3 N Ammoni\"),\"NH3-N Daily\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef NH3-N 7-Day Avg\") && NOT(CONTAINSSTRING(DATATBL[Name],\"Calc\")) ,\"NH3-N Weekly\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef NH3-N MAvg\") && NOT(CONTAINSSTRING(DATATBL[Name],\"Calc\")),\"NH3-N Monthly\",\n                 IF(CONTAINSSTRING(DATATBL[Short Name],\"Plnt Ef Residue Totn\"),\"TSS Daily\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef TSS 7-Day Avg\"),\"TSS Weekly\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef TSS MAvg\"),\"TSS Monthly\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"E.coli\"),\"E.Coli\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Enterococci\"),\"Enterococci\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Ef Cl2 Residual Prior\"),\"Cl2 Residual Prior\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Ef Cl2 Residual De-Chl\"),\"Cl2 Residual De-Chl\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef Diss Oxygen\"),\"Dissolved Oxygen\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef pH Field\"),\"pH\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Efncy Pr Eff CBOD Load\") && NOT(CONTAINSSTRING(DATATBL[Name],\"Efncy Pr Eff CBOD Load MAvg\")) ,\"CBOD Daily Load\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Efncy Pr Efncy Eff NH3-N Load\") && NOT(CONTAINSSTRING(DATATBL[Name],\" Efncy PrEff NH3-N Load MAvg\")),\"NH3-N Daily Load\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Efncy Pr Efncy Eff TSS Load\") && NOT(CONTAINSSTRING(DATATBL[Name],\"Efncy Pr Eff TSS Load MAvg\")),\"TSS Daily Load\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Efncy Pr Eff CBOD Load MAvg\"),\"CBOD Monthly Load\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Efncy Pr Eff NH3-N Load MAvg\"),\"NH3-N Monthly Load\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Efncy Pr Eff TSS Load MAvg\"),\"TSS Monthly Load\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef 2Hr Peak Flow Gpm\"),\"2 Hour Peak Flow\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef Flow Mgd\"),\"Daily Flow\",\n                 IF(CONTAINSSTRING(DATATBL[Name],\"Plnt Ef FLOW Month Avg\"),\"Monthly Flow\"\n             ))))))))))))))))))))))))"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Date",
+    "Expression": "DATATBL[DATESTAMP]"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Week Number",
+    "Expression": "WEEKNUM(DATATBL[Date])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Category Two",
+    "Expression": "IF(CONTAINSSTRING(DATATBL[Categories One], \"Weekly\"),\"Weekly\",\n               IF(CONTAINSSTRING(DATATBL[Categories One], \"Monthly\"),\"Monthly\",\n               IF(NOT(ISBLANK(DATATBL[Categories One])),\"Daily\")))\n"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Primary Parameter",
+    "Expression": "IF(CONTAINSSTRING(DATATBL[Categories One],\"CBOD\") && NOT(CONTAINSSTRING(DATATBL[Categories One],\"Load\")),\"CBOD\",\n                    IF(CONTAINSSTRING(DATATBL[Categories One],\"CBOD\") && CONTAINSSTRING(DATATBL[Categories One],\"Load\"),\"CBOD Load\",\n                    IF(CONTAINSSTRING(DATATBL[Categories One],\"NH3-N\") && NOT(CONTAINSSTRING(DATATBL[Categories One],\"Load\")),\"NH3-N\",\n                    IF(CONTAINSSTRING(DATATBL[Categories One],\"NH3-N\") && CONTAINSSTRING(DATATBL[Categories One],\"Load\"),\"NH3-N Load\",\n                    IF(CONTAINSSTRING(DATATBL[Categories One],\"TSS\") && NOT(CONTAINSSTRING(DATATBL[Categories One],\"Load\")),\"TSS\",\n                    IF(CONTAINSSTRING(DATATBL[Categories One],\"TSS\") && CONTAINSSTRING(DATATBL[Categories One],\"Load\"),\"TSS Load\",\n                    IF(CONTAINSSTRING(DATATBL[Categories One],\"E.Coli\"),\"E.Coli\",\n                    IF(CONTAINSSTRING(DATATBL[Categories One],\"Dissolved Oxygen\"),\"Dissolved Oxygen\",\n                    IF(CONTAINSSTRING(DATATBL[Categories One],\"Flow\"),\"Flow\",\n                    IF(CONTAINSSTRING(DATATBL[Categories One],\"Cl2 Residual\"),\"Cl2 Residual\"\n                    ))))))))))"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Day of Year",
+    "Expression": "DATEDIFF ( DATE ( YEAR ( DATATBL[DATESTAMP].[Date] ), 1, 1 ), DATATBL[DATESTAMP].[Date], DAY ) + 1"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "90%",
+    "Expression": "'FlowPermits_AMAX'[LIMIT_VALUE]*0.9"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "75%",
+    "Expression": "'FlowPermits_AMAX'[LIMIT_VALUE]*0.75"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Color Formatting Number",
+    "Expression": "IF(DATATBL[CURVALUE] < 0.75* DATATBL[Color Format for Flow],1,\n                          IF(DATATBL[CURVALUE] >= 0.75* DATATBL[Color Format for Flow] && DATATBL[CURVALUE] < 0.9* DATATBL[Color Format for Flow],2,\n                          IF(DATATBL[CURVALUE] >= 0.9* DATATBL[Color Format for Flow] && DATATBL[CURVALUE] <= DATATBL[Color Format for Flow],3,\n                          IF(DATATBL[CURVALUE] > DATATBL[Color Format for Flow],4\n\n                          ))))"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Color Format for Flow",
+    "Expression": "CALCULATE(\n                            SELECTEDVALUE('Monthly Flow Permit'[LIMIT_VALUE]),\n                            FILTER(\n                                'Monthly Flow Permit',\n                                'Monthly Flow Permit'[WWTP] = DATATBL[WWTP]\n                            )\n)"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "75%",
+    "Expression": "0.75* DATATBL[Color Format for Flow]"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "90%",
+    "Expression": "0.90*DATATBL[Color Format for Flow]"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "Update",
+    "Expression": "\"Last Refreshed:\""
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "DateTime2",
+    "Expression": "'Refresh_DateTime'[DateTime]-5/24"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "Title Name",
+    "Expression": "SELECTEDVALUE('VARDESC'[NAME])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "S Name 2",
+    "Expression": "LOOKUPVALUE(VARDESC[S. Name 2],VARDESC[VARID],DATATBL[VARID])"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Year-Month",
+    "Expression": "FORMAT('DATATBL'[DATESTAMP], \"YYYY MMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Year",
+    "Expression": "YEAR([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "MonthNo",
+    "Expression": "MONTH([Date])"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Month",
+    "Expression": "FORMAT([Date], \"MMMM\")"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "QuarterNo",
+    "Expression": "INT(([MonthNo] + 2) / 3)"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Quarter",
+    "Expression": "\"Qtr \" & [QuarterNo]"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Day",
+    "Expression": "DAY([Date])"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Wastewater Oxygen Transfer Efficiency (WOTE)",
+    "Expression": "0.18*0.65"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Aeration Basin Capacity (MGD)",
+    "Expression": "'WWTP O&M Performace Report'[Influent organic Loading, PPD (lbs/day)]/CALCULATE(AVERAGE(DATATBL[CURVALUE]),FILTER(DATATBL,CONTAINSSTRING(DATATBL[S Name 2],\"Plnt If CBOD\") && DATATBL[Year]>=2018 && DATATBL[Year] <= 2022))/8.34"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Calculated Oxygen Requirement (lb O2/lb BOD5)",
+    "Expression": "(1.2*CALCULATE(AVERAGE(DATATBL[CURVALUE]),FILTER(DATATBL,CONTAINSSTRING(DATATBL[S Name 2],\"Plnt If CBOD\") && DATATBL[Year]>=2018 && DATATBL[Year] <= 2022))+4.3*CALCULATE(AVERAGE(DATATBL[CURVALUE]),FILTER(DATATBL,CONTAINSSTRING(DATATBL[S Name 2],\"Plnt If NH3-N\") && DATATBL[Year]>=2018 && DATATBL[Year] <= 2022)))/CALCULATE(AVERAGE(DATATBL[CURVALUE]),FILTER(DATATBL,CONTAINSSTRING(DATATBL[S Name 2],\"Plnt If CBOD\") && DATATBL[Year]>=2018 && DATATBL[Year] <= 2022))"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Influent organic Loading, PPD (lbs/day)",
+    "Expression": "IF('WWTP O&M Performace Report'[Nitrification] = \"No\",'WWTP O&M Performace Report'[Volume (cf)]*45/1000,'WWTP O&M Performace Report'[Volume (cf)]*35/1000)"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Required Air Flow Rate (scfm)",
+    "Expression": "VAR correctionfactor = IF('WWTP O&M Performace Report'[SWD (ft)]<8,1.82,IF('WWTP O&M Performace Report'[SWD (ft)]>=8 && 'WWTP O&M Performace Report'[SWD (ft)]<=10,1.82-('WWTP O&M Performace Report'[SWD (ft)]-8)*(1.82-1.56)/2,IF('WWTP O&M Performace Report'[SWD (ft)]>10 && 'WWTP O&M Performace Report'[SWD (ft)]<=12,1.56-('WWTP O&M Performace Report'[SWD (ft)]-10)*(1.56-1)/2,IF('WWTP O&M Performace Report'[SWD (ft)]>12 && 'WWTP O&M Performace Report'[SWD (ft)]<=15,1-('WWTP O&M Performace Report'[SWD (ft)]-12)*(1-0.91)/2,IF('WWTP O&M Performace Report'[SWD (ft)]>15 && 'WWTP O&M Performace Report'[SWD (ft)]<=18,0.91-('WWTP O&M Performace Report'[SWD (ft)]-15)*(0.91-0.73)/2,IF('WWTP O&M Performace Report'[SWD (ft)]>18 && 'WWTP O&M Performace Report'[SWD (ft)]<=20,0.73-('WWTP O&M Performace Report'[SWD (ft)]-18)*(0.73-0.64)/2,0.64))))))\nreturn\n'WWTP O&M Performace Report'[Influent organic Loading, PPD (lbs/day)]*'WWTP O&M Performace Report'[Final Oxygen Requirement (lb O2/lb BOD)]*correctionfactor/'WWTP O&M Performace Report'[Wastewater Oxygen Transfer Efficiency (WOTE)]/0.23/0.075/1440"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Aeration Basin Mixing Air Requirement (scfm)",
+    "Expression": "'WWTP O&M Performace Report'[Volume (cf)]*20/1000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity (MGD_surface loading rate)",
+    "Expression": "if('WWTP O&M Performace Report'[SubPosition Class] = \"CLARIFIER\",'WWTP O&M Performace Report'[Surface Area (sf)]*1200/1000000,BLANK())"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity (MGD_Hydraulic Detention time)",
+    "Expression": "if('WWTP O&M Performace Report'[SubPosition Class] = \"CLARIFIER\",'WWTP O&M Performace Report'[Volume (cf)]*7.48*24/1.8/1000000,BLANK())"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity (MGD_Weir Loading Rate)",
+    "Expression": "VAR MAXIMUMWEIRLOADING = IF(CALCULATE(MAX('Effluent Flow Limits'[LIMIT_VALUE]),FILTER('Effluent Flow Limits','Effluent Flow Limits'[VARDESC.Location ID] = 'WWTP O&M Performace Report'[Location ID] && CONTAINSSTRING('Effluent Flow Limits'[Parameter Name],\"Plnt Ef FLOW\")))>=1.0,30000,20000)\nRETURN \nif('WWTP O&M Performace Report'[SubPosition Class] = \"CLARIFIER\",IF('WWTP O&M Performace Report'[Weir Length (ft)]<> BLANK(),'WWTP O&M Performace Report'[Weir Length (ft)]*MAXIMUMWEIRLOADING/1000000,('WWTP O&M Performace Report'[Inner Weir Diameter]+'WWTP O&M Performace Report'[Outer Weir Diameter])*PI()*MAXIMUMWEIRLOADING/1000000))"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Min Required Underflow",
+    "Expression": "if('WWTP O&M Performace Report'[SubPosition Class] = \"CLARIFIER\",'WWTP O&M Performace Report'[Surface Area (sf)]*200/1000000,blank())"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Max Required Underflow",
+    "Expression": "if('WWTP O&M Performace Report'[SubPosition Class] = \"CLARIFIER\",'WWTP O&M Performace Report'[Surface Area (sf)]*400/1000000,blank())"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "CCB Capacity (MGD)",
+    "Expression": "'WWTP O&M Performace Report'[Volume (cf)]*1440*7.48/20/1000000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "S. Name 2 (groups)",
+    "Expression": "SWITCH(\n\tTRUE,\n\tISBLANK('VARDESC'[S. Name 2]),\n\t\"(Blank)\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef 2Hr Peak Flow Gpm\"},\n\t\"2-hour Peak Flow (gpm)\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef FLOW Annual Avg\",\n\t\t\"Plnt Ef FLOW Month Avg\"},\n\t\"Annual Average Flow (MGD)\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef CBOD MAvg\"},\n\t\"CBOD (mg/L)\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef TRC Post\",\n\t\t\"Plnt Ef TRC Post Time\"},\n\t\"Chlorine Residual (mg/L) - following Dechlorination\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef TRC Pre\",\n\t\t\"Plnt Ef TRC Pre B1\",\n\t\t\"Plnt Ef TRC Pre B2\",\n\t\t\"Plnt Ef TRC Pre Basin1\",\n\t\t\"Plnt Ef TRC Pre Basin2\",\n\t\t\"Plnt Ef TRC Pre Basin3\",\n\t\t\"Plnt Ef TRC Pre BasinA\",\n\t\t\"Plnt Ef TRC Pre BasinA Time\",\n\t\t\"Plnt Ef TRC Pre BasinB\",\n\t\t\"Plnt Ef TRC Pre BasinB Time\",\n\t\t\"Plnt Ef TRC Pre BasinC\",\n\t\t\"Plnt Ef TRC Pre BasinC Time\",\n\t\t\"Plnt Ef TRC Pre East\",\n\t\t\"Plnt Ef TRC Pre North\",\n\t\t\"Plnt Ef TRC Pre Report\",\n\t\t\"Plnt Ef TRC Pre South\",\n\t\t\"Plnt Ef TRC Pre West\",\n\t\t\"Plnt Ef TRC Pre1\",\n\t\t\"Plnt Ef TRC Pre2\"},\n\t\"Chlorine Residual (mg/L) - for Chlorine Contact\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef Diss Oxygen\",\n\t\t\"Plnt Ef Dissolved Oxygen\"},\n\t\"Dissolved Oxygen (mg/L)\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef E.coli\",\n\t\t\"Plnt Ef E.coli  ***\",\n\t\t\"Plnt Ef E.coli ***\"},\n\t\"E-Coli (CFU or MPN/100 mL)\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef NH3-N MAvg\"},\n\t\"NH3-N (mg/L)\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef pH Field\"},\n\t\"pH\",\n\t'VARDESC'[S. Name 2] IN {\"Plnt Ef TSS MAvg\"},\n\t\"TSS (mg/L)\",\n\t'VARDESC'[S. Name 2]\n)"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "S Name 2 (groups)",
+    "Expression": "SWITCH(\n\tTRUE,\n\tISBLANK('DATATBL'[S Name 2]),\n\t\"(Blank)\",\n\t'DATATBL'[S Name 2] IN {\"Plnt Ef 2Hr Peak Flow Gpm\"},\n\t\"2-hour Peak Flow (gpm)\",\n\t'DATATBL'[S Name 2] IN {\"Plnt Ef 2Hr Peak Field\"},\n\t\"2-hour Peak Flow (MGD)\",\n\t'DATATBL'[S Name 2] IN {\"Plnt Ef FLOW Annual Avg\"},\n\t\"Annual Average Flow (MGD)\",\n\t'DATATBL'[S Name 2] IN {\"Plnt If CBOD\"},\n\t\"Influent CBOD\",\n\t'DATATBL'[S Name 2] IN {\"Plnt If NH3-N\"},\n\t\"Influent NH3-N\",\n\t'DATATBL'[S Name 2] IN {\"Plnt If TSS\"},\n\t\"Influent TSS\",\n\t'DATATBL'[S Name 2]\n)"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity",
+    "Expression": "var minimum = IF('WWTP O&M Performace Report'[Clarifier Capacity (MGD_Hydraulic Detention time)]>'WWTP O&M Performace Report'[Clarifier Capacity (MGD_surface loading rate)],'WWTP O&M Performace Report'[Clarifier Capacity (MGD_surface loading rate)],'WWTP O&M Performace Report'[Clarifier Capacity (MGD_Hydraulic Detention time)])\nreturn IF(minimum>'WWTP O&M Performace Report'[Clarifier Capacity (MGD_Weir Loading Rate)],'WWTP O&M Performace Report'[Clarifier Capacity (MGD_Weir Loading Rate)],minimum)"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Final Oxygen Requirement (lb O2/lb BOD)",
+    "Expression": "IF('WWTP O&M Performace Report'[Calculated Oxygen Requirement (lb O2/lb BOD5)]<2.2, 2.2,'WWTP O&M Performace Report'[Calculated Oxygen Requirement (lb O2/lb BOD5)])"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Final Aeration Basin required Air Flow Rate",
+    "Expression": "IF('WWTP O&M Performace Report'[Required Air Flow Rate (scfm)]>'WWTP O&M Performace Report'[Aeration Basin Mixing Air Requirement (scfm)],'WWTP O&M Performace Report'[Required Air Flow Rate (scfm)],'WWTP O&M Performace Report'[Aeration Basin Mixing Air Requirement (scfm)])"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Side water Depth (SF)",
+    "Expression": "IF('WWTP O&M Performace Report'[System] = \"PRE-TREATMENT SYSTEM\",IF('WWTP O&M Performace Report'[Bar screen Incline Angle Bar Screen Incline Angle (degree)] = BLANK(),IF('WWTP O&M Performace Report'[Weir Elevation (ft)] = BLANK(),BLANK(),'WWTP O&M Performace Report'[Weir Elevation (ft)]-'WWTP O&M Performace Report'[Channel Elevation (ft)]-1),'WWTP O&M Performace Report'[Weir Elevation (ft)]-'WWTP O&M Performace Report'[Channel Elevation (ft)]))"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Channel Wet Surface Area (SF)",
+    "Expression": "'WWTP O&M Performace Report'[Channel Width (ft)]*'WWTP O&M Performace Report'[Side water Depth (SF)]"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Inclined Surface Area (SF)",
+    "Expression": "IF('WWTP O&M Performace Report'[System] = \"PRE-TREATMENT SYSTEM\",IF( 'WWTP O&M Performace Report'[Bar screen Incline Angle Bar Screen Incline Angle (degree)] = BLANK(),'WWTP O&M Performace Report'[Channel Wet Surface Area (SF)],'WWTP O&M Performace Report'[Channel Wet Surface Area (SF)]/SIN('WWTP O&M Performace Report'[Bar screen Incline Angle Bar Screen Incline Angle (degree)]/180*PI())))"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bar Screen Net Surface Area (SF)",
+    "Expression": "IF('WWTP O&M Performace Report'[System] = \"PRE-TREATMENT SYSTEM\",IF( 'WWTP O&M Performace Report'[Bar screen Incline Angle Bar Screen Incline Angle (degree)] = BLANK(),'WWTP O&M Performace Report'[Inclined Surface Area (SF)],'WWTP O&M Performace Report'[Inclined Surface Area (SF)]*('WWTP O&M Performace Report'[Space between Bars (ft)]/('WWTP O&M Performace Report'[Space between Bars (ft)]+'WWTP O&M Performace Report'[Thickness of bar (ft)])*0.5)))"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bar Screen Capacity (MGD)",
+    "Expression": "IF('WWTP O&M Performace Report'[Manufacuter Specification_Capacity (MGD)]<>BLANK(),'WWTP O&M Performace Report'[Manufacuter Specification_Capacity (MGD)],'WWTP O&M Performace Report'[Bar Screen Net Surface Area (SF)]*7.48*86400*'WWTP O&M Performace Report'[Maximum Velocity through Bar screen (ft/s)]/1000000)"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Firm capacity",
+    "Expression": "CALCULATE(SUM('WWTP O&M Performace Report'[Pump Capacity (MGD)])-MAX('WWTP O&M Performace Report'[Pump Capacity (MGD)]),ALLEXCEPT('WWTP O&M Performace Report','WWTP O&M Performace Report'[System_ID]))"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "Report Value",
+    "Expression": "IF((CONTAINSSTRING(LOOKUPVALUE(VARDESC[S. Name 2],VARDESC[VARID],LIMITS[VARID]),\"NH3-N\") || CONTAINSSTRING(LOOKUPVALUE(VARDESC[S. Name 2],VARDESC[VARID],LIMITS[VARID]),\"E.coli\")) && CONTAINSSTRING(LIMITS[DESCRIPTION],\"Daily\"),\"NO\",\"Yes\")"
+  }
+]

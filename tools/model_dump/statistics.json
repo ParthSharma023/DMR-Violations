@@ -1,0 +1,5512 @@
+[
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "AUDITUSER",
+    "Cardinality": 145,
+    "Dictionary": 3611,
+    "HashIndex": 0,
+    "DataSize": 54376,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "AUDITTIMESTAMP",
+    "Cardinality": 1084618,
+    "Dictionary": 8676984,
+    "HashIndex": 0,
+    "DataSize": 29053128,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "DATESTAMP",
+    "Cardinality": 7509,
+    "Dictionary": 60112,
+    "HashIndex": 0,
+    "DataSize": 11736392,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "CURVALUE",
+    "Cardinality": 1946977,
+    "Dictionary": 15575856,
+    "HashIndex": 0,
+    "DataSize": 24232392,
+    "ModifiedTime": "2022-09-10T19:34:41.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "TEXTVALUE",
+    "Cardinality": 1922782,
+    "Dictionary": 24187848,
+    "HashIndex": 0,
+    "DataSize": 24566032,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "VARID",
+    "Cardinality": 7155,
+    "Dictionary": 28660,
+    "HashIndex": 0,
+    "DataSize": 13613688,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "STATUS",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 3688,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "FORCED",
+    "Cardinality": 3,
+    "Dictionary": 64,
+    "HashIndex": 0,
+    "DataSize": 2000,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Month",
+    "Cardinality": 2,
+    "Dictionary": 151,
+    "HashIndex": 0,
+    "DataSize": 1041256,
+    "ModifiedTime": "2025-09-03T02:26:11.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 855192,
+    "ModifiedTime": "2025-09-03T02:26:05.000",
+    "StructureModifiedTime": "2019-12-07T11:46:32.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Short Name",
+    "Cardinality": 1928,
+    "Dictionary": 80469,
+    "HashIndex": 0,
+    "DataSize": 9299104,
+    "ModifiedTime": "2025-09-04T03:59:35.000",
+    "StructureModifiedTime": "2020-01-13T17:34:41.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "WWTP",
+    "Cardinality": 50,
+    "Dictionary": 1649,
+    "HashIndex": 0,
+    "DataSize": 5078816,
+    "ModifiedTime": "2025-09-04T03:59:35.000",
+    "StructureModifiedTime": "2020-01-13T17:44:59.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 6131792,
+    "ModifiedTime": "2025-09-03T02:26:05.000",
+    "StructureModifiedTime": "2020-01-14T19:45:22.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Limit",
+    "Cardinality": 214,
+    "Dictionary": 1752,
+    "HashIndex": 0,
+    "DataSize": 3743576,
+    "ModifiedTime": "2025-09-03T02:27:26.000",
+    "StructureModifiedTime": "2020-01-20T15:03:52.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Violation",
+    "Cardinality": 2,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 106808,
+    "ModifiedTime": "2025-09-03T02:27:28.000",
+    "StructureModifiedTime": "2020-01-22T16:48:29.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Name",
+    "Cardinality": 7007,
+    "Dictionary": 152444,
+    "HashIndex": 0,
+    "DataSize": 13613688,
+    "ModifiedTime": "2025-09-04T03:59:38.000",
+    "StructureModifiedTime": "2020-01-23T16:14:17.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Compare",
+    "Cardinality": 3,
+    "Dictionary": 161,
+    "HashIndex": 0,
+    "DataSize": 1313376,
+    "ModifiedTime": "2025-09-03T02:27:00.000",
+    "StructureModifiedTime": "2020-01-23T16:45:28.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Categories One",
+    "Cardinality": 22,
+    "Dictionary": 893,
+    "HashIndex": 0,
+    "DataSize": 2527064,
+    "ModifiedTime": "2025-09-04T04:06:53.000",
+    "StructureModifiedTime": "2020-01-23T19:26:08.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Date",
+    "Cardinality": 7509,
+    "Dictionary": 60112,
+    "HashIndex": 0,
+    "DataSize": 12086072,
+    "ModifiedTime": "2025-09-03T02:26:05.000",
+    "StructureModifiedTime": "2020-01-27T21:02:34.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Week Number",
+    "Cardinality": 53,
+    "Dictionary": 252,
+    "HashIndex": 0,
+    "DataSize": 7106360,
+    "ModifiedTime": "2025-09-03T02:26:25.000",
+    "StructureModifiedTime": "2020-01-28T21:57:21.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Category Two",
+    "Cardinality": 3,
+    "Dictionary": 189,
+    "HashIndex": 0,
+    "DataSize": 1324832,
+    "ModifiedTime": "2025-09-04T04:06:58.000",
+    "StructureModifiedTime": "2020-01-29T17:15:23.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Primary Parameter",
+    "Cardinality": 10,
+    "Dictionary": 377,
+    "HashIndex": 0,
+    "DataSize": 2071232,
+    "ModifiedTime": "2025-09-04T04:07:14.000",
+    "StructureModifiedTime": "2020-01-30T16:14:05.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Day of Year",
+    "Cardinality": 366,
+    "Dictionary": 1504,
+    "HashIndex": 0,
+    "DataSize": 10464216,
+    "ModifiedTime": "2025-09-03T02:26:24.000",
+    "StructureModifiedTime": "2020-01-30T16:57:54.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Color Formatting Number",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 2007168,
+    "ModifiedTime": "2025-09-04T03:59:40.000",
+    "StructureModifiedTime": "2020-02-03T19:14:54.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Color Format for Flow",
+    "Cardinality": 30,
+    "Dictionary": 280,
+    "HashIndex": 0,
+    "DataSize": 4327712,
+    "ModifiedTime": "2025-09-04T03:59:37.000",
+    "StructureModifiedTime": "2020-02-05T17:12:33.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "75%",
+    "Cardinality": 30,
+    "Dictionary": 280,
+    "HashIndex": 0,
+    "DataSize": 4327712,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2020-02-05T18:43:44.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "90%",
+    "Cardinality": 30,
+    "Dictionary": 280,
+    "HashIndex": 0,
+    "DataSize": 4327712,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2020-02-05T18:44:09.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "S Name 2",
+    "Cardinality": 1019,
+    "Dictionary": 19988,
+    "HashIndex": 0,
+    "DataSize": 8453744,
+    "ModifiedTime": "2025-09-04T03:59:37.000",
+    "StructureModifiedTime": "2023-02-19T02:37:58.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Year-Month",
+    "Cardinality": 247,
+    "Dictionary": 6545,
+    "HashIndex": 0,
+    "DataSize": 5418944,
+    "ModifiedTime": "2025-09-03T02:26:13.000",
+    "StructureModifiedTime": "2023-03-18T00:15:18.000"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "S Name 2 (groups)",
+    "Cardinality": 1020,
+    "Dictionary": 20012,
+    "HashIndex": 0,
+    "DataSize": 8453744,
+    "ModifiedTime": "2025-09-04T03:59:42.000",
+    "StructureModifiedTime": "2023-08-22T20:46:15.000"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "MonthNo",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Month",
+    "Cardinality": 1,
+    "Dictionary": 147,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Quarter",
+    "Cardinality": 1,
+    "Dictionary": 143,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Day",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "AUDITUSER",
+    "Cardinality": 8,
+    "Dictionary": 293,
+    "HashIndex": 0,
+    "DataSize": 3560,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "AUDITTIMESTAMP",
+    "Cardinality": 1378,
+    "Dictionary": 11064,
+    "HashIndex": 0,
+    "DataSize": 22376,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "ID",
+    "Cardinality": 8549,
+    "Dictionary": 68432,
+    "HashIndex": 0,
+    "DataSize": 99528,
+    "ModifiedTime": "2022-03-28T20:13:24.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "VARID",
+    "Cardinality": 1330,
+    "Dictionary": 10680,
+    "HashIndex": 0,
+    "DataSize": 22888,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "NAME",
+    "Cardinality": 7,
+    "Dictionary": 255,
+    "HashIndex": 0,
+    "DataSize": 5480,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "DESCRIPTION",
+    "Cardinality": 18,
+    "Dictionary": 1137,
+    "HashIndex": 0,
+    "DataSize": 5864,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "STARTDATE",
+    "Cardinality": 240,
+    "Dictionary": 1960,
+    "HashIndex": 0,
+    "DataSize": 87968,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "ENDDATE",
+    "Cardinality": 160,
+    "Dictionary": 1320,
+    "HashIndex": 0,
+    "DataSize": 81312,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "COMPARE",
+    "Cardinality": 3,
+    "Dictionary": 161,
+    "HashIndex": 0,
+    "DataSize": 2536,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "LIMIT_VALUE",
+    "Cardinality": 225,
+    "Dictionary": 1840,
+    "HashIndex": 0,
+    "DataSize": 15208,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "GROUPING",
+    "Cardinality": 6,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 4968,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "STATISTIC",
+    "Cardinality": 3,
+    "Dictionary": 225,
+    "HashIndex": 0,
+    "DataSize": 4072,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "EVENTTYPEID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 2280,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "DOCID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 2280,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "WWTP",
+    "Cardinality": 49,
+    "Dictionary": 1629,
+    "HashIndex": 0,
+    "DataSize": 17768,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "All Dates",
+    "Cardinality": 22280,
+    "Dictionary": 178280,
+    "HashIndex": 0,
+    "DataSize": 31389640,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "Parameter Name",
+    "Cardinality": 1308,
+    "Dictionary": 28352,
+    "HashIndex": 0,
+    "DataSize": 22888,
+    "ModifiedTime": "2022-03-28T20:20:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "LIMIT_VALUE_MGD",
+    "Cardinality": 225,
+    "Dictionary": 1840,
+    "HashIndex": 0,
+    "DataSize": 15208,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "VARDESC.Location ID",
+    "Cardinality": 39,
+    "Dictionary": 825,
+    "HashIndex": 0,
+    "DataSize": 16744,
+    "ModifiedTime": "2023-09-05T21:45:35.000",
+    "StructureModifiedTime": "2023-09-05T21:45:35.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "AUDITUSER",
+    "Cardinality": 7,
+    "Dictionary": 269,
+    "HashIndex": 0,
+    "DataSize": 256,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "AUDITTIMESTAMP",
+    "Cardinality": 335,
+    "Dictionary": 2720,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "ID",
+    "Cardinality": 342,
+    "Dictionary": 0,
+    "HashIndex": 8301,
+    "DataSize": 832,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "VARID",
+    "Cardinality": 342,
+    "Dictionary": 2776,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "NAME",
+    "Cardinality": 2,
+    "Dictionary": 159,
+    "HashIndex": 0,
+    "DataSize": 192,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "DESCRIPTION",
+    "Cardinality": 5,
+    "Dictionary": 433,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "STARTDATE",
+    "Cardinality": 74,
+    "Dictionary": 632,
+    "HashIndex": 0,
+    "DataSize": 456,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "ENDDATE",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "COMPARE",
+    "Cardinality": 1,
+    "Dictionary": 135,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "LIMIT_VALUE",
+    "Cardinality": 115,
+    "Dictionary": 0,
+    "HashIndex": 2165,
+    "DataSize": 1520,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "GROUPING",
+    "Cardinality": 3,
+    "Dictionary": 165,
+    "HashIndex": 0,
+    "DataSize": 232,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "STATISTIC",
+    "Cardinality": 3,
+    "Dictionary": 225,
+    "HashIndex": 0,
+    "DataSize": 176,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "EVENTTYPEID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "DOCID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2022-01-09T18:13:51.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "90%",
+    "Cardinality": 115,
+    "Dictionary": 960,
+    "HashIndex": 0,
+    "DataSize": 456,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "75%",
+    "Cardinality": 115,
+    "Dictionary": 960,
+    "HashIndex": 0,
+    "DataSize": 456,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "WWTP",
+    "Cardinality": 44,
+    "Dictionary": 1473,
+    "HashIndex": 0,
+    "DataSize": 424,
+    "ModifiedTime": "2022-03-28T19:28:25.000",
+    "StructureModifiedTime": "2022-03-28T19:28:25.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "LIMIT_VALUE_MGD",
+    "Cardinality": 115,
+    "Dictionary": 960,
+    "HashIndex": 0,
+    "DataSize": 456,
+    "ModifiedTime": "2022-03-28T20:20:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "Location ID",
+    "Cardinality": 39,
+    "Dictionary": 825,
+    "HashIndex": 0,
+    "DataSize": 424,
+    "ModifiedTime": "2023-09-05T21:40:42.000",
+    "StructureModifiedTime": "2023-09-05T21:40:41.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "AUDITUSER",
+    "Cardinality": 8,
+    "Dictionary": 293,
+    "HashIndex": 0,
+    "DataSize": 1000,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "AUDITTIMESTAMP",
+    "Cardinality": 1378,
+    "Dictionary": 24412,
+    "HashIndex": 0,
+    "DataSize": 13688,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "ID",
+    "Cardinality": 8549,
+    "Dictionary": 68432,
+    "HashIndex": 0,
+    "DataSize": 17248,
+    "ModifiedTime": "2022-03-28T20:13:24.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "VARID",
+    "Cardinality": 1330,
+    "Dictionary": 10680,
+    "HashIndex": 0,
+    "DataSize": 13824,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "NAME",
+    "Cardinality": 7,
+    "Dictionary": 255,
+    "HashIndex": 0,
+    "DataSize": 568,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "DESCRIPTION",
+    "Cardinality": 18,
+    "Dictionary": 1137,
+    "HashIndex": 0,
+    "DataSize": 400,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "STARTDATE",
+    "Cardinality": 240,
+    "Dictionary": 1960,
+    "HashIndex": 0,
+    "DataSize": 8272,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "ENDDATE",
+    "Cardinality": 160,
+    "Dictionary": 1320,
+    "HashIndex": 0,
+    "DataSize": 7304,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "COMPARE",
+    "Cardinality": 3,
+    "Dictionary": 161,
+    "HashIndex": 0,
+    "DataSize": 200,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "LIMIT_VALUE",
+    "Cardinality": 225,
+    "Dictionary": 1840,
+    "HashIndex": 0,
+    "DataSize": 4888,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "GROUPING",
+    "Cardinality": 6,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "STATISTIC",
+    "Cardinality": 3,
+    "Dictionary": 225,
+    "HashIndex": 0,
+    "DataSize": 456,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "EVENTTYPEID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "DOCID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-20T18:45:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "WWTP",
+    "Cardinality": 49,
+    "Dictionary": 1629,
+    "HashIndex": 0,
+    "DataSize": 6592,
+    "ModifiedTime": "2022-03-28T19:28:25.000",
+    "StructureModifiedTime": "2022-03-28T19:28:25.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "LIMIT_VALUE_MGD",
+    "Cardinality": 225,
+    "Dictionary": 1840,
+    "HashIndex": 0,
+    "DataSize": 4888,
+    "ModifiedTime": "2022-03-28T20:16:39.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "Report Value",
+    "Cardinality": 2,
+    "Dictionary": 153,
+    "HashIndex": 0,
+    "DataSize": 216,
+    "ModifiedTime": "2025-09-04T03:59:30.000",
+    "StructureModifiedTime": "2023-09-01T18:29:34.000"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "Location ID",
+    "Cardinality": 39,
+    "Dictionary": 825,
+    "HashIndex": 0,
+    "DataSize": 6200,
+    "ModifiedTime": "2023-09-05T21:40:42.000",
+    "StructureModifiedTime": "2023-09-05T21:40:41.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "AUDITUSER",
+    "Cardinality": 3,
+    "Dictionary": 195,
+    "HashIndex": 0,
+    "DataSize": 160,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "AUDITTIMESTAMP",
+    "Cardinality": 195,
+    "Dictionary": 1600,
+    "HashIndex": 0,
+    "DataSize": 888,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LOCID",
+    "Cardinality": 1047,
+    "Dictionary": 8416,
+    "HashIndex": 0,
+    "DataSize": 1824,
+    "ModifiedTime": "2023-02-19T12:59:17.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LOCATION",
+    "Cardinality": 1046,
+    "Dictionary": 14860,
+    "HashIndex": 0,
+    "DataSize": 1824,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "DESCRIPTION",
+    "Cardinality": 188,
+    "Dictionary": 9159,
+    "HashIndex": 0,
+    "DataSize": 1192,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "RECORDER",
+    "Cardinality": 1047,
+    "Dictionary": 0,
+    "HashIndex": 16493,
+    "DataSize": 1824,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITEADDRESS",
+    "Cardinality": 2,
+    "Dictionary": 147,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITESTATE",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITECITY",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITEZIP",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITECOUNTRY",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITECONTACT",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITEEMAIL",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PERMITNUMBER",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PERMITSTARTDATE",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PERMITENDDATE",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "NAICS_SIC1",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "NAICS_SIC2",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD1",
+    "Cardinality": 100,
+    "Dictionary": 1631,
+    "HashIndex": 0,
+    "DataSize": 1080,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD2",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD3",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD4",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD5",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD6",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD7",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD8",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD9",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD10",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "OWNER",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "NOTES",
+    "Cardinality": 3,
+    "Dictionary": 583,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LOCIDTYPE",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "AREAID",
+    "Cardinality": 44,
+    "Dictionary": 392,
+    "HashIndex": 0,
+    "DataSize": 984,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "ACRES",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "CROP",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "APPSEASONFROM",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "APPSEASONTO",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SOILSERIES",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SOILTEXTURE",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SOILDRAINAGE",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "WATERTABLE",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LEGALDESC",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILADDRESS",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILSTATE",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILCITY",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILZIP",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILCOUNTRY",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILCONTACT",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILEMAIL",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITEPHONE",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILPHONE",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "STATUS",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "STATUS_AS_OF_DATE",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PERMIT_TYPE",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LC_PEOPLE_ID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LATITUDE",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LONGITUDE",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "ALTITUDE",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PARENTID",
+    "Cardinality": 44,
+    "Dictionary": 392,
+    "HashIndex": 0,
+    "DataSize": 984,
+    "ModifiedTime": "2023-02-19T12:59:51.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PWSID",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "WSFID",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL1_ID",
+    "Cardinality": 43,
+    "Dictionary": 384,
+    "HashIndex": 0,
+    "DataSize": 984,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL2_ID",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL3_ID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL4_ID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL5_ID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL6_ID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL7_ID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL8_ID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "Plant",
+    "Cardinality": 83,
+    "Dictionary": 1667,
+    "HashIndex": 0,
+    "DataSize": 1080,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:43:06.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SAMP_POINT_ID",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-02-24T22:47:25.000"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PATH",
+    "Cardinality": 1003,
+    "Dictionary": 21902,
+    "HashIndex": 0,
+    "DataSize": 1544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-02-24T22:47:25.000"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Year",
+    "Cardinality": 19,
+    "Dictionary": 116,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-03T02:26:00.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3616,
+    "ModifiedTime": "2025-09-03T02:26:00.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3616,
+    "ModifiedTime": "2025-09-03T02:26:00.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-03T02:26:01.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-03T02:26:01.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 4776,
+    "ModifiedTime": "2025-09-03T02:26:00.000",
+    "StructureModifiedTime": "2019-11-28T12:41:48.000"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:49.000",
+    "StructureModifiedTime": "2022-09-16T13:06:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-04T03:59:49.000",
+    "StructureModifiedTime": "2022-09-16T13:06:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-04T03:59:49.000",
+    "StructureModifiedTime": "2022-09-16T13:06:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:49.000",
+    "StructureModifiedTime": "2022-09-16T13:06:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:49.000",
+    "StructureModifiedTime": "2022-09-16T13:06:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-09-04T03:59:49.000",
+    "StructureModifiedTime": "2022-09-16T13:06:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Year",
+    "Cardinality": 19,
+    "Dictionary": 116,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3616,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3616,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 4776,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Year",
+    "Cardinality": 41,
+    "Dictionary": 204,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 7632,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 7632,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 10128,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T21:05:01.000"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T21:05:01.000"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T21:05:01.000"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T21:05:01.000"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T21:05:01.000"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 5264,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T21:05:01.000"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Year",
+    "Cardinality": 9,
+    "Dictionary": 76,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 1792,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 1792,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 2344,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Year",
+    "Cardinality": 41,
+    "Dictionary": 204,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:06.000"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 7632,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:06.000"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 7632,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:06.000"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:06.000"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:06.000"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 10128,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:06.000"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-03-18T11:11:11.000"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-03-18T11:11:11.000"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-03-18T11:11:11.000"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-03-18T11:11:11.000"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-03-18T11:11:11.000"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 5264,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-03-18T11:11:11.000"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2022-03-29T02:03:28.000"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2022-03-29T02:03:28.000"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2022-03-29T02:03:28.000"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2022-03-29T02:03:28.000"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2022-03-29T02:03:28.000"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2022-03-29T02:03:28.000"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-03T02:26:00.000",
+    "StructureModifiedTime": "2020-01-30T14:39:51.000"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-03T02:26:00.000",
+    "StructureModifiedTime": "2020-01-30T14:39:51.000"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-03T02:26:00.000",
+    "StructureModifiedTime": "2020-01-30T14:39:51.000"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-03T02:26:01.000",
+    "StructureModifiedTime": "2020-01-30T14:39:51.000"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-03T02:26:01.000",
+    "StructureModifiedTime": "2020-01-30T14:39:51.000"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 5264,
+    "ModifiedTime": "2025-09-03T02:26:00.000",
+    "StructureModifiedTime": "2020-01-30T14:39:51.000"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Year",
+    "Cardinality": 9,
+    "Dictionary": 76,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T21:51:36.000"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 1792,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T21:51:36.000"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 1792,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T21:51:36.000"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T21:51:36.000"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T21:51:36.000"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 2336,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T21:51:36.000"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Year",
+    "Cardinality": 51,
+    "Dictionary": 244,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 9464,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 9464,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 12568,
+    "ModifiedTime": "2025-07-27T23:53:31.000",
+    "StructureModifiedTime": "2020-01-30T14:57:17.000"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Year",
+    "Cardinality": 126,
+    "Dictionary": 544,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 23160,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 23160,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 4120,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 4120,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 30832,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Year",
+    "Cardinality": 35,
+    "Dictionary": 180,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 6544,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 6544,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 8672,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Year",
+    "Cardinality": 61,
+    "Dictionary": 284,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 11288,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 11288,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:37:47.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 15000,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-04T03:59:35.000",
+    "StructureModifiedTime": "2023-02-19T20:31:54.000"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:35.000",
+    "StructureModifiedTime": "2023-02-19T20:31:54.000"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:35.000",
+    "StructureModifiedTime": "2023-02-19T20:31:54.000"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:35.000",
+    "StructureModifiedTime": "2023-02-19T20:31:54.000"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:35.000",
+    "StructureModifiedTime": "2023-02-19T20:31:54.000"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 5264,
+    "ModifiedTime": "2025-09-04T03:59:35.000",
+    "StructureModifiedTime": "2023-02-19T20:31:54.000"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-07-27T23:55:08.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-04T03:59:44.000",
+    "StructureModifiedTime": "2023-02-19T20:22:07.000"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:44.000",
+    "StructureModifiedTime": "2023-02-19T20:22:07.000"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:44.000",
+    "StructureModifiedTime": "2023-02-19T20:22:07.000"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:44.000",
+    "StructureModifiedTime": "2023-02-19T20:22:07.000"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:44.000",
+    "StructureModifiedTime": "2023-02-19T20:22:07.000"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 5264,
+    "ModifiedTime": "2025-09-04T03:59:44.000",
+    "StructureModifiedTime": "2023-02-19T20:22:07.000"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Year",
+    "Cardinality": 51,
+    "Dictionary": 244,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:37:47.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 9464,
+    "ModifiedTime": "2025-07-27T23:37:47.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 9464,
+    "ModifiedTime": "2025-07-27T23:37:47.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:37:47.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 2072,
+    "ModifiedTime": "2025-07-27T23:37:47.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 12568,
+    "ModifiedTime": "2025-07-27T23:37:47.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-02-19T05:35:44.000"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-02-19T05:35:44.000"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-02-19T05:35:44.000"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-02-19T05:35:44.000"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-02-19T05:35:44.000"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 5264,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-02-19T05:35:44.000"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T03:58:27.000"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T03:58:27.000"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T03:58:27.000"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T03:58:27.000"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T03:58:27.000"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 5264,
+    "ModifiedTime": "2025-09-04T03:59:33.000",
+    "StructureModifiedTime": "2023-02-19T03:58:27.000"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Year",
+    "Cardinality": 19,
+    "Dictionary": 116,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3616,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3616,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 4776,
+    "ModifiedTime": "2025-07-27T23:37:45.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T17:15:22.000"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T17:15:22.000"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T17:15:22.000"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T17:15:22.000"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T17:15:22.000"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 5264,
+    "ModifiedTime": "2025-09-04T03:59:34.000",
+    "StructureModifiedTime": "2023-02-19T17:15:22.000"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Year",
+    "Cardinality": 9,
+    "Dictionary": 76,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 1792,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 1792,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 536,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 2336,
+    "ModifiedTime": "2025-07-27T23:05:40.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Year",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 392,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Year",
+    "Cardinality": 19,
+    "Dictionary": 116,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3616,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3616,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 4776,
+    "ModifiedTime": "2025-07-27T23:41:06.000",
+    "StructureModifiedTime": "2020-02-03T03:34:59.000"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Year",
+    "Cardinality": 21,
+    "Dictionary": 124,
+    "HashIndex": 0,
+    "DataSize": 280,
+    "ModifiedTime": "2025-09-03T02:26:17.000",
+    "StructureModifiedTime": "2020-01-27T21:02:34.000"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "MonthNo",
+    "Cardinality": 12,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-03T02:26:17.000",
+    "StructureModifiedTime": "2020-01-27T21:02:34.000"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Month",
+    "Cardinality": 12,
+    "Dictionary": 391,
+    "HashIndex": 0,
+    "DataSize": 3984,
+    "ModifiedTime": "2025-09-03T02:26:17.000",
+    "StructureModifiedTime": "2020-01-27T21:02:34.000"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "QuarterNo",
+    "Cardinality": 4,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-03T02:26:17.000",
+    "StructureModifiedTime": "2020-01-27T21:02:34.000"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Quarter",
+    "Cardinality": 4,
+    "Dictionary": 203,
+    "HashIndex": 0,
+    "DataSize": 1048,
+    "ModifiedTime": "2025-09-03T02:26:17.000",
+    "StructureModifiedTime": "2020-01-27T21:02:34.000"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Day",
+    "Cardinality": 31,
+    "Dictionary": 164,
+    "HashIndex": 0,
+    "DataSize": 5264,
+    "ModifiedTime": "2025-09-03T02:26:17.000",
+    "StructureModifiedTime": "2020-01-27T21:02:34.000"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "AUDITUSER",
+    "Cardinality": 1,
+    "Dictionary": 147,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "LIMIT_VALUE",
+    "Cardinality": 30,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 256,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "GROUPING",
+    "Cardinality": 2,
+    "Dictionary": 153,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "STATISTIC",
+    "Cardinality": 1,
+    "Dictionary": 147,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "WWTP",
+    "Cardinality": 39,
+    "Dictionary": 1337,
+    "HashIndex": 0,
+    "DataSize": 176,
+    "ModifiedTime": "2022-03-28T20:11:31.000",
+    "StructureModifiedTime": "2022-03-28T20:11:31.000"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "LIMIT_VALUE_update",
+    "Cardinality": 31,
+    "Dictionary": 0,
+    "HashIndex": 1133,
+    "DataSize": 256,
+    "ModifiedTime": "2024-06-27T17:11:10.000",
+    "StructureModifiedTime": "2024-06-27T17:11:10.000"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "DateTime",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-12-04T10:21:05.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "Date",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-12-04T10:21:42.000",
+    "StructureModifiedTime": "2023-03-28T23:47:32.000"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "Time",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-12-04T10:21:05.000",
+    "StructureModifiedTime": "2021-12-04T10:21:05.000"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "Update",
+    "Cardinality": 1,
+    "Dictionary": 163,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2022-03-29T01:56:02.000"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "DateTime2",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-03T03:57:56.000",
+    "StructureModifiedTime": "2022-03-29T02:03:28.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "AUDITUSER",
+    "Cardinality": 12,
+    "Dictionary": 403,
+    "HashIndex": 0,
+    "DataSize": 3240,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "AUDITTIMESTAMP",
+    "Cardinality": 7633,
+    "Dictionary": 61104,
+    "HashIndex": 0,
+    "DataSize": 16632,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "VARNUM",
+    "Cardinality": 8241,
+    "Dictionary": 0,
+    "HashIndex": 132917,
+    "DataSize": 22128,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "NAME",
+    "Cardinality": 8193,
+    "Dictionary": 179500,
+    "HashIndex": 0,
+    "DataSize": 16632,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "S. NAME",
+    "Cardinality": 2411,
+    "Dictionary": 96633,
+    "HashIndex": 0,
+    "DataSize": 13208,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "VARTYPE",
+    "Cardinality": 5,
+    "Dictionary": 183,
+    "HashIndex": 0,
+    "DataSize": 1960,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UNITS",
+    "Cardinality": 54,
+    "Dictionary": 1169,
+    "HashIndex": 0,
+    "DataSize": 6400,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ENTRYMIN",
+    "Cardinality": 175,
+    "Dictionary": 1440,
+    "HashIndex": 0,
+    "DataSize": 3976,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ENTRYMAX",
+    "Cardinality": 202,
+    "Dictionary": 1656,
+    "HashIndex": 0,
+    "DataSize": 4592,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LOCID",
+    "Cardinality": 1007,
+    "Dictionary": 8096,
+    "HashIndex": 0,
+    "DataSize": 11136,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "STORETCODE",
+    "Cardinality": 174,
+    "Dictionary": 3751,
+    "HashIndex": 0,
+    "DataSize": 8176,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD1",
+    "Cardinality": 113,
+    "Dictionary": 2861,
+    "HashIndex": 0,
+    "DataSize": 6080,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD2",
+    "Cardinality": 44,
+    "Dictionary": 743,
+    "HashIndex": 0,
+    "DataSize": 6472,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "WWTP",
+    "Cardinality": 51,
+    "Dictionary": 1685,
+    "HashIndex": 0,
+    "DataSize": 6472,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "STARTTIME",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 1008,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "STOPTIME",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1488,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "VARID",
+    "Cardinality": 8241,
+    "Dictionary": 65968,
+    "HashIndex": 0,
+    "DataSize": 16632,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:35:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "S. Name 2",
+    "Cardinality": 1115,
+    "Dictionary": 21864,
+    "HashIndex": 0,
+    "DataSize": 13336,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-02-01T10:26:32.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ALLOWSYMBOL",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 896,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:46.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "QCUCL",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:46.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "QCLCL",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:46.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "QCUWL",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:46.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "QCLWL",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:46.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "PRITHRESHOLD",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:46.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "PRIOPERATOR",
+    "Cardinality": 2,
+    "Dictionary": 145,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:46.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "PRIOPPRT",
+    "Cardinality": 2,
+    "Dictionary": 151,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:46.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SECTHRESHOLD",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:46.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SECOPERATOR",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:47.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SECOPPRT",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:47.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIST",
+    "Cardinality": 15,
+    "Dictionary": 1001,
+    "HashIndex": 0,
+    "DataSize": 752,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:47.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD4",
+    "Cardinality": 12,
+    "Dictionary": 395,
+    "HashIndex": 0,
+    "DataSize": 1280,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:47.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD5",
+    "Cardinality": 5,
+    "Dictionary": 215,
+    "HashIndex": 0,
+    "DataSize": 2160,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:47.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD6",
+    "Cardinality": 8,
+    "Dictionary": 283,
+    "HashIndex": 0,
+    "DataSize": 976,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:47.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD7",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:47.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD8",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:47.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD9",
+    "Cardinality": 43,
+    "Dictionary": 743,
+    "HashIndex": 0,
+    "DataSize": 6472,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:47.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DESCRIPTION",
+    "Cardinality": 463,
+    "Dictionary": 27265,
+    "HashIndex": 0,
+    "DataSize": 3824,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:48.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "EQINFIX",
+    "Cardinality": 1879,
+    "Dictionary": 136311,
+    "HashIndex": 0,
+    "DataSize": 7816,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:48.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "EQPOSTFIX",
+    "Cardinality": 2601,
+    "Dictionary": 211521,
+    "HashIndex": 0,
+    "DataSize": 4416,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:48.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "EQTRANSLATE",
+    "Cardinality": 831,
+    "Dictionary": 101497,
+    "HashIndex": 0,
+    "DataSize": 1536,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:48.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CALCFLAG",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:48.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SCADATAG",
+    "Cardinality": 4,
+    "Dictionary": 211,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:48.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SIGNALDESC",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:48.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "STATISTIC",
+    "Cardinality": 2,
+    "Dictionary": 153,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:48.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SCALEFACTOR",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:48.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "INTERFACETYPE",
+    "Cardinality": 3,
+    "Dictionary": 171,
+    "HashIndex": 0,
+    "DataSize": 1304,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:49.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DECPLACES",
+    "Cardinality": 7,
+    "Dictionary": 96,
+    "HashIndex": 0,
+    "DataSize": 2472,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:49.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CHKROLLOVER",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 296,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:49.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "PARAMETER",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:49.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SAMPLEPOINT",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:49.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CASCADERULE",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 840,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:49.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE1",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 840,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:49.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR1",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:49.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE2",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:50.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR2",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:50.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE3",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1248,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:50.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR3",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:50.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE4",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:50.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR4",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:50.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE5",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:50.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR5",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:50.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE6",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:50.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR6",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:51.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE7",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:51.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR7",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:51.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE8",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:51.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR8",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:51.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE9",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:51.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR9",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:51.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE10",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:51.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR10",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:52.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LOWRANGE",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:52.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "HIGHRANGE",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:52.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DEADBAND",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:52.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "READONLY",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:52.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "POSTYLE",
+    "Cardinality": 1,
+    "Dictionary": 145,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:52.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "FILTERTAG",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:52.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "FILTEROP",
+    "Cardinality": 3,
+    "Dictionary": 157,
+    "HashIndex": 0,
+    "DataSize": 1200,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:52.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "FILTERVAL",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1304,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:53.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "TRACKDATASTATUS",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:53.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMIT_TO_LIST",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 384,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:53.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "BARCODE",
+    "Cardinality": 2,
+    "Dictionary": 151,
+    "HashIndex": 0,
+    "DataSize": 544,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:53.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "TRACKAPPROVAL",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 872,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:53.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_LOC",
+    "Cardinality": 568,
+    "Dictionary": 13513,
+    "HashIndex": 0,
+    "DataSize": 1856,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:53.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_TEST",
+    "Cardinality": 94,
+    "Dictionary": 2545,
+    "HashIndex": 0,
+    "DataSize": 1296,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:53.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_UD1",
+    "Cardinality": 30,
+    "Dictionary": 997,
+    "HashIndex": 0,
+    "DataSize": 1000,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:54.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_UD2",
+    "Cardinality": 246,
+    "Dictionary": 5555,
+    "HashIndex": 0,
+    "DataSize": 1280,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:54.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_UD3",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:54.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE_ENABLED",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:54.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE_SQL",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:54.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE_CNN_ID",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 1224,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:54.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE_CNN_APPROVAL",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:54.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMPLIANCE_LIMIT",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 920,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:54.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMPLIANCE_QC",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 296,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:55.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMPLIANCE_ENTRY",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 296,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:55.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "G2_INTERFACE_ID",
+    "Cardinality": 5,
+    "Dictionary": 80,
+    "HashIndex": 0,
+    "DataSize": 1888,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:55.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "G2_ENABLED",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 312,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:55.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "NOEDITALLOWED",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 664,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:55.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CONF_LEVEL",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:55.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALGROUP",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:55.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALPROCESS",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:55.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALPARAMETER",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:56.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALUD1",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:56.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALUD2",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:56.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DEPVARID",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:56.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ENTRYMIN_MSG",
+    "Cardinality": 4,
+    "Dictionary": 247,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:56.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ENTRYMAX_MSG",
+    "Cardinality": 6,
+    "Dictionary": 447,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:56.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DEFAULT_ENTRY",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:56.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMREQUIREDONEDIT",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:57.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ANALYTECODE",
+    "Cardinality": 2,
+    "Dictionary": 151,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:57.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "VGROUPID",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:57.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CLAROS_PARMGUID",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:57.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:57.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMPSUBLOC",
+    "Cardinality": 1,
+    "Dictionary": 133,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2020-04-04T23:07:57.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SIGFIGS",
+    "Cardinality": 2,
+    "Dictionary": 56,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2022-03-16T21:55:32.000",
+    "StructureModifiedTime": "2022-03-16T21:55:29.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "Title Name",
+    "Cardinality": 1,
+    "Dictionary": 0,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2023-02-14T13:26:11.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "Location ID",
+    "Cardinality": 39,
+    "Dictionary": 825,
+    "HashIndex": 0,
+    "DataSize": 6472,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "S. Name 2 (groups)",
+    "Cardinality": 1092,
+    "Dictionary": 21424,
+    "HashIndex": 0,
+    "DataSize": 13336,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2023-08-22T20:20:02.000"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "AUDITUSER",
+    "Cardinality": 5,
+    "Dictionary": 243,
+    "HashIndex": 0,
+    "DataSize": 168,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "AUDITTIMESTAMP",
+    "Cardinality": 1056,
+    "Dictionary": 8488,
+    "HashIndex": 0,
+    "DataSize": 1840,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "DATESTAMP",
+    "Cardinality": 57,
+    "Dictionary": 496,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "EQINFIX",
+    "Cardinality": 1029,
+    "Dictionary": 24980,
+    "HashIndex": 0,
+    "DataSize": 1840,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "EQPOSTFIX",
+    "Cardinality": 1052,
+    "Dictionary": 31760,
+    "HashIndex": 0,
+    "DataSize": 1840,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "VARID",
+    "Cardinality": 454,
+    "Dictionary": 3672,
+    "HashIndex": 0,
+    "DataSize": 1352,
+    "ModifiedTime": "2021-05-07T10:53:11.000",
+    "StructureModifiedTime": "2019-11-28T11:26:14.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Location",
+    "Cardinality": 41,
+    "Dictionary": 2021,
+    "HashIndex": 0,
+    "DataSize": 1208,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Location ID",
+    "Cardinality": 40,
+    "Dictionary": 835,
+    "HashIndex": 0,
+    "DataSize": 1208,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "System_ID",
+    "Cardinality": 153,
+    "Dictionary": 3477,
+    "HashIndex": 0,
+    "DataSize": 1472,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Position",
+    "Cardinality": 77,
+    "Dictionary": 4085,
+    "HashIndex": 0,
+    "DataSize": 1176,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Position_ID",
+    "Cardinality": 314,
+    "Dictionary": 10713,
+    "HashIndex": 0,
+    "DataSize": 1656,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "System",
+    "Cardinality": 5,
+    "Dictionary": 333,
+    "HashIndex": 0,
+    "DataSize": 224,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "SubPosition",
+    "Cardinality": 419,
+    "Dictionary": 22031,
+    "HashIndex": 0,
+    "DataSize": 1656,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "SubPosition_ID",
+    "Cardinality": 1255,
+    "Dictionary": 45987,
+    "HashIndex": 0,
+    "DataSize": 2264,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "SubPosition Class",
+    "Cardinality": 10,
+    "Dictionary": 401,
+    "HashIndex": 0,
+    "DataSize": 384,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Pump Capacity (gpm)",
+    "Cardinality": 64,
+    "Dictionary": 552,
+    "HashIndex": 0,
+    "DataSize": 408,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Blower Capacity",
+    "Cardinality": 50,
+    "Dictionary": 240,
+    "HashIndex": 0,
+    "DataSize": 288,
+    "ModifiedTime": "2023-08-31T20:20:57.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Inner Weir Diameter",
+    "Cardinality": 9,
+    "Dictionary": 112,
+    "HashIndex": 0,
+    "DataSize": 168,
+    "ModifiedTime": "2023-08-22T19:31:27.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Outer Weir Diameter",
+    "Cardinality": 3,
+    "Dictionary": 52,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2023-08-31T20:20:57.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "__PowerAppsId__",
+    "Cardinality": 1226,
+    "Dictionary": 39333,
+    "HashIndex": 0,
+    "DataSize": 2264,
+    "ModifiedTime": "2023-08-22T19:00:33.000",
+    "StructureModifiedTime": "2023-08-22T19:00:33.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Wastewater Oxygen Transfer Efficiency (WOTE)",
+    "Cardinality": 1,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-22T19:24:35.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Aeration Basin Capacity (MGD)",
+    "Cardinality": 96,
+    "Dictionary": 808,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-08-22T19:24:51.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Calculated Oxygen Requirement (lb O2/lb BOD5)",
+    "Cardinality": 39,
+    "Dictionary": 352,
+    "HashIndex": 0,
+    "DataSize": 1208,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-08-22T19:25:06.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Influent organic Loading, PPD (lbs/day)",
+    "Cardinality": 96,
+    "Dictionary": 808,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-22T19:25:22.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Required Air Flow Rate (scfm)",
+    "Cardinality": 96,
+    "Dictionary": 808,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-08-22T19:26:54.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Aeration Basin Mixing Air Requirement (scfm)",
+    "Cardinality": 96,
+    "Dictionary": 808,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-22T19:27:16.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity (MGD_surface loading rate)",
+    "Cardinality": 12,
+    "Dictionary": 136,
+    "HashIndex": 0,
+    "DataSize": 168,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-22T19:27:40.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity (MGD_Hydraulic Detention time)",
+    "Cardinality": 14,
+    "Dictionary": 152,
+    "HashIndex": 0,
+    "DataSize": 184,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-22T19:28:00.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity (MGD_Weir Loading Rate)",
+    "Cardinality": 14,
+    "Dictionary": 152,
+    "HashIndex": 0,
+    "DataSize": 168,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2023-08-22T19:28:16.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Min Required Underflow",
+    "Cardinality": 12,
+    "Dictionary": 136,
+    "HashIndex": 0,
+    "DataSize": 168,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-22T19:31:50.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Max Required Underflow",
+    "Cardinality": 12,
+    "Dictionary": 136,
+    "HashIndex": 0,
+    "DataSize": 168,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-22T19:32:08.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "CCB Capacity (MGD)",
+    "Cardinality": 96,
+    "Dictionary": 808,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-22T19:32:22.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity",
+    "Cardinality": 15,
+    "Dictionary": 160,
+    "HashIndex": 0,
+    "DataSize": 184,
+    "ModifiedTime": "2025-09-04T03:59:31.000",
+    "StructureModifiedTime": "2023-08-24T15:32:10.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Final Oxygen Requirement (lb O2/lb BOD)",
+    "Cardinality": 6,
+    "Dictionary": 88,
+    "HashIndex": 0,
+    "DataSize": 392,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-08-24T19:55:57.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Final Aeration Basin required Air Flow Rate",
+    "Cardinality": 96,
+    "Dictionary": 808,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2025-09-04T03:59:39.000",
+    "StructureModifiedTime": "2023-08-24T20:05:22.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Channel Width (ft)",
+    "Cardinality": 14,
+    "Dictionary": 152,
+    "HashIndex": 0,
+    "DataSize": 160,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:20:57.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Weir Elevation (ft)",
+    "Cardinality": 14,
+    "Dictionary": 152,
+    "HashIndex": 0,
+    "DataSize": 160,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:20:58.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Channel Elevation (ft)",
+    "Cardinality": 12,
+    "Dictionary": 136,
+    "HashIndex": 0,
+    "DataSize": 160,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:20:58.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bar screen Incline Angle Bar Screen Incline Angle (degree)",
+    "Cardinality": 2,
+    "Dictionary": 48,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:20:58.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Space between Bars (ft)",
+    "Cardinality": 8,
+    "Dictionary": 104,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:20:58.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Thickness of bar (ft)",
+    "Cardinality": 7,
+    "Dictionary": 96,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:20:59.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Maximum Velocity through Bar screen (ft/s)",
+    "Cardinality": 1,
+    "Dictionary": 44,
+    "HashIndex": 0,
+    "DataSize": 152,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:20:59.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Length (ft)",
+    "Cardinality": 82,
+    "Dictionary": 696,
+    "HashIndex": 0,
+    "DataSize": 432,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:20:59.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Width (ft)",
+    "Cardinality": 44,
+    "Dictionary": 392,
+    "HashIndex": 0,
+    "DataSize": 408,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:20:59.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "SWD (ft)",
+    "Cardinality": 96,
+    "Dictionary": 808,
+    "HashIndex": 0,
+    "DataSize": 504,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:21:00.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Surface Area (sf)",
+    "Cardinality": 86,
+    "Dictionary": 728,
+    "HashIndex": 0,
+    "DataSize": 320,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:21:00.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Volume (cf)",
+    "Cardinality": 96,
+    "Dictionary": 808,
+    "HashIndex": 0,
+    "DataSize": 328,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:21:00.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Shape",
+    "Cardinality": 3,
+    "Dictionary": 183,
+    "HashIndex": 0,
+    "DataSize": 160,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:21:01.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Diameter/Length",
+    "Cardinality": 28,
+    "Dictionary": 152,
+    "HashIndex": 0,
+    "DataSize": 232,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:21:01.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Weir Length (ft)",
+    "Cardinality": 13,
+    "Dictionary": 144,
+    "HashIndex": 0,
+    "DataSize": 168,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:21:01.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Pump Capacity (MGD)",
+    "Cardinality": 65,
+    "Dictionary": 560,
+    "HashIndex": 0,
+    "DataSize": 440,
+    "ModifiedTime": "2023-08-31T21:56:27.000",
+    "StructureModifiedTime": "2023-08-31T20:21:02.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Top of Concrete (ft)",
+    "Cardinality": 4,
+    "Dictionary": 72,
+    "HashIndex": 0,
+    "DataSize": 168,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:21:02.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bottom of Channel Elevation (ft)",
+    "Cardinality": 4,
+    "Dictionary": 72,
+    "HashIndex": 0,
+    "DataSize": 168,
+    "ModifiedTime": "2023-08-31T20:21:03.000",
+    "StructureModifiedTime": "2023-08-31T20:21:02.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Side water Depth (SF)",
+    "Cardinality": 15,
+    "Dictionary": 160,
+    "HashIndex": 0,
+    "DataSize": 160,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-31T20:56:47.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Channel Wet Surface Area (SF)",
+    "Cardinality": 16,
+    "Dictionary": 168,
+    "HashIndex": 0,
+    "DataSize": 160,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-31T20:57:24.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Inclined Surface Area (SF)",
+    "Cardinality": 17,
+    "Dictionary": 176,
+    "HashIndex": 0,
+    "DataSize": 160,
+    "ModifiedTime": "2025-06-10T10:22:24.000",
+    "StructureModifiedTime": "2023-08-31T20:58:13.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bar Screen Net Surface Area (SF)",
+    "Cardinality": 17,
+    "Dictionary": 176,
+    "HashIndex": 0,
+    "DataSize": 160,
+    "ModifiedTime": "2025-06-10T10:22:24.000",
+    "StructureModifiedTime": "2023-08-31T21:12:35.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bar Screen Capacity (MGD)",
+    "Cardinality": 20,
+    "Dictionary": 200,
+    "HashIndex": 0,
+    "DataSize": 216,
+    "ModifiedTime": "2025-06-10T10:22:24.000",
+    "StructureModifiedTime": "2023-08-31T21:13:48.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Firm capacity",
+    "Cardinality": 51,
+    "Dictionary": 448,
+    "HashIndex": 0,
+    "DataSize": 1088,
+    "ModifiedTime": "2025-06-10T10:22:23.000",
+    "StructureModifiedTime": "2023-08-31T21:18:24.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Manufacuter Specification_Capacity (MGD)",
+    "Cardinality": 5,
+    "Dictionary": 80,
+    "HashIndex": 0,
+    "DataSize": 176,
+    "ModifiedTime": "2023-09-01T15:52:21.000",
+    "StructureModifiedTime": "2023-09-01T15:46:36.000"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Nitrification",
+    "Cardinality": 3,
+    "Dictionary": 163,
+    "HashIndex": 0,
+    "DataSize": 440,
+    "ModifiedTime": "2023-09-01T19:07:19.000",
+    "StructureModifiedTime": "2023-09-01T19:07:18.000"
+  }
+]

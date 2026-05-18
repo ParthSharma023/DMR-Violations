@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "__PBI_TimeIntelligenceEnabled",
+    "Value": "1"
+  },
+  {
+    "Name": "PBI_QueryOrder",
+    "Value": "[\"LIMITS\",\"LOCATION\",\"VAREQ\",\"VARDESC\",\"DATATBL\",\"FlowPermits_AMAX\",\"Refresh_DateTime\",\"Monthly Flow Permit\",\"Effluent Flow Limits\",\"WWTP O&M Performace Report\",\"WWTP ID\"]"
+  }
+]

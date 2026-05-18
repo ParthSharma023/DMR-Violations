@@ -1,0 +1,63 @@
+/* DMR Violations Dashboard — shared palette & base styles.
+ * Components style themselves via CSS variables + inline styles.
+ * v2-specific layout lives in src/app.css. */
+
+:root {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --bg:         #0c1522;
+  --bg-soft:    #152235;
+  --surface:    #162436;   /* panel */
+  --surface-2:  #1b2a3d;   /* panel-2 */
+  --surface-3:  #223554;   /* deeper — inputs, recessed areas */
+
+  /* Borders & text */
+  --border:        rgba(139, 175, 214, 0.22);
+  --border-strong: rgba(139, 175, 214, 0.38);
+  --text:          #f1f5fb;
+  --muted:         #b4c0d0;
+
+  /* Accents */
+  --accent:      #48d0c9;  /* primary — teal, data emphasis */
+  --accent-blue: #5da8ff;  /* secondary — for CTAs */
+  --accent-2:    #f2c14e;  /* gold */
+
+  /* Status */
+  --low:      #41b9a8;
+  --medium:   #e6a52e;
+  --high:     #d46b2d;
+  --critical: #cf4336;
+  --danger:   #ee6c5d;
+  --success:  #78d39b;
+
+  /* Depth */
+  --shadow:      0 18px 44px rgba(5, 12, 22, 0.38);
+  --shadow-soft: 0 8px 24px rgba(5, 12, 22, 0.28);
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+}
+
+* { box-sizing: border-box; }
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background:
+    radial-gradient(circle at top right, rgba(56, 92, 138, 0.28), transparent 30%),
+    linear-gradient(180deg, #0c1522 0%, #122033 100%);
+  color: var(--text);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}

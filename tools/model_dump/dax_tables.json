@@ -1,0 +1,178 @@
+[
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "Expression": "Calendar(Date(2015,1,1), Date(2015,1,1))"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "Expression": "Calendar(Date(Year(MIN('LOCATION'[AUDITTIMESTAMP])), 1, 1), Date(Year(MAX('LOCATION'[AUDITTIMESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "Expression": "Calendar(Date(Year(MIN('LOCATION'[PERMITSTARTDATE])), 1, 1), Date(Year(MAX('LOCATION'[PERMITSTARTDATE])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "Expression": "Calendar(Date(Year(MIN('LOCATION'[PERMITENDDATE])), 1, 1), Date(Year(MAX('LOCATION'[PERMITENDDATE])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "Expression": "Calendar(Date(Year(MIN('LOCATION'[STATUS_AS_OF_DATE])), 1, 1), Date(Year(MAX('LOCATION'[STATUS_AS_OF_DATE])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "Expression": "Calendar(Date(Year(MIN('VAREQ'[AUDITTIMESTAMP])), 1, 1), Date(Year(MAX('VAREQ'[AUDITTIMESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "Expression": "Calendar(Date(Year(MIN('VAREQ'[DATESTAMP])), 1, 1), Date(Year(MAX('VAREQ'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "Expression": "Calendar(Date(Year(MIN('VARDESC'[AUDITTIMESTAMP])), 1, 1), Date(Year(MAX('VARDESC'[AUDITTIMESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "Expression": "Calendar(Date(Year(MIN('VARDESC'[STARTTIME])), 1, 1), Date(Year(MAX('VARDESC'[STARTTIME])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "Expression": "Calendar(Date(Year(MIN('VARDESC'[STOPTIME])), 1, 1), Date(Year(MAX('VARDESC'[STOPTIME])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "Expression": "Calendar(Date(Year(MIN('DATATBL'[AUDITTIMESTAMP])), 1, 1), Date(Year(MAX('DATATBL'[AUDITTIMESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "Expression": "Calendar(Date(Year(MIN('DATATBL'[Date])), 1, 1), Date(Year(MAX('DATATBL'[Date])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "Expression": "Calendar(Date(Year(MIN('DATATBL'[DATESTAMP])), 1, 1), Date(Year(MAX('DATATBL'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "Expression": "Calendar(Date(Year(MIN('LIMITS'[STARTDATE])), 1, 1), Date(Year(MAX('LIMITS'[STARTDATE])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "Expression": "Calendar(Date(Year(MIN('LIMITS'[ENDDATE])), 1, 1), Date(Year(MAX('LIMITS'[ENDDATE])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "Expression": "Calendar(Date(Year(MIN('FlowPermits_AMAX'[AUDITTIMESTAMP])), 1, 1), Date(Year(MAX('FlowPermits_AMAX'[AUDITTIMESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "Expression": "Calendar(Date(Year(MIN('FlowPermits_AMAX'[STARTDATE])), 1, 1), Date(Year(MAX('FlowPermits_AMAX'[STARTDATE])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "Expression": "Calendar(Date(Year(MIN('FlowPermits_AMAX'[ENDDATE])), 1, 1), Date(Year(MAX('FlowPermits_AMAX'[ENDDATE])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "Expression": "Calendar(Date(Year(MIN('Refresh_DateTime'[DateTime])), 1, 1), Date(Year(MAX('Refresh_DateTime'[DateTime])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "Expression": "Calendar(Date(Year(MIN('Refresh_DateTime'[Date])), 1, 1), Date(Year(MAX('Refresh_DateTime'[Date])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "Expression": "Calendar(Date(Year(MIN('Effluent Flow Limits'[AUDITTIMESTAMP])), 1, 1), Date(Year(MAX('Effluent Flow Limits'[AUDITTIMESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "Expression": "Calendar(Date(Year(MIN('Effluent Flow Limits'[STARTDATE])), 1, 1), Date(Year(MAX('Effluent Flow Limits'[STARTDATE])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "Expression": "Calendar(Date(Year(MIN('Effluent Flow Limits'[ENDDATE])), 1, 1), Date(Year(MAX('Effluent Flow Limits'[ENDDATE])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "Expression": "Calendar(Date(Year(MIN('Effluent Flow Limits'[All Dates])), 1, 1), Date(Year(MAX('Effluent Flow Limits'[All Dates])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "Expression": "Calendar(Date(Year(MIN('Refresh_DateTime'[DateTime2])), 1, 1), Date(Year(MAX('Refresh_DateTime'[DateTime2])), 12, 31))"
+  },
+  {
+    "TableName": "KPI Table",
+    "Expression": "SUMMARIZECOLUMNS(DATATBL[VARID],DATATBL[Name],DATATBL[WWTP],DATATBL[CURVALUE],VARDESC[STORETCODE],VARDESC[LOCID],DATATBL[DATESTAMP],DATESINPERIOD(DATATBL[DATESTAMP],MAX(DATATBL[DATESTAMP]),-3,DAY))"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "Expression": "Calendar(Date(Year(MIN('KPI Table'[DATESTAMP])), 1, 1), Date(Year(MAX('KPI Table'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "vt_SelectParams_byWWTP",
+    "Expression": "\nADDCOLUMNS(\n    SUMMARIZECOLUMNS(\n    'DATATBL'[DATESTAMP], 'VARDESC'[WWTP], 'VARDESC'[S. Name 2],\n    Filter('VARDESC', \n        'VARDESC'[S. Name 2]=\"Plnt Ef Flow MGD\" || \n        'VARDESC'[S. Name 2]=\"Plnt Ef 2Hr Peak Flow GPM\" || \n        'VARDESC'[S. Name 2]=\"Plnt If Flow Mgd\" ||\n        'VARDESC'[S. Name 2]=\"Plnt If CBOD\" ||\n        'VARDESC'[S. Name 2]=\"Plnt If NH3-N\" ||\n        'VARDESC'[S. Name 2]=\"Plnt If TSS\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef FLOW Annual Avg\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef FLOW Month Avg\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Rainfall\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef pH Field\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef Dissolved Oxygen\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef CBOD MAvg\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef NH3-N MAvg\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef TSS MAvg\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef CBOD 7-Day Avg\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef NH3-N 7-Day Avg\" ||\n        'VARDESC'[S. Name 2]=\"Plnt Ef TSS 7-Day Avg\" ||\n        'VARDESC'[S. Name 2]=\"S Aer 01 TSS\" ||\n        'VARDESC'[S. Name 2]=\"S Aer 01 VSS\" ||\n        'VARDESC'[S. Name 2]=\"S Aer 01 VSS/TSS %\" ||\n        'VARDESC'[S. Name 2]=\"S Aer 01 Setblty, 30 Min %\" ||\n        'VARDESC'[S. Name 2]=\"S Aer 01 SVI\" ||\n        'VARDESC'[S. Name 2]=\"RAS 01 TSS\" ||\n        'VARDESC'[S. Name 2]=\"RAS 01 VSS\" ||\n        'VARDESC'[S. Name 2]=\"RAS 01 VSS/TSS %\" ||\n        'VARDESC'[S. Name 2]=\"RAS 01 Setblty, 30 Min %\" ||\n        'VARDESC'[S. Name 2]=\"S Clr 01 Wasting Hr/Day\" ||\n        'VARDESC'[S. Name 2]=\"S Clr 01 Depth of Blanket\"), \n    \"CURVALUE\", Average('DATATBL'[CURVALUE])\n    ),\n    \"YEAR\", YEAR('DATATBL'[DATESTAMP]),\n    \"Month\", FORMAT(Month('DATATBL'[DATESTAMP]), \"MMM\")\n)"
+  },
+  {
+    "TableName": "vt_SCADARainfall_byWWTP",
+    "Expression": "\nADDCOLUMNS(\n    SUMMARIZECOLUMNS(\n    'DATATBL'[DATESTAMP], 'VARDESC'[WWTP], 'VARDESC'[S. Name 2],\n    Filter('VARDESC', 'VARDESC'[S. Name 2]=\"Plnt Rainfall\"),\n    \"Plnt Rainfall\", Average('DATATBL'[CURVALUE])\n    ),\n    \"YEAR\", YEAR('DATATBL'[DATESTAMP]),\n    \"RainCat\", IF(AND([Plnt Rainfall]>0,[Plnt Rainfall]<0.1), \"No Rain\", IF(AND([Plnt Rainfall]>0.5, [Plnt Rainfall]<1.0), \"0.5-1.0\", \"GTE 1\")\n))"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "Expression": "Calendar(Date(Year(MIN('vt_SCADARainfall_byWWTP'[DATESTAMP])), 1, 1), Date(Year(MAX('vt_SCADARainfall_byWWTP'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "Expression": "Calendar(Date(Year(MIN('vt_SelectParams_byWWTP'[DATESTAMP])), 1, 1), Date(Year(MAX('vt_SelectParams_byWWTP'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "vt_RegulatoryParameters_byWWTP",
+    "Expression": "\nADDCOLUMNS(\n    SUMMARIZECOLUMNS(\n    'DATATBL'[DATESTAMP], 'VARDESC'[WWTP], 'VARDESC'[S. Name 2], 'LOCATION'[DESCRIPTION],\n    Filter('LOCATION', 'LOCATION'[DESCRIPTION]=\"Round Variables for Reporting of Regulations\"),\n    \"CURVALUE\", Average('DATATBL'[CURVALUE])\n    ),\n    \"YEAR\", YEAR('DATATBL'[DATESTAMP])\n)"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "Expression": "Calendar(Date(Year(MIN('vt_RegulatoryParameters_byWWTP'[DATESTAMP])), 1, 1), Date(Year(MAX('vt_RegulatoryParameters_byWWTP'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "vt_PlntIFParameters_byWWTP",
+    "Expression": "\nADDCOLUMNS(\n    SUMMARIZECOLUMNS(\n    'DATATBL'[DATESTAMP], 'VARDESC'[WWTP], 'VARDESC'[S. Name 2], 'LOCATION'[DESCRIPTION], 'VARDESC'[UD1],\n    Filter('VARDESC', CONTAINSSTRING('VARDESC'[S. Name 2], \"Plnt if\")),\n    \"CURVALUE\", Average('DATATBL'[CURVALUE])\n    ),\n    \"YEAR\", YEAR('DATATBL'[DATESTAMP]),\n    \"MONTH\", Format(Month('DATATBL'[DATESTAMP]), \"MMM\")\n)"
+  },
+  {
+    "TableName": "vt_PlntEFParameters_byWWTP",
+    "Expression": "\nADDCOLUMNS(\n    SUMMARIZECOLUMNS(\n    'DATATBL'[DATESTAMP], 'VARDESC'[WWTP], 'VARDESC'[S. Name 2], 'LOCATION'[DESCRIPTION], 'VARDESC'[UD1],\n    Filter('VARDESC', CONTAINSSTRING('VARDESC'[UD1], \"Plnt ef\")),\n    \"CURVALUE\", Average('DATATBL'[CURVALUE])\n    ),\n    \"YEAR\", YEAR('DATATBL'[DATESTAMP]),\n    \"MONTH\", Format(Month('DATATBL'[DATESTAMP]), \"MMM\")\n)"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "Expression": "Calendar(Date(Year(MIN('vt_PlntEFParameters_byWWTP'[DATESTAMP])), 1, 1), Date(Year(MAX('vt_PlntEFParameters_byWWTP'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "Expression": "Calendar(Date(Year(MIN('vt_PlntIFParameters_byWWTP'[DATESTAMP])), 1, 1), Date(Year(MAX('vt_PlntIFParameters_byWWTP'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "vt_PlntChemicals_byWWTP",
+    "Expression": "\nADDCOLUMNS(\n    SUMMARIZECOLUMNS(\n    'DATATBL'[DATESTAMP], 'VARDESC'[WWTP], 'VARDESC'[S. Name 2], 'LOCATION'[DESCRIPTION], 'VARDESC'[UD1],\n    Filter('VARDESC', CONTAINSSTRING('VARDESC'[UD1], \"ChemA 01\")),\n    \"CURVALUE\", Average('DATATBL'[CURVALUE])\n    ),\n    \"YEAR\", YEAR('DATATBL'[DATESTAMP]),\n    \"MONTH\", Format(Month('DATATBL'[DATESTAMP]), \"MMM\")\n)"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "Expression": "Calendar(Date(Year(MIN('vt_PlntChemicals_byWWTP'[DATESTAMP])), 1, 1), Date(Year(MAX('vt_PlntChemicals_byWWTP'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "vt_PlntElectricity_byWWTP",
+    "Expression": "\nADDCOLUMNS(\n    SUMMARIZECOLUMNS(\n    'DATATBL'[DATESTAMP], 'VARDESC'[WWTP], 'VARDESC'[S. Name 2], 'LOCATION'[DESCRIPTION], 'VARDESC'[UD1],\n    Filter('VARDESC', CONTAINSSTRING('VARDESC'[UD1], \"Elec 01\")),\n    \"CURVALUE\", Average('DATATBL'[CURVALUE])\n    ),\n    \"YEAR\", YEAR('DATATBL'[DATESTAMP]),\n    \"MONTH\", Format(Month('DATATBL'[DATESTAMP]), \"MMM\")\n)"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "Expression": "Calendar(Date(Year(MIN('vt_PlntElectricity_byWWTP'[DATESTAMP])), 1, 1), Date(Year(MAX('vt_PlntElectricity_byWWTP'[DATESTAMP])), 12, 31))"
+  },
+  {
+    "TableName": "Key Lab Data for WWTP",
+    "Expression": "\nSUMMARIZECOLUMNS (\n    VARDESC[WWTP],\n    DATATBL[DATESTAMP].[Year],\n    DATATBL[DATESTAMP].[Month],\n    DATATBL[DATESTAMP].[Day],\n    \"Flow,MGD\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER ( VARDESC, CONTAINSSTRING ( VARDESC[S. Name 2], \"Plnt Ef Flow Mgd\" ) )\n        ),\n    \"Influent BOD\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER ( VARDESC, CONTAINSSTRING ( VARDESC[S. Name 2], \"Plnt If CBOD\" ) )\n        ),\n    \"Effluent BOD\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER ( VARDESC, CONTAINSSTRING ( VARDESC[S. Name 2], \"Plnt Ef CBOD\" ) )\n        ),\n    \"Influent NH3-N\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER ( VARDESC, CONTAINSSTRING ( VARDESC[S. Name 2], \"Plnt If NH3-N\" ) )\n        ),\n    \"Effluent NH3-N\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER ( VARDESC, CONTAINSSTRING ( VARDESC[S. Name 2], \"Plnt Ef NH3-N\" ) )\n        ),\n    \"Influent TSS\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER ( VARDESC, CONTAINSSTRING ( VARDESC[S. Name 2], \"Plnt If TSS\" ) )\n        ),\n    \"Effluent TSS\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER ( VARDESC, CONTAINSSTRING ( VARDESC[S. Name 2], \"Plnt Ef TSS\" ) )\n        ),\n    \"RAS MLSS\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \"RAS\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"TSS\" )\n                    && NOT ( CONTAINSSTRING ( VARDESC[S. Name 2], \"%\" ) )\n            )\n        ),\n    \"Aeration Basin MLSS\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \"Aer\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"TSS\" )\n                    && NOT ( CONTAINSSTRING ( VARDESC[S. Name 2], \"%\" ) )\n                        && NOT ( CONTAINSSTRING ( VARDESC[S. Name 2], \"Pr\" ) )\n            )\n        ),\n    \"RAS MLVSS/MLSS\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \"RAS\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"TSS\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"VSS\" )\n            )\n        ),\n    \"Aer MLVSS/MLSS\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \"Aer\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"TSS\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"VSS\" )\n            )\n        ),\n    \"Total MLVSS\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \"Aer\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"Inventory\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"MLVSS\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"Sm\" )\n            )\n        ),\n    \"F/M\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \"Aer\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"F/M\" )\n            )\n        ),\n    \"SVI\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \"Aer\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"SVI\" )\n            )\n        ),\n    \"Waste\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER ( VARDESC, CONTAINSSTRING ( VARDESC[S. Name 2], \"Total Gallon Wasted\" ) )\n        ) * 2.8,\n    \"Effluent pH\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER ( VARDESC, CONTAINSSTRING ( VARDESC[S. Name 2], \"Plnt Ef pH\" ) )\n        ),\n    \"Effluent DO\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \"Plnt Ef Dissolved Oxygen\" )\n            )\n        ),\n    \"30 MIN SETT\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \"30 MIN\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"Aer\" )\n            )\n        ),\n    \"CBOD Removal Efficiency\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \" Efncy Pr %\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"CBOD\" )\n            )\n        ),\n    \"TSS Removal Efficiency\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \" Efncy Pr %\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"TSS\" )\n            )\n        ),\n    \"NH3-N Removal Efficiency\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \" Efncy Pr %\" )\n                    && CONTAINSSTRING ( VARDESC[S. Name 2], \"NH3 N\" )\n            )\n        ),\n    \"Sludge % SOLIDS\",\n        CALCULATE (\n            AVERAGE ( DATATBL[CURVALUE] ),\n            FILTER (\n                VARDESC,\n                CONTAINSSTRING ( VARDESC[S. Name 2], \" Cake %TS\" )\n            )\n        )\n)"
+  },
+  {
+    "TableName": "vt_EfFlow_byWWTP",
+    "Expression": "\nADDCOLUMNS(\n    SUMMARIZECOLUMNS(\n    'DATATBL'[DATESTAMP], 'VARDESC'[WWTP], 'VARDESC'[S. Name 2],\n    Filter('VARDESC', \n    'VARDESC'[S. Name 2]=\"Plnt Ef Flow MGD\" ||\n    'VARDESC'[S. Name 2]=\"Plnt Ef 2Hr Peak Flow GPM\"),\n    \"EfFlow_MGD_GPM\", Average('DATATBL'[CURVALUE])\n    ),\n   \"Year-Month\", FORMAT(('DATATBL'[DATESTAMP]), \"YYYY MMM\")\n)"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "Expression": "Calendar(Date(Year(MIN('vt_EfFlow_byWWTP'[DATESTAMP])), 1, 1), Date(Year(MAX('vt_EfFlow_byWWTP'[DATESTAMP])), 12, 31))"
+  }
+]

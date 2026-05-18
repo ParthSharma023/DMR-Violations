@@ -1,0 +1,380 @@
+{
+  "slug": "dmr-5yr-ef-cl2-residual-loading",
+  "guid": "ReportSection850ba7dd1d9558ec0990",
+  "display_name": "(DMR 5yr) Ef CL2 Residual Loading",
+  "category": "historical",
+  "ordinal": 28,
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "page_filters": [
+    {
+      "name": "Filter",
+      "displayName": null,
+      "type": "Advanced",
+      "how": 1,
+      "field": "VARDESC.NAME",
+      "conditions": [
+        "CONTAINS(v.NAME, Plnt Ef CL2 Residual De-chl)"
+      ]
+    },
+    {
+      "name": "Filter673dc16066de6b23de21",
+      "displayName": null,
+      "type": "Advanced",
+      "how": 1,
+      "field": "LIMITS.ENDDATE",
+      "conditions": []
+    }
+  ],
+  "visuals": [
+    {
+      "name": "045b2fdaa85d0706146c",
+      "type": "slicer",
+      "title": null,
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 87.70301624129931,
+        "y": 0,
+        "width": 224.68677494199537,
+        "height": 80.18561484918794,
+        "z": 0
+      },
+      "projections": {
+        "Values": [
+          "VARDESC.UD3"
+        ]
+      },
+      "proto_from": {
+        "v": "VARDESC"
+      },
+      "proto_select": [
+        "VARDESC.UD3"
+      ],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null,
+      "data": {
+        "shape": "slicer",
+        "field": "VARDESC.UD3",
+        "options": []
+      }
+    },
+    {
+      "name": "aad496755b2428b9db75",
+      "type": "pivotTable",
+      "title": "Effluent CL2 Residual Monthly Average, MG/L (Same as DMR Report)",
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 0,
+        "y": 88,
+        "width": 1280,
+        "height": 200,
+        "z": 1000
+      },
+      "projections": {
+        "Values": [
+          "Sum(DATATBL.CURVALUE)"
+        ],
+        "Rows": [
+          "DATATBL.DATESTAMP.Variation.Date Hierarchy.Year"
+        ],
+        "Columns": [
+          "DATATBL.DATESTAMP.Variation.Date Hierarchy.Month"
+        ]
+      },
+      "proto_from": {
+        "d": "DATATBL"
+      },
+      "proto_select": [
+        "Sum(DATATBL.CURVALUE)",
+        "DATATBL.DATESTAMP.Variation.Date Hierarchy.Year",
+        "DATATBL.DATESTAMP.Variation.Date Hierarchy.Month"
+      ],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null,
+      "data": {
+        "shape": "pivot",
+        "row_fields": [
+          "DATATBL.DATESTAMP.Variation.Date Hierarchy.Year"
+        ],
+        "col_fields": [
+          "DATATBL.DATESTAMP.Variation.Date Hierarchy.Month"
+        ],
+        "value_field": "Sum(DATATBL.CURVALUE)",
+        "row_labels": [],
+        "col_labels": [],
+        "matrix": []
+      }
+    },
+    {
+      "name": "ac3f205709c38a22492c",
+      "type": "tableEx",
+      "title": null,
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 312.3897911832947,
+        "y": 0,
+        "width": 759.2575406032482,
+        "height": 80.18561484918794,
+        "z": 2000
+      },
+      "projections": {
+        "Values": [
+          "VARDESC.NAME",
+          "LIMITS.DESCRIPTION",
+          "Sum(LIMITS.LIMIT_VALUE)",
+          "VARDESC.UNITS",
+          "VARDESC.VARTYPE",
+          "LIMITS.NAME",
+          "LIMITS.ENDDATE"
+        ]
+      },
+      "proto_from": {
+        "v": "VARDESC",
+        "l": "LIMITS"
+      },
+      "proto_select": [
+        "VARDESC.NAME",
+        "VARDESC.VARTYPE",
+        "VARDESC.UNITS",
+        "Sum(LIMITS.LIMIT_VALUE)",
+        "LIMITS.DESCRIPTION",
+        "LIMITS.NAME",
+        "LIMITS.ENDDATE"
+      ],
+      "proto_where": [],
+      "visual_filters": [
+        {
+          "name": null,
+          "displayName": null,
+          "type": "Advanced",
+          "how": 0,
+          "field": "LIMITS.ENDDATE",
+          "conditions": [
+            "l.ENDDATE>{'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2020-01-01T00:00:00'"
+          ]
+        }
+      ],
+      "action_target_slug": null,
+      "action_raw": null,
+      "data": {
+        "shape": "table",
+        "columns": [
+          "VARDESC.NAME",
+          "LIMITS.DESCRIPTION",
+          "Sum(LIMITS.LIMIT_VALUE)",
+          "VARDESC.UNITS",
+          "VARDESC.VARTYPE",
+          "LIMITS.NAME",
+          "LIMITS.ENDDATE"
+        ],
+        "rows": []
+      }
+    },
+    {
+      "name": "91ff6f8430a085000b6b",
+      "type": "lineClusteredColumnComboChart",
+      "title": null,
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 0,
+        "y": 288,
+        "width": 1280,
+        "height": 432,
+        "z": 3000
+      },
+      "projections": {
+        "Category": [
+          "DATATBL.Date.Variation.Date Hierarchy.Year",
+          "DATATBL.Date.Variation.Date Hierarchy.Month"
+        ],
+        "Y": [
+          "Avg(DATATBL.CURVALUE)"
+        ],
+        "Y2": [
+          "Sum(LIMITS.LIMIT_VALUE)"
+        ]
+      },
+      "proto_from": {
+        "d": "DATATBL",
+        "l": "LIMITS"
+      },
+      "proto_select": [
+        "DATATBL.Date.Variation.Date Hierarchy.Year",
+        "DATATBL.Date.Variation.Date Hierarchy.Month",
+        "Avg(DATATBL.CURVALUE)",
+        "Sum(LIMITS.LIMIT_VALUE)"
+      ],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null,
+      "data": {
+        "shape": "combo",
+        "x": [],
+        "series": [
+          {
+            "name": "Avg(DATATBL.CURVALUE)",
+            "role": "y",
+            "values": []
+          },
+          {
+            "name": "Sum(LIMITS.LIMIT_VALUE)",
+            "role": "y2",
+            "values": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "e4d5f3f4d3c59dc3edf0",
+      "type": "actionButton",
+      "title": null,
+      "button_text": "HOME",
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 88,
+        "height": 80,
+        "z": 4000
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": "home",
+      "action_raw": {
+        "type": "Bookmark",
+        "navigationSection": null,
+        "bookmark": "Bookmarkab071346b92ae0f98a13",
+        "webUrl": null
+      }
+    },
+    {
+      "name": "fbec8e02c1a77fb66b4f",
+      "type": "slicer",
+      "title": null,
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 1072,
+        "y": 0,
+        "width": 208,
+        "height": 80,
+        "z": 5000
+      },
+      "projections": {
+        "Values": [
+          "DATATBL.DATESTAMP"
+        ]
+      },
+      "proto_from": {
+        "d": "DATATBL"
+      },
+      "proto_select": [
+        "DATATBL.DATESTAMP"
+      ],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null,
+      "data": {
+        "shape": "slicer",
+        "field": "DATATBL.DATESTAMP",
+        "options": []
+      }
+    }
+  ],
+  "date_slicer": {
+    "field": "DATATBL.DATESTAMP",
+    "visual_name": "fbec8e02c1a77fb66b4f",
+    "anchor_date": "2026-05-19 00:00:00",
+    "options": [
+      {
+        "key": "last_30_days",
+        "label": "Last 30 days"
+      },
+      {
+        "key": "last_90_days",
+        "label": "Last 90 days"
+      },
+      {
+        "key": "last_12_months",
+        "label": "Last 12 months"
+      },
+      {
+        "key": "last_5_years",
+        "label": "Last 5 years"
+      },
+      {
+        "key": "all_time",
+        "label": "All time"
+      }
+    ],
+    "default": "last_5_years"
+  },
+  "plant_slicer": {
+    "field": "VARDESC.UD3",
+    "visual_name": "045b2fdaa85d0706146c",
+    "options": [
+      "69th Street",
+      "Almeda Sims",
+      "Beltway",
+      "Cedar Bayou",
+      "Chocolate Bayou",
+      "Clinton Park",
+      "Easthaven",
+      "FWSD-23",
+      "Forest Cove",
+      "Greenridge",
+      "Homestead",
+      "Imperial Valley",
+      "Intercont. Airport",
+      "Keegans Bayou",
+      "Kingwood Central",
+      "Kingwood West",
+      "MUD-203",
+      "Metro Central",
+      "Northbelt",
+      "Northeast",
+      "Northgate",
+      "Northwest",
+      "Park Ten",
+      "Sagemont",
+      "Sims Bayou",
+      "Sims South",
+      "Southeast",
+      "Southwest",
+      "Tidwell Timbers",
+      "Turkey Creek",
+      "Upper Brays",
+      "WCID-111",
+      "WCID-47",
+      "WCID-76",
+      "West District",
+      "West Lake Hou",
+      "West Lake Hou.",
+      "Westway",
+      "White Oak",
+      "Willowbrook"
+    ],
+    "default": "69th Street"
+  }
+}

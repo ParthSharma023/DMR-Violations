@@ -1,0 +1,205 @@
+/* v2 app layout — combined with src/styles-base.css into app/styles.css */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.app-frame {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ── Top bar ─────────────────────────────────────────────────── */
+
+.app-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 12px 26px;
+  background: linear-gradient(180deg, rgba(26, 39, 57, 0.96), rgba(20, 31, 47, 0.9));
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.app-topbar h1 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.app-topbar .eyebrow {
+  margin: 0 0 2px;
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.app-topbar .topbar-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.app-topbar .topbar-right > span {
+  padding: 6px 11px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(27, 42, 61, 0.6);
+  white-space: nowrap;
+}
+
+.app-topbar .home-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 7px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(72, 208, 201, 0.4);
+  background: rgba(72, 208, 201, 0.1);
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.app-topbar .home-link:hover {
+  background: rgba(72, 208, 201, 0.22);
+  border-color: var(--accent);
+}
+
+/* ── Page canvas — a 1280×720 PBIX canvas, scaled by JS ──────── */
+
+.page-viewport {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.page-canvas-wrap {
+  position: relative;
+}
+
+.page-canvas {
+  position: relative;
+  width: 1280px;
+  height: 720px;
+  background: linear-gradient(180deg, rgba(22, 36, 54, 0.96), rgba(12, 21, 34, 0.98));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  transform-origin: top left;
+  overflow: hidden;
+}
+
+/* ── Visual containers (absolute-positioned per PBIX coords) ── */
+
+.visual {
+  position: absolute;
+  overflow: hidden;
+  font-size: 0.85rem;
+}
+
+.visual-placeholder {
+  height: 100%;
+  padding: 10px 12px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(27, 42, 61, 0.6);
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.visual-placeholder .vp-type {
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.visual-placeholder .vp-title {
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.visual-placeholder .vp-binding {
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+/* ── Action buttons (Home nav) ───────────────────────────────── */
+
+.nav-button {
+  width: 100%;
+  height: 100%;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: linear-gradient(180deg, rgba(27, 42, 61, 0.85), rgba(19, 30, 45, 0.85));
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-align: left;
+  line-height: 1.25;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s, color 0.12s, transform 0.12s;
+}
+
+.nav-button:hover {
+  background: linear-gradient(180deg, rgba(72, 208, 201, 0.18), rgba(48, 150, 144, 0.14));
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.nav-button:active {
+  transform: translateY(0);
+}
+
+/* ── Textbox / header text ───────────────────────────────────── */
+
+.visual-textbox {
+  padding: 6px 10px;
+  color: var(--text);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Shapes (decorative) ─────────────────────────────────────── */
+
+.visual-shape {
+  background: rgba(27, 42, 61, 0.7);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+/* ── Loading / error ─────────────────────────────────────────── */
+
+.app-loading,
+.app-error {
+  padding: 80px 24px;
+  text-align: center;
+  color: var(--muted);
+}
+
+.app-error {
+  color: var(--danger);
+}

@@ -1,0 +1,8511 @@
+window.__WWIP_DATA__ = window.__WWIP_DATA__ || { pages: {}, custom: {} };
+window.__WWIP_DATA__.pages = window.__WWIP_DATA__.pages || {};
+window.__WWIP_DATA__.custom = window.__WWIP_DATA__.custom || {};
+window.__WWIP_DATA__.pages["om-report"] = {
+  "slug": "om-report",
+  "guid": "ReportSection505e79844884556296cb",
+  "display_name": "O&M Report",
+  "category": "data-tools",
+  "ordinal": 1,
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "page_filters": [],
+  "visuals": [
+    {
+      "name": "37c5baba64f409f03cb8",
+      "type": "slicer",
+      "title": null,
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 1013.048128342246,
+        "y": 83.27985739750446,
+        "width": 266.951871657754,
+        "height": 636.5775401069518,
+        "z": 1000
+      },
+      "projections": {
+        "Values": [
+          "WWTP Attributes.Location"
+        ]
+      },
+      "proto_from": {
+        "w": "WWTP O&M Performace Report"
+      },
+      "proto_select": [
+        "WWTP Attributes.Location"
+      ],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null,
+      "data": {
+        "shape": "slicer",
+        "field": "WWTP Attributes.Location",
+        "options": [
+          "69TH STREET WWTP",
+          "ALMEDA SIMS WWTP",
+          "BELTWAY WWTP",
+          "CEDAR BAYOU   WWTP",
+          "CHOCOLATE BAYOU WWTP",
+          "CLINTON PARK  WWTP",
+          "EASTHAVEN WWTP",
+          "F.W.S.D. #23  WWTP",
+          "FOREST COVE WWTP",
+          "GREENRIDGE WWTP",
+          "HOMESTEAD  WWTP",
+          "IMPERIAL VALLEY  WWTP",
+          "INT.  AIRPORT  WWTP",
+          "KEEGANS BAYOU WWTP (CFS)",
+          "KINGWOOD CENTRAL WWTP",
+          "KINGWOOD WEST (M.U.D. # 48)  WWTP",
+          "M.U.D. #203  WWTP",
+          "METRO CENTRAL WWTP",
+          "NORTHBELT  WWTP",
+          "NORTHEAST  WWTP",
+          "NORTHGATE  WWTP",
+          "NORTHWEST WWTP (CFS)",
+          "NORTWEST  WWTP",
+          "PARK TEN  M.U.D.  WWTP",
+          "SAGEMONT WWTP",
+          "SIMS BAYOU WWTP (CENTRAL AVENUE LIFT STATION)",
+          "SIMS SOUTH WWTP",
+          "SOUTHEAST  WWTP",
+          "SOUTHWEST  WWTP",
+          "TIDWELL TIMBERS  WWTP",
+          "TURKEY CREEK WWTP",
+          "UPPER BRAES BAYOU WWTP",
+          "W.C.I.D. #047  WWTP",
+          "W.C.I.D. #076  WWTP",
+          "W.C.I.D. #111 WWTP",
+          "WEST DISTRICT  WWTP",
+          "WEST LAKE HOUSTON WWTP",
+          "WESTWAY  M.U.D. WWTP",
+          "WHITE OAK  WWTP",
+          "WILLOWBROOK  WWTP"
+        ]
+      }
+    },
+    {
+      "name": "94a08cb17f020f31a861",
+      "type": "shape",
+      "title": null,
+      "button_text": "OPERATION AND MAINTENANCE PERFORMANCE EVALUATION REPORT ",
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 72.4040404040404,
+        "z": 0
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null
+    },
+    {
+      "name": "04475528a52cacad70fb",
+      "type": "tableEx",
+      "title": "WWTP Effluent Permit Limitations",
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 218.07407407407408,
+        "y": 83.60942760942761,
+        "width": 780.929292929293,
+        "height": 376.6734006734007,
+        "z": 2000
+      },
+      "projections": {
+        "Values": [
+          "VARDESC.S. Name 2 (groups)",
+          "Sum(LIMITS.LIMIT_VALUE)",
+          "LIMITS.DESCRIPTION",
+          "LIMITS.ENDDATE",
+          "LIMITS.NAME",
+          "VARDESC.S. Name 2"
+        ]
+      },
+      "proto_from": {
+        "l": "LIMITS",
+        "v": "VARDESC"
+      },
+      "proto_select": [
+        "Sum(LIMITS.LIMIT_VALUE)",
+        "LIMITS.DESCRIPTION",
+        "VARDESC.S. Name 2 (groups)",
+        "LIMITS.ENDDATE",
+        "LIMITS.NAME",
+        "VARDESC.S. Name 2"
+      ],
+      "proto_where": [],
+      "visual_filters": [
+        {
+          "name": "Filter31a5034d1eb0b1ddc7dd",
+          "displayName": null,
+          "type": "Categorical",
+          "how": 0,
+          "field": "LIMITS.DESCRIPTION",
+          "conditions": []
+        },
+        {
+          "name": "Filter8401f5915f3e724bd3b8",
+          "displayName": null,
+          "type": "Categorical",
+          "how": 0,
+          "field": "{'GroupRef': {'Expression': {'SourceRef': {'Entity': 'VARDESC'}}, 'Property': 'S",
+          "conditions": []
+        },
+        {
+          "name": "Filter6f69de2aa416d382b2a5",
+          "displayName": null,
+          "type": "Categorical",
+          "how": 0,
+          "field": "LIMITS.NAME",
+          "conditions": []
+        },
+        {
+          "name": "Filter788091ce9c636f56d2f3",
+          "displayName": null,
+          "type": "Advanced",
+          "how": 0,
+          "field": "Max(LIMITS.ENDDATE)",
+          "conditions": []
+        },
+        {
+          "name": "Filter95d6240bddc713fed376",
+          "displayName": null,
+          "type": "Categorical",
+          "how": 1,
+          "field": "LIMITS.Report Value",
+          "conditions": [
+            "l.Report Value IN (Yes)"
+          ]
+        },
+        {
+          "name": "Filterd50a2ade15e2baa4aeff",
+          "displayName": null,
+          "type": "Categorical",
+          "how": 0,
+          "field": "VARDESC.S. Name 2",
+          "conditions": [
+            "v.S. Name 2 IN (Plnt Ef 2Hr Peak Field, Plnt Ef 2Hr Peak Flow Gpm, Plnt Ef CBOD MAvg, Plnt Ef E.coli, Plnt Ef FLOW Annual Avg, Plnt Ef NH3-N MAvg, Plnt Ef pH Field, Plnt Ef TSS MAvg, Plnt Ef TRC Post, Plnt Ef TRC Pre, Plnt Ef FLOW Month Avg)"
+          ]
+        },
+        {
+          "name": "Filter52ed711d352dd86d492a",
+          "displayName": null,
+          "type": "Advanced",
+          "how": 0,
+          "field": "LIMITS.LIMIT_VALUE",
+          "conditions": []
+        }
+      ],
+      "action_target_slug": null,
+      "action_raw": null
+    },
+    {
+      "name": "9f68b7a0c31ef18911f0",
+      "type": "shape",
+      "title": null,
+      "button_text": "1. NPDES/TPDES Permit and Influent Characteristics",
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 3.4478114478114477,
+        "y": 83.60942760942761,
+        "width": 207.73063973063972,
+        "height": 76.71380471380472,
+        "z": 3000
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null
+    },
+    {
+      "name": "eb93c729a5c0d5fde7a1",
+      "type": "tableEx",
+      "title": "WWTP Flow Data and Influent Characteristics Analysis Summary Between",
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 218.3177570093458,
+        "y": 471.5264797507788,
+        "width": 780.5607476635514,
+        "height": 248.22429906542055,
+        "z": 4000
+      },
+      "projections": {
+        "Values": [
+          "DATATBL.S Name 2 (groups)",
+          "DATATBL.CURVALUE"
+        ]
+      },
+      "proto_from": {
+        "d": "DATATBL"
+      },
+      "proto_select": [
+        "DATATBL.CURVALUE",
+        "DATATBL.S Name 2 (groups)"
+      ],
+      "proto_where": [],
+      "visual_filters": [
+        {
+          "name": "Filterb398afc07627ebd93590",
+          "displayName": null,
+          "type": "Categorical",
+          "how": 1,
+          "field": "DATATBL.S Name 2",
+          "conditions": [
+            "d.S Name 2 IN (Plnt Ef 2Hr Peak Flow Gpm, Plnt Ef FLOW Annual Avg, Plnt If CBOD, Plnt If NH3-N, Plnt If TSS)"
+          ]
+        },
+        {
+          "name": "Filter09ff11602b9500f65919",
+          "displayName": null,
+          "type": "Categorical",
+          "how": 1,
+          "field": "?.?.Year",
+          "conditions": []
+        }
+      ],
+      "action_target_slug": null,
+      "action_raw": null,
+      "data": {
+        "shape": "table",
+        "columns": [
+          "DATATBL.S Name 2 (groups)",
+          "DATATBL.CURVALUE"
+        ],
+        "rows": [
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            724.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            975.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            583.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            583.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            699.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            749.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            666.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            641.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            415.9722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            415.9722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            415.9722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            415.9722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            290.9722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            430.5555
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            397.9166
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            508.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            608.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            516.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            616.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            733.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            783.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            699.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            674.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            508.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            516.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            516.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            724.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            233.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            699.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            566.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            241.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            225.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            833.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            633.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            241.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            233.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            241.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            288.8889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            508.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            241.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            183.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            321.5278
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            288.8889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            288.8889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            288.8889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            466.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            288.8889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            288.8889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            466.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            766.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            540.9722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            288.8889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            382.6389
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            297.2222
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            384.7222
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            641.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            505.5555
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            833.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            288.8889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            384.7222
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            694.4444
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            555.5555
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            444.4444
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            444.4444
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            486.1111
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            527.7778
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            402.7777
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            566.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            766.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1191.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            444.4444
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            486.1111
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            616.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            633.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            673.6111
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            708.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            324.3055
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            369.4444
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1066.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1111.111
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            555.5555
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            849.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            633.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            265.2778
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            500.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            266.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            258.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            291.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            275.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            283.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            436.8055
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            429.1666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            524.3055
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            308.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            438.1944
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            509.7222
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1383.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1041.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            500.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            316.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            499.3055
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            824.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            736.1111
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            503.4722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            449.3055
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            493.0555
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            393.0555
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            516.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            891.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            641.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            341.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            637.4999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            500.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            583.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            616.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            502.7777
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            941.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            605.5555
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            513.1944
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            547.9166
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            768.7499
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            768.7499
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            550.6944
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            768.7499
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            768.7499
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            733.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            674.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            724.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            437.5
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            333.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            733.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            741.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            417.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1388.889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            466.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            466.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            658.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            438.1944
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            392.3611
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            383.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            524.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            508.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            608.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            524.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            525.6944
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            352.7777
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            591.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            571.5278
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            421.5277
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            683.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            674.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            441.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            452.0833
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            433.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            491.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            483.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            408.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            350.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            416.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            417.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            458.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            366.6667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            365.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            402.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            284.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            297.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            317.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            513.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            324.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            594.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            439.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            378.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            432.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            486.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            547.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            411.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            493.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            445.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            371.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            405.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            526.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            405.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            405.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            623.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            385.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            622.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            331.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            601.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            585.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            398.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            838.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            371.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            371.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            349.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            385.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            385.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            331.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            412.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            317.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            310.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            412.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            526.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            297.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            317.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            310.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            371.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            526.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            371.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            365.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            365.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            331.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            331.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            398.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            628.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            324.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            310.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            331.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            378.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            499.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            310.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            365.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            317.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            385.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            432.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            432.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            310.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            317.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            371.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            402.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            423.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            297.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            565.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            495.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            426.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            371.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            378.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            499.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            547.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            412.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            331.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            365.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            365.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            365.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            317.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            385.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            365.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            378.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            526.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            385.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            385.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            486.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            278.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            486.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            368.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            486.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            526.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            520.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            526.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            499.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            472.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            513.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            317.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            520.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            588.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            567.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            506.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            520.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            418.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            472.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            277.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            284.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            479.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            391.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            513.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            317.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            339.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            317.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            513.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            525.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            257.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            569.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            499.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            526.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            614.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            520.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            310.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            520.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            346.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            394.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            331.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            520.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            344.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            284.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            269.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            466.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            520.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            506.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            520.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            607.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            526.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            499.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            499.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            493.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            351.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            247.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            247.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            247.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            315.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            281.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            281.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            281.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            281.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            281.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            281.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            281.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            281.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            306.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            358.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            349.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            349.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            349.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            489.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            191.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            675.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            270.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            326.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            304.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            281.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            484.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            428.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            236.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            506.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            338.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            292.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            360.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            315.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            337.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            924.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1683.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1825.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1650.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1666.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1550.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1333.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1666.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1700.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1683.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1625.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1650.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1316.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1533.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1550.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1625.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1516.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1658.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1608.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1316.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1736.111
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1736.111
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1562.5
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1666.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1591.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1600.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1366.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1625.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1675.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3191.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3241.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1725.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1700.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1408.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1700.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1800.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4333.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4716.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1650.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1791.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1500.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1800.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3100.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1791.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1800.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1758.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1600.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1466.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1700.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1841.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1850.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1866.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4775.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            5116.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1600.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1883.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2266.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1916.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1833.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2766.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1925.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1558.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1883.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1983.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3708.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1883.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1825.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4558.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1388.889
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1736.111
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1909.722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1736.111
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1741.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1605.555
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1566.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1500.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1900.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1816.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1683.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1650.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1533.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3066.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1500.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1641.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1708.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1783.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1716.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1758.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1708.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1366.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1541.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1800.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1808.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1875.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1716.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1608.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1391.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1608.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1700.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2808.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1708.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1650.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1875.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1383.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1541.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1641.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1783.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1783.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1758.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1725.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1416.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1566.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1616.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1566.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1658.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1550.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1458.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1558.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1533.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1533.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1558.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1508.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1508.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            6408.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2033.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1433.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1733.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1725.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1416.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1516.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1641.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1608.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1741.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1683.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1741.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1333.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1625.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1750.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1666.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1691.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1691.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1483.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1325.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1558.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            5458.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1933.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1600.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1666.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1683.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1483.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1600.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1650.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1700.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4166.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1616.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1583.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1466.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1616.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1591.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1600.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1575.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1541.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1366.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1466.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1483.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1483.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1533.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1575.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1508.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1333.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1500.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1583.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1650.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1791.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1575.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1408.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1483.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1433.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1558.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1516.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2433.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1883.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1391.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1583.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1533.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1658.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1916.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1725.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3075.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2658.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1708.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1791.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2016.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1666.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1941.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2833.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            5141.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2025.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1666.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1691.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1625.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1900.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1583.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1433.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1508.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1591.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1308.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1616.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1625.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1750.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1316.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1608.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1583.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4025.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1741.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1733.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1475.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1600.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1758.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1775.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1775.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1741.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1700.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1491.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1550.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1783.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1683.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1750.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1791.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1716.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1491.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1550.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1825.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1766.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1750.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1783.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1708.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1800.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1833.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1766.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1658.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1700.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1683.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1816.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1808.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1816.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1858.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1825.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1483.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1716.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1883.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1941.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1825.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1758.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1466.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1658.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1741.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2166.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3858.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2433.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1900.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1891.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1508.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1641.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1841.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2125.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1933.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2008.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1291.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1383.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1691.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1783.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            983.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1008.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            958.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            949.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            999.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            899.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            866.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            974.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            916.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            908.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            874.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            7300.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            7233.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1608.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1291.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1100.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1108.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            808.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1016.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            999.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            974.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            974.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            908.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            933.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            899.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            6575.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            6441.666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2058.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1541.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            6550.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            6925.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            6283.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2650.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1933.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1708.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1633.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3908.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            8341.666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            7850.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3100.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2116.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1991.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2641.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1908.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1658.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1258.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1208.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1241.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1283.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1158.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1100.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            9724.999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            9758.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            5308.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            9283.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            6941.666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3341.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1825.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            9466.666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            3966.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2441.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1875.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1758.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            6250.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2708.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1883.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1433.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1909.722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1909.722
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2083.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2256.944
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1208.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1496.528
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1169.444
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1083.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            8549.999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            5258.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2375.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2233.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1333.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1200.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1233.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1241.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1183.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1066.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1050.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            799.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            966.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            949.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            949.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            983.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            949.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            908.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            916.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            958.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            933.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            924.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4041.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1016.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            899.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            866.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            866.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            883.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            874.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            874.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            866.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            874.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            774.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            816.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            799.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            899.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            849.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            866.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            816.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            791.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            858.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            783.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            749.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            808.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            774.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            724.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            708.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            774.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            7050.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1616.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            966.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            916.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            883.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            841.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            891.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            816.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            774.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            766.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            758.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            691.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            658.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            691.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            708.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            683.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            641.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            641.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4458.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4025.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1708.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            933.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            799.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            699.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            666.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            983.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1215.278
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            683.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            716.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            674.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            649.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            633.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            516.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            649.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            616.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            641.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            649.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            591.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1533.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            608.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            566.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            524.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            633.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            500.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            591.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            641.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            949.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            716.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            633.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            666.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            641.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            691.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1150.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            5158.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            4400.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1308.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1066.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1575.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            824.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1100.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1075.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            9841.666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1558.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            824.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            699.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            591.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1066.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            649.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            641.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            608.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            891.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            591.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            608.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            658.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2025.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            9201.389
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            9833.333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            874.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            733.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            666.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            566.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1441.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            508.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            566.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            516.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2741.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            933.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2900.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            808.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            658.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            633.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            616.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1700.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            658.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            566.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            583.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            616.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            2341.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            708.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            624.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            591.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            566.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            583.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            683.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            558.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            524.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1944.444
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1666.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            633.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            608.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            599.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            716.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            591.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            425.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            699.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            608.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            783.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            524.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            541.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            874.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            616.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            533.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            524.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            508.3333
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            450.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            524.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            524.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            1041.667
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            500.0
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            566.6666
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            549.9999
+          ],
+          [
+            "2-hour Peak Flow (gpm)",
+            574.9999
+          ]
+        ]
+      }
+    },
+    {
+      "name": "92e456193adb5325b5cf",
+      "type": "slicer",
+      "title": null,
+      "button_text": null,
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 648.9719626168225,
+        "y": 490.46728971962614,
+        "width": 244.23676012461058,
+        "height": 55.82554517133956,
+        "z": 5000
+      },
+      "projections": {
+        "Values": [
+          "DATATBL.DATESTAMP.Variation.Date Hierarchy.Year"
+        ]
+      },
+      "proto_from": {
+        "d": "DATATBL"
+      },
+      "proto_select": [
+        "DATATBL.DATESTAMP.Variation.Date Hierarchy.Year"
+      ],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null,
+      "data": {
+        "shape": "slicer",
+        "field": "DATATBL.DATESTAMP.Variation.Date Hierarchy.Year",
+        "options": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      }
+    },
+    {
+      "name": "6aee4639df585ca95763",
+      "type": "shape",
+      "title": null,
+      "button_text": "2. Unit Processes Capacity Analysis",
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 3.4224598930481283,
+        "y": 174.54545454545453,
+        "width": 207.62923351158645,
+        "height": 545.3119429590017,
+        "z": 6000
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null
+    },
+    {
+      "name": "f517954de5c543396bd9",
+      "type": "shape",
+      "title": null,
+      "button_text": "Influent Lift Station, Headwork",
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 15.695892090741877,
+        "y": 240.93194359288782,
+        "width": 182.07234825260576,
+        "height": 62.78356836296751,
+        "z": 7000
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": {
+        "type": "PageNavigation",
+        "navigationSection": "ReportSection9cab792e4eeb7836079c",
+        "bookmark": null,
+        "webUrl": null
+      }
+    },
+    {
+      "name": "ee9f8361170b2f14d572",
+      "type": "shape",
+      "title": null,
+      "button_text": "Aeration Basins",
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 14.911097486204783,
+        "y": 338.292458614347,
+        "width": 182.07234825260576,
+        "height": 62.78356836296751,
+        "z": 8000
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": {
+        "type": "PageNavigation",
+        "navigationSection": "ReportSection67a823f3562bd89ef10f",
+        "bookmark": null,
+        "webUrl": null
+      }
+    },
+    {
+      "name": "0305298164be36833c03",
+      "type": "shape",
+      "title": null,
+      "button_text": "Air Requirement & Supply",
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 14.911097486204783,
+        "y": 435.65297363580623,
+        "width": 182.85714285714286,
+        "height": 61.99877375843041,
+        "z": 9000
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": null
+    },
+    {
+      "name": "42b8fc5a15a5fb69bd0c",
+      "type": "shape",
+      "title": null,
+      "button_text": "Clarifier",
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 14.678111587982832,
+        "y": 532.2286940527283,
+        "width": 183.862660944206,
+        "height": 61.03004291845493,
+        "z": 11000
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": {
+        "type": "PageNavigation",
+        "navigationSection": "ReportSection2d45d0438387aea81e14",
+        "bookmark": null,
+        "webUrl": null
+      }
+    },
+    {
+      "name": "bd0b4e584008ac48cfd8",
+      "type": "shape",
+      "title": null,
+      "button_text": "Chlorine Contact Basins",
+      "textbox_text": null,
+      "shape_kind": null,
+      "position": {
+        "x": 14.911097486204783,
+        "y": 627.8356836296749,
+        "width": 182.85714285714286,
+        "height": 61.99877375843041,
+        "z": 12000
+      },
+      "projections": {},
+      "proto_from": {},
+      "proto_select": [],
+      "proto_where": [],
+      "visual_filters": [],
+      "action_target_slug": null,
+      "action_raw": {
+        "type": "PageNavigation",
+        "navigationSection": "ReportSection2d45d0438387aea81e14",
+        "bookmark": null,
+        "webUrl": null
+      }
+    }
+  ],
+  "date_slicer": null,
+  "plant_slicer": null
+};

@@ -1,0 +1,2757 @@
+[
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "AUDITUSER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "AUDITTIMESTAMP",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "DATESTAMP",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "CURVALUE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "TEXTVALUE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "VARID",
+    "PandasDataType": "Int64"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "STATUS",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "FORCED",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Month",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Short Name",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "WWTP",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Limit",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Violation",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Name",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Compare",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Categories One",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Date",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Week Number",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Category Two",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Primary Parameter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Day of Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Color Formatting Number",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Color Format for Flow",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "75%",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "90%",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "S Name 2",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "Year-Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DATATBL",
+    "ColumnName": "S Name 2 (groups)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "DateTableTemplate_602e24e3-53ce-4be7-85fc-b04deaaf889c",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "AUDITUSER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "AUDITTIMESTAMP",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "VARID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "NAME",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "DESCRIPTION",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "STARTDATE",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "ENDDATE",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "COMPARE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "LIMIT_VALUE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "GROUPING",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "STATISTIC",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "EVENTTYPEID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "DOCID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "WWTP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "All Dates",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "Parameter Name",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "LIMIT_VALUE_MGD",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "Effluent Flow Limits",
+    "ColumnName": "VARDESC.Location ID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "AUDITUSER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "AUDITTIMESTAMP",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "VARID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "NAME",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "DESCRIPTION",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "STARTDATE",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "ENDDATE",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "COMPARE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "LIMIT_VALUE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "GROUPING",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "STATISTIC",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "EVENTTYPEID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "DOCID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "90%",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "75%",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "WWTP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "LIMIT_VALUE_MGD",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "FlowPermits_AMAX",
+    "ColumnName": "Location ID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "AUDITUSER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "AUDITTIMESTAMP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "VARID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "NAME",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "DESCRIPTION",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "STARTDATE",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "ENDDATE",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "COMPARE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "LIMIT_VALUE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "GROUPING",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "STATISTIC",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "EVENTTYPEID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "DOCID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "WWTP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "LIMIT_VALUE_MGD",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "Report Value",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LIMITS",
+    "ColumnName": "Location ID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "AUDITUSER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "AUDITTIMESTAMP",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LOCID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LOCATION",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "DESCRIPTION",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "RECORDER",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITEADDRESS",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITESTATE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITECITY",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITEZIP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITECOUNTRY",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITECONTACT",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITEEMAIL",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PERMITNUMBER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PERMITSTARTDATE",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PERMITENDDATE",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "NAICS_SIC1",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "NAICS_SIC2",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD1",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD2",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD3",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD4",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD5",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD6",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD7",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD8",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD9",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "UD10",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "OWNER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "NOTES",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LOCIDTYPE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "AREAID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "ACRES",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "CROP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "APPSEASONFROM",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "APPSEASONTO",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SOILSERIES",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SOILTEXTURE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SOILDRAINAGE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "WATERTABLE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LEGALDESC",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILADDRESS",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILSTATE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILCITY",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILZIP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILCOUNTRY",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILCONTACT",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILEMAIL",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SITEPHONE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "MAILPHONE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "STATUS",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "STATUS_AS_OF_DATE",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PERMIT_TYPE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LC_PEOPLE_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LATITUDE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LONGITUDE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "ALTITUDE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PARENTID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PWSID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "WSFID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL1_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL2_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL3_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL4_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL5_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL6_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL7_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "LVL8_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "Plant",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "SAMP_POINT_ID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LOCATION",
+    "ColumnName": "PATH",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_00d55688-268d-4598-9c9e-d1d250cf7ae6",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_082c2b63-5e47-431b-ac1a-8b2fbca32e78",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_0c023f95-044a-4882-b7ea-f0077cd4a33a",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_132e2dac-0c52-43c0-85d6-4e672ee276c1",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_25ee8dbe-d2a5-4db0-9fed-797cf9e6e014",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_2c94b79b-fbc4-42a7-86cd-2930ddf8dd29",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_32dae921-736a-400a-a3a9-01349f146935",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3712a2d3-359a-4809-894b-64bd3b7b0154",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_3deb8742-787c-4cf7-8962-9897cfe1bab2",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_40f23ba1-faed-48fa-91ac-5dc105cfa543",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_462dde44-4490-49ee-9934-92dcc392ad12",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_4793a0bc-8f6d-4a7b-a4be-ee4eac3fc4d1",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5b05eaa3-f34c-4c44-8deb-3e47d1d0526e",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_5c845104-43f9-4a37-9834-67db8a185fac",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62842fec-673b-4b8e-897c-410b8db20a2e",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_62b2e4e7-20ed-4587-bb45-bd0dda46912b",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_65c666e4-c957-41d7-acec-47fa53d64859",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_6bbc465b-6bb3-4f6d-a376-831b122ae0bc",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_76d896bb-47fe-4346-88e6-899defee25d7",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_7ac62d00-162b-4250-8603-3dc665a4ba88",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_86192911-4af6-45a6-b81f-bfb45cafd672",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_932514f5-5781-47db-83bd-9ea8c8e53f22",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9f9fd24f-5aeb-4345-8ce2-f0aa611dfe0f",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_9fc70b89-171b-4d79-9be4-091f2c421935",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a14e7afe-9be5-479f-ba86-e4aec5fe3305",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_a4e3bf04-132a-45da-afa1-84952685aa0c",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_ae0b9916-3d1f-4a3b-b10b-3cc313d168f2",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_b52a51e7-ed09-44ed-b0c1-2f6a57c6025c",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_baf9677d-9a9e-42b7-976a-b2d3c33157bf",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_bbca9092-8ee4-49c4-965a-6d27e25f168b",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_c62f5b05-a30f-4229-a721-e4361412e0ce",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_d4987f08-40e5-4226-83f0-428b643f015e",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Year",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "MonthNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Month",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "QuarterNo",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Quarter",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "LocalDateTable_eed1fca9-b894-43c1-bb53-f20687794a21",
+    "ColumnName": "Day",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "AUDITUSER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "LIMIT_VALUE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "GROUPING",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "STATISTIC",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "WWTP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "Monthly Flow Permit",
+    "ColumnName": "LIMIT_VALUE_update",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "DateTime",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "Date",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "Time",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "Update",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "Refresh_DateTime",
+    "ColumnName": "DateTime2",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "AUDITUSER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "AUDITTIMESTAMP",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "VARNUM",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "NAME",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "S. NAME",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "VARTYPE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UNITS",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ENTRYMIN",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ENTRYMAX",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LOCID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "STORETCODE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD1",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD2",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "WWTP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "STARTTIME",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "STOPTIME",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "VARID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "S. Name 2",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ALLOWSYMBOL",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "QCUCL",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "QCLCL",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "QCUWL",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "QCLWL",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "PRITHRESHOLD",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "PRIOPERATOR",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "PRIOPPRT",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SECTHRESHOLD",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SECOPERATOR",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SECOPPRT",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIST",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD4",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD5",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD6",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD7",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD8",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "UD9",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DESCRIPTION",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "EQINFIX",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "EQPOSTFIX",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "EQTRANSLATE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CALCFLAG",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SCADATAG",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SIGNALDESC",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "STATISTIC",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SCALEFACTOR",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "INTERFACETYPE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DECPLACES",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CHKROLLOVER",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "PARAMETER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SAMPLEPOINT",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CASCADERULE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE1",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR1",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE2",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR2",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE3",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR3",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE4",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR4",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE5",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR5",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE6",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR6",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE7",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR7",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE8",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR8",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE9",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR9",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLRULE10",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SYMBOLFACTOR10",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LOWRANGE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "HIGHRANGE",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DEADBAND",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "READONLY",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "POSTYLE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "FILTERTAG",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "FILTEROP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "FILTERVAL",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "TRACKDATASTATUS",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMIT_TO_LIST",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "BARCODE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "TRACKAPPROVAL",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_LOC",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_TEST",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_UD1",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_UD2",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "LIMS_UD3",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE_ENABLED",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE_SQL",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE_CNN_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE_CNN_APPROVAL",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMPLIANCE_LIMIT",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMPLIANCE_QC",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMPLIANCE_ENTRY",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "G2_INTERFACE_ID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "G2_ENABLED",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "NOEDITALLOWED",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CONF_LEVEL",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALGROUP",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALPROCESS",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALPARAMETER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALUD1",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "GLOBALUD2",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DEPVARID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ENTRYMIN_MSG",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ENTRYMAX_MSG",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "DEFAULT_ENTRY",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMREQUIREDONEDIT",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "ANALYTECODE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "VGROUPID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "CLAROS_PARMGUID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SOURCE",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "COMPSUBLOC",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "SIGFIGS",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "Title Name",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "Location ID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VARDESC",
+    "ColumnName": "S. Name 2 (groups)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "AUDITUSER",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "AUDITTIMESTAMP",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "DATESTAMP",
+    "PandasDataType": "datetime64[ns]"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "EQINFIX",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "EQPOSTFIX",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "VAREQ",
+    "ColumnName": "VARID",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Location",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Location ID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "System_ID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Position",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Position_ID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "System",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "SubPosition",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "SubPosition_ID",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "SubPosition Class",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Pump Capacity (gpm)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Blower Capacity",
+    "PandasDataType": "Int64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Inner Weir Diameter",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Outer Weir Diameter",
+    "PandasDataType": "Int64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "__PowerAppsId__",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Wastewater Oxygen Transfer Efficiency (WOTE)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Aeration Basin Capacity (MGD)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Calculated Oxygen Requirement (lb O2/lb BOD5)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Influent organic Loading, PPD (lbs/day)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Required Air Flow Rate (scfm)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Aeration Basin Mixing Air Requirement (scfm)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity (MGD_surface loading rate)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity (MGD_Hydraulic Detention time)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity (MGD_Weir Loading Rate)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Min Required Underflow",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Max Required Underflow",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "CCB Capacity (MGD)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Clarifier Capacity",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Final Oxygen Requirement (lb O2/lb BOD)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Final Aeration Basin required Air Flow Rate",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Channel Width (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Weir Elevation (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Channel Elevation (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bar screen Incline Angle Bar Screen Incline Angle (degree)",
+    "PandasDataType": "Int64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Space between Bars (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Thickness of bar (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Maximum Velocity through Bar screen (ft/s)",
+    "PandasDataType": "Int64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Length (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Width (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "SWD (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Surface Area (sf)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Volume (cf)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Shape",
+    "PandasDataType": "string"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Diameter/Length",
+    "PandasDataType": "Int64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Weir Length (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Pump Capacity (MGD)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Top of Concrete (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bottom of Channel Elevation (ft)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Side water Depth (SF)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Channel Wet Surface Area (SF)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Inclined Surface Area (SF)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bar Screen Net Surface Area (SF)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Bar Screen Capacity (MGD)",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Firm capacity",
+    "PandasDataType": "object"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Manufacuter Specification_Capacity (MGD)",
+    "PandasDataType": "Float64"
+  },
+  {
+    "TableName": "WWTP O&M Performace Report",
+    "ColumnName": "Nitrification",
+    "PandasDataType": "string"
+  }
+]

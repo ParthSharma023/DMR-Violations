@@ -1,0 +1,3054 @@
+{
+  "version": "v2",
+  "generated_at": null,
+  "last_refresh": "2026-05-17 13:41:02.96",
+  "date_range": {
+    "min": "2005-01-01 00:00:00",
+    "max": "2026-05-19 00:00:00"
+  },
+  "totals": {
+    "violations": 13941,
+    "plants": 40,
+    "parameters": 835
+  },
+  "plants": [
+    "69th Street",
+    "Almeda Sims",
+    "Beltway",
+    "Cedar Bayou",
+    "Chocolate Bayou",
+    "Clinton Park",
+    "Easthaven",
+    "FWSD-23",
+    "Forest Cove",
+    "Greenridge",
+    "Homestead",
+    "Imperial Valley",
+    "Intercont. Airport",
+    "Keegans Bayou",
+    "Kingwood Central",
+    "Kingwood West",
+    "MUD-203",
+    "Metro Central",
+    "Northbelt",
+    "Northeast",
+    "Northgate",
+    "Northwest",
+    "Park Ten",
+    "Sagemont",
+    "Sims Bayou",
+    "Sims South",
+    "Southeast",
+    "Southwest",
+    "Tidwell Timbers",
+    "Turkey Creek",
+    "Upper Brays",
+    "WCID-111",
+    "WCID-47",
+    "WCID-76",
+    "West District",
+    "West Lake Hou",
+    "West Lake Hou.",
+    "Westway",
+    "White Oak",
+    "Willowbrook"
+  ],
+  "parameters": [
+    "BIS 1 LVL",
+    "BIS 1 START",
+    "BIS 1 STOP",
+    "BIS 2 LVL",
+    "BIS 2 START",
+    "BIS 2 STOP",
+    "BLCH #1 LEVEL",
+    "BLCH #1 START",
+    "BLCH #1 STOP",
+    "BLCH #2 LEVEL",
+    "BLCH #2 START",
+    "BLCH #2 STOP",
+    "BLCH 1 LVL",
+    "BLCH 1 START",
+    "BLCH 1 STOP",
+    "BLCH 2 LVL",
+    "BLCH 2 START",
+    "BLCH 2 STOP",
+    "Bisulfite Tank 1 Level",
+    "Bisulfite Tank 1 Start",
+    "Bisulfite Tank 1 Stop",
+    "Bisulfite Tank 2 Level",
+    "Bisulfite Tank 2 Start",
+    "Bisulfite Tank 2 Stop",
+    "Bleach Tank 1 Level",
+    "Bleach Tank 1 Start",
+    "Bleach Tank 1 Stop",
+    "Bleach Tank 2 Level",
+    "Bleach Tank 2 Start",
+    "Bleach Tank 2 Stop",
+    "CAKE 01 % NH3-N",
+    "CAKE 01 % NO3-N",
+    "CAKE 01 % P2O5",
+    "CAKE 01 % TKN",
+    "CAKE 01 % Total Solids",
+    "CAKE 01 Arsenic Dry Wgt",
+    "CAKE 01 Cadmium Dry Wgt",
+    "CAKE 01 Chromium Dry Wgt",
+    "CAKE 01 Comp % Ash",
+    "CAKE 01 Comp % P2O5",
+    "CAKE 01 Comp % TKN",
+    "CAKE 01 Copper Dry Wgt",
+    "CAKE 01 Fecal Coli Dry Wgt",
+    "CAKE 01 Lead Dry Wgt",
+    "CAKE 01 Mercury Dry Wgt",
+    "CAKE 01 Molybdenum Dry Wgt",
+    "CAKE 01 Mon Comp % Total Solids",
+    "CAKE 01 Nickel Dry Wgt",
+    "CAKE 01 Potassium Dry Wgt",
+    "CAKE 01 Selenium Dry Wgt",
+    "CAKE 01 Silver Dry Wgt",
+    "CAKE 01 TrackingID",
+    "CAKE 01 Zinc Dry Wgt",
+    "CAKE 01 pH",
+    "CAKE Comp % Ash",
+    "CAKE Comp % NH3-N",
+    "CAKE Comp % NO3-N",
+    "CAKE Comp % P2O5",
+    "CAKE Comp % TKN",
+    "CAKE Comp % Total Solids",
+    "CAKE Comp Arsenic Dry Wgt",
+    "CAKE Comp Cadmium Dry Wgt",
+    "CAKE Comp Chromium Dry Wgt",
+    "CAKE Comp Copper Dry Wgt",
+    "CAKE Comp Lead Dry Wgt",
+    "CAKE Comp Mercury Dry Wgt",
+    "CAKE Comp Molybdenum Dry Wgt",
+    "CAKE Comp Nickel Dry Wgt",
+    "CAKE Comp Potassium Dry Wgt",
+    "CAKE Comp Selenium Dry Wgt",
+    "CAKE Comp Silver Dry Wgt",
+    "CAKE Comp Zinc Dry Wgt",
+    "CAKE Comp pH",
+    "CAKE Fecal Coli Dry Wgt",
+    "CHT % Total Solids",
+    "CHT TS mg/kg",
+    "Cake % Total Solids",
+    "Cake TrackingID",
+    "Calculated Plant Flow",
+    "Cent Eff % Total Solids",
+    "Cent Eff TS mg/kg",
+    "Chem Bisulfite Used",
+    "Chem Bleach Used",
+    "Chem Cl2 Used",
+    "Chem Clr Report Comments",
+    "Chem Ferrous Sulfate Used Gal/D",
+    "Chem Polymer % Total Solids",
+    "Chem Polymer Used",
+    "Chem Polymer Used Gal/D",
+    "Cl2 01 Flow Mgd",
+    "Cl2 02 Flow Mgd",
+    "Cl2 03 Flow Mgd",
+    "Cl2 Pr Flow Mgd",
+    "Dig % Total Solids",
+    "Dig 01 Flow Gpd",
+    "Dig 01 Oxygen Uptake",
+    "Dig 01 TSS",
+    "Dig 01 VSS",
+    "Dig 01 VSS/TSS %",
+    "EFF Ecoli by WWOL",
+    "East Elec Meter Reading",
+    "Eff 2 Hour Peak Flow",
+    "Eff Flow",
+    "Eff Grab Total Alkalinity",
+    "Efncy Pr CBOD % Rem",
+    "Efncy Pr CBOD % Rem 7-Day Avg",
+    "Efncy Pr CBOD Removal",
+    "Efncy Pr CD LBS/D",
+    "Efncy Pr Eff CBOD Load",
+    "Efncy Pr Eff CBOD Load MAvg",
+    "Efncy Pr Eff CN Load",
+    "Efncy Pr Eff Copper Load",
+    "Efncy Pr Eff Copper Load MAvg",
+    "Efncy Pr Eff NH3-N Load",
+    "Efncy Pr Eff NH3-N Load MAvg",
+    "Efncy Pr Eff Nickel Load",
+    "Efncy Pr Eff SO4 Load",
+    "Efncy Pr Eff TKN Load",
+    "Efncy Pr Eff TSS Load",
+    "Efncy Pr Eff TSS Load MAvg",
+    "Efncy Pr Inf CBOD Load",
+    "Efncy Pr Inf NH3-N Load",
+    "Efncy Pr Inf TSS Load",
+    "Efncy Pr NH3-N % Rem",
+    "Efncy Pr NH3-N Removal",
+    "Efncy Pr TSS % Rem",
+    "Efncy Pr TSS % Rem 7-Day Avg",
+    "Efncy Pr TSS Removal",
+    "Elec 01 Electrical Use",
+    "Elec 01 Electrical Use 8734",
+    "Elec 01 Electrical Use A",
+    "Elec 01 Electrical Use B",
+    "Elec 01 Electrical Use Blowers",
+    "Elec 01 Electrical Use Lift Station",
+    "Elec 01 Electrical Use Main",
+    "Elec 01 Meter Reading 8734",
+    "Elec Electrical Use",
+    "Elec METER READING",
+    "Elec Meter Reading",
+    "Elec Meter Reading Blowers",
+    "Elec Meter Reading Lift Station",
+    "Elec Meter Reading Main",
+    "Electricity Usage East",
+    "Electricity Usage W+E",
+    "Electricity Usage West",
+    "Estimated Gallons Wasted",
+    "Field Data Entry Form Comments",
+    "Field Eff Flow",
+    "Field Eff Read Time",
+    "Field NH3N",
+    "Filtrate Eff TS %",
+    "Filtrate Eff TS mg/kg",
+    "Heat 01 % Ash",
+    "Heat 01 % Moisture",
+    "Heat 01 % TKN",
+    "Heat 01 % Total Solids",
+    "Heat 01 % Volatile Solids",
+    "Heat 01 Fecal Coli Dry Wgt",
+    "Heat 01 TrackingID",
+    "Heat 01 VS/TS %",
+    "Heat Comp % Ash",
+    "Heat Comp % Insoluble TKN",
+    "Heat Comp % P2O5",
+    "Heat Comp % TKN",
+    "Heat Comp Arsenic Dry Wgt",
+    "Heat Comp Cadmium Dry Wgt",
+    "Heat Comp Chromium Dry Wgt",
+    "Heat Comp Copper Dry Wgt",
+    "Heat Comp Density",
+    "Heat Comp Lead Dry Wgt",
+    "Heat Comp Mercury Dry Wgt",
+    "Heat Comp Molybdenum Dry Wgt",
+    "Heat Comp Nickel Dry Wgt",
+    "Heat Comp Potassium Dry Wgt",
+    "Heat Comp Selenium Dry Wgt",
+    "Heat Comp Silver Dry Wgt",
+    "Heat Comp Zinc Dry Wgt",
+    "Heat Comp pH",
+    "INF Copper Total",
+    "Inf Grab Total Alkalinity",
+    "LCAKE 01 % Total Solids",
+    "LCAKE 01 Fecal Coli Dry Wgt",
+    "LCAKE 01 TrackingID",
+    "LCAKE Comp % Ash",
+    "LCAKE Comp % NH3-N",
+    "LCAKE Comp % NO3-N",
+    "LCAKE Comp % P2O5",
+    "LCAKE Comp % TKN",
+    "LCAKE Comp % Total Solids",
+    "LCAKE Comp Arsenic Dry Wgt",
+    "LCAKE Comp Cadmium Dry Wgt",
+    "LCAKE Comp Chromium Dry Wgt",
+    "LCAKE Comp Copper Dry Wgt",
+    "LCAKE Comp Lead Dry Wgt",
+    "LCAKE Comp Mercury Dry Wgt",
+    "LCAKE Comp Molybdenum Dry Wgt",
+    "LCAKE Comp Nickel Dry Wgt",
+    "LCAKE Comp Potassium Dry Wgt",
+    "LCAKE Comp Selenium Dry Wgt",
+    "LCAKE Comp Silver Dry Wgt",
+    "LCAKE Comp Zinc Dry Wgt",
+    "LCAKE Comp pH",
+    "Operator Data Entry Form Comments",
+    "Operator Data Entry Form Initials",
+    "Operator Entry Form Comments",
+    "Operator Entry Form Initials",
+    "Operator Wasting Calc",
+    "Plant Flow Calculated",
+    "Plnt Ef  pH Field",
+    "Plnt Ef 2Hr Peak Field",
+    "Plnt Ef 2Hr Peak Flow Gpm",
+    "Plnt Ef Arsenic As Tot",
+    "Plnt Ef Arsenic Total",
+    "Plnt Ef CBOD",
+    "Plnt Ef CBOD 7-Day Avg",
+    "Plnt Ef CBOD MAvg",
+    "Plnt Ef CBOD Removal",
+    "Plnt Ef CBOD Rnd",
+    "Plnt Ef CN_Amen",
+    "Plnt Ef Cadmium Total",
+    "Plnt Ef Copper MAvg",
+    "Plnt Ef Copper Report",
+    "Plnt Ef Copper Total",
+    "Plnt Ef Dissolved Oxygen",
+    "Plnt Ef E.Coli",
+    "Plnt Ef E.Coli Daily",
+    "Plnt Ef E.Coli MMean",
+    "Plnt Ef E.coli",
+    "Plnt Ef E.coli  ***",
+    "Plnt Ef E.coli ***",
+    "Plnt Ef Eff TSS Load",
+    "Plnt Ef Enterococci",
+    "Plnt Ef FLOW Annual Avg",
+    "Plnt Ef FLOW Month Avg",
+    "Plnt Ef Fecal Wkly GeoMean",
+    "Plnt Ef Flow Mgd",
+    "Plnt Ef MF Fecal Coliform",
+    "Plnt Ef NH3-N",
+    "Plnt Ef NH3-N 7-Day Avg",
+    "Plnt Ef NH3-N 7-Day Avg Calc",
+    "Plnt Ef NH3-N Field",
+    "Plnt Ef NH3-N MAvg",
+    "Plnt Ef NH3-N MAvg Calc",
+    "Plnt Ef NH3-N Operator",
+    "Plnt Ef NH3-N Rnd",
+    "Plnt Ef NH3-N Rnd Calc",
+    "Plnt Ef NH3N Field",
+    "Plnt Ef Nickel Report",
+    "Plnt Ef Nickel Total",
+    "Plnt Ef Plant Flow Field",
+    "Plnt Ef Sulfate",
+    "Plnt Ef TKN",
+    "Plnt Ef TRC",
+    "Plnt Ef TRC Post",
+    "Plnt Ef TRC Post Time",
+    "Plnt Ef TRC Pre",
+    "Plnt Ef TRC Pre B1",
+    "Plnt Ef TRC Pre B2",
+    "Plnt Ef TRC Pre Basin1",
+    "Plnt Ef TRC Pre Basin2",
+    "Plnt Ef TRC Pre Basin3",
+    "Plnt Ef TRC Pre BasinA",
+    "Plnt Ef TRC Pre BasinA Time",
+    "Plnt Ef TRC Pre BasinB",
+    "Plnt Ef TRC Pre BasinB Time",
+    "Plnt Ef TRC Pre BasinC",
+    "Plnt Ef TRC Pre BasinC Time",
+    "Plnt Ef TRC Pre East",
+    "Plnt Ef TRC Pre North",
+    "Plnt Ef TRC Pre Report",
+    "Plnt Ef TRC Pre South",
+    "Plnt Ef TRC Pre West",
+    "Plnt Ef TRC Pre1",
+    "Plnt Ef TRC Pre2",
+    "Plnt Ef TSS",
+    "Plnt Ef TSS 7-Day Avg",
+    "Plnt Ef TSS MAvg",
+    "Plnt Ef TSS Rnd",
+    "Plnt Ef Tkn",
+    "Plnt Ef Totalizer Reading",
+    "Plnt Ef Totalizer Reading Time",
+    "Plnt Ef Water Temp.",
+    "Plnt Ef pH Field",
+    "Plnt Eff Chloride",
+    "Plnt Eff TDS",
+    "Plnt If CBOD",
+    "Plnt If CBOD 7-Day Avg",
+    "Plnt If Dissolved Oxygen",
+    "Plnt If Flow Mgd",
+    "Plnt If NH3-N",
+    "Plnt If TSS",
+    "Plnt If TSS 7-Day Avg",
+    "Plnt If VSS",
+    "Plnt If pH Field",
+    "Plnt Rainfall",
+    "RAS  Flow Mgd",
+    "RAS  Flow Percent",
+    "RAS  Setblty, 30 Min %",
+    "RAS  TSS",
+    "RAS  VSS",
+    "RAS 01 Flow Gpd",
+    "RAS 01 Flow Mgd",
+    "RAS 01 Setblty, 30 Min %",
+    "RAS 01 Sett Solids",
+    "RAS 01 TSS",
+    "RAS 01 VSS",
+    "RAS 01 VSS/TSS %",
+    "RAS 02 Setblty, 30 Min %",
+    "RAS 02 TSS",
+    "RAS 02 VSS",
+    "RAS 02 VSS/TSS %",
+    "RAS A1 Setblty, 30 Min %",
+    "RAS A1 VSS",
+    "RAS A1 VSS/TSS %",
+    "RAS A2 TSS",
+    "RAS A2 VSS",
+    "RAS A2 VSS/TSS %",
+    "RAS B1 Setblty, 30 Min %",
+    "RAS B1 TSS",
+    "RAS B1 VSS",
+    "RAS B1 VSS/TSS %",
+    "RAS B2 TSS",
+    "RAS B2 VSS",
+    "RAS B2 VSS/TSS %",
+    "RAS C1 TSS",
+    "RAS C1 VSS",
+    "RAS C1 VSS/TSS %",
+    "RAS C2 TSS",
+    "RAS C2 VSS",
+    "RAS C2 VSS/TSS %",
+    "RAS D1 Setblty, 30 Min %",
+    "RAS D1 TSS",
+    "RAS D1 VSS",
+    "RAS D1 VSS/TSS %",
+    "RAS D2 TSS",
+    "RAS D2 VSS",
+    "RAS D2 VSS/TSS %",
+    "RAS E1 TSS",
+    "RAS E1 VSS",
+    "RAS E1 VSS/TSS %",
+    "RAS E2 TSS",
+    "RAS E2 VSS",
+    "RAS E2 VSS/TSS %",
+    "RAS F1 TSS",
+    "RAS F1 VSS",
+    "RAS F1 VSS/TSS %",
+    "RAS F2 TSS",
+    "RAS F2 VSS",
+    "RAS F2 VSS/TSS %",
+    "RAS G1 TSS",
+    "RAS G1 VSS",
+    "RAS G1 VSS/TSS %",
+    "RAS G2 TSS",
+    "RAS G2 VSS",
+    "RAS G2 VSS/TSS %",
+    "RAS H1 Setblty, 30 Min %",
+    "RAS H1 TSS",
+    "RAS H1 VSS",
+    "RAS H1 VSS/TSS %",
+    "RAS H2 TSS",
+    "RAS H2 VSS",
+    "RAS H2 VSS/TSS %",
+    "S A1 EF CBOD",
+    "S A1 EF Flow Mgd",
+    "S A1 EF NH3-N",
+    "S A1 EF TSS",
+    "S A1 EF pH Lab",
+    "S A2 EF CBOD",
+    "S A2 EF NH3-N",
+    "S A2 EF TSS",
+    "S A2 EF pH Lab",
+    "S AER 07 Flow Mgd",
+    "S AER A1 Setblty, 30 Min %",
+    "S AER A1 TSS",
+    "S AER A1 VSS",
+    "S AER A1 VSS/TSS %",
+    "S AER A1 pH Field",
+    "S AER A2 Setblty, 30 Min %",
+    "S AER A2 TSS",
+    "S AER A2 VSS",
+    "S AER A2 VSS/TSS %",
+    "S AER B1 Setblty, 30 Min %",
+    "S AER B1 TSS",
+    "S AER B1 VSS",
+    "S AER B1 VSS/TSS %",
+    "S AER B2 Setblty, 30 Min %",
+    "S AER B2 TSS",
+    "S AER B2 VSS",
+    "S AER B2 VSS/TSS %",
+    "S AER C1 Setblty, 30 Min %",
+    "S AER C1 TSS",
+    "S AER C1 VSS",
+    "S AER C1 VSS/TSS %",
+    "S AER C2 Setblty, 30 Min %",
+    "S AER C2 TSS",
+    "S AER C2 VSS",
+    "S AER C2 VSS/TSS %",
+    "S AER D1 Setblty, 30 Min %",
+    "S AER D1 TSS",
+    "S AER D1 VSS",
+    "S AER D1 VSS/TSS %",
+    "S AER D2 Setblty, 30 Min %",
+    "S AER D2 TSS",
+    "S AER D2 VSS",
+    "S AER D2 VSS/TSS %",
+    "S AER E1 Setblty, 30 Min %",
+    "S AER E1 TSS",
+    "S AER E1 VSS",
+    "S AER E1 VSS/TSS %",
+    "S AER E2 Setblty, 30 Min %",
+    "S AER E2 TSS",
+    "S AER E2 VSS",
+    "S AER E2 VSS/TSS %",
+    "S AER F1 Setblty, 30 Min %",
+    "S AER F1 TSS",
+    "S AER F1 VSS",
+    "S AER F1 VSS/TSS %",
+    "S AER F2 Setblty, 30 Min %",
+    "S AER F2 TSS",
+    "S AER F2 VSS",
+    "S AER F2 VSS/TSS %",
+    "S AER G1 Setblty, 30 Min %",
+    "S AER G1 TSS",
+    "S AER G1 VSS",
+    "S AER G1 VSS/TSS %",
+    "S AER G2 Setblty, 30 Min %",
+    "S AER G2 TSS",
+    "S AER G2 VSS",
+    "S AER G2 VSS/TSS %",
+    "S AER H1 Setblty, 30 Min %",
+    "S AER H1 TSS",
+    "S AER H1 VSS",
+    "S AER H1 VSS/TSS %",
+    "S AER H2 Setblty, 30 Min %",
+    "S AER H2 TSS",
+    "S AER H2 VSS",
+    "S AER H2 VSS/TSS %",
+    "S Aer 01 Detention Time",
+    "S Aer 01 F/M",
+    "S Aer 01 Flow Mgd",
+    "S Aer 01 Gould Sludge Age",
+    "S Aer 01 Inventory MLSS",
+    "S Aer 01 Inventory MLVSS",
+    "S Aer 01 SVI",
+    "S Aer 01 Setblty, 30 Min %",
+    "S Aer 01 Setblty, 30 Min % AM",
+    "S Aer 01 Sett Solids",
+    "S Aer 01 Solids Load",
+    "S Aer 01 TSS",
+    "S Aer 01 Total Alkalinity",
+    "S Aer 01 VSS",
+    "S Aer 01 VSS/TSS %",
+    "S Aer 02 Detention Time",
+    "S Aer 02 F/M",
+    "S Aer 02 Flow Mgd",
+    "S Aer 02 Inventory MLSS",
+    "S Aer 02 Inventory MLVSS",
+    "S Aer 02 SVI",
+    "S Aer 02 Solids Load",
+    "S Aer 02 TSS",
+    "S Aer 02 VSS",
+    "S Aer 03 Detention Time",
+    "S Aer 03 F/M",
+    "S Aer 03 Flow Mgd",
+    "S Aer 03 Gould Sludge Age",
+    "S Aer 03 Inventory MLSS",
+    "S Aer 03 Inventory MLVSS",
+    "S Aer 03 SVI",
+    "S Aer 03 Setblty, 30 Min %",
+    "S Aer 03 Sett Solids",
+    "S Aer 03 Solids Load",
+    "S Aer 03 TSS",
+    "S Aer 03 VSS",
+    "S Aer 03 VSS/TSS %",
+    "S Aer 04 Detention Time",
+    "S Aer 04 F/M",
+    "S Aer 04 Flow Mgd",
+    "S Aer 04 Gould Sludge Age",
+    "S Aer 04 Inventory MLSS",
+    "S Aer 04 Inventory MLVSS",
+    "S Aer 04 SVI",
+    "S Aer 04 Setblty, 30 Min %",
+    "S Aer 04 Sett Solids",
+    "S Aer 04 Solids Load",
+    "S Aer 04 TSS",
+    "S Aer 04 VSS",
+    "S Aer 04 VSS/TSS %",
+    "S Aer 05 Detention Time",
+    "S Aer 05 F/M",
+    "S Aer 05 Flow Mgd",
+    "S Aer 05 Gould Sludge Age",
+    "S Aer 05 Inventory MLSS",
+    "S Aer 05 Inventory MLVSS",
+    "S Aer 05 SVI",
+    "S Aer 05 Setblty, 30 Min %",
+    "S Aer 05 Sett Solids",
+    "S Aer 05 Solids Load",
+    "S Aer 05 TSS",
+    "S Aer 05 VSS",
+    "S Aer 05 VSS/TSS %",
+    "S Aer 06 Flow Mgd",
+    "S Aer 06 Gould Sludge Age",
+    "S Aer 06 Setblty, 30 Min %",
+    "S Aer 06 Sett Solids",
+    "S Aer 06 TSS",
+    "S Aer 06 VSS",
+    "S Aer 06 VSS/TSS %",
+    "S Aer 08 Flow Mgd",
+    "S Aer 08 Gould Sludge Age",
+    "S Aer 08 Setblty, 30 Min %",
+    "S Aer 08 Sett Solids",
+    "S Aer 08 TSS",
+    "S Aer 08 VSS",
+    "S Aer 09 Flow Mgd",
+    "S Aer 09 Gould Sludge Age",
+    "S Aer 09 Setblty, 30 Min %",
+    "S Aer 09 Sett Solids",
+    "S Aer 09 TSS",
+    "S Aer 09 VSS",
+    "S Aer 10 Flow Mgd",
+    "S Aer 10 Gould Sludge Age",
+    "S Aer 10 Setblty, 30 Min %",
+    "S Aer 10 Sett Solids",
+    "S Aer 10 TSS",
+    "S Aer 10 VSS",
+    "S Aer Pr CBOD % Rem",
+    "S Aer Pr CBOD Removal",
+    "S Aer Pr Eff CBOD Load",
+    "S Aer Pr Eff NH3-N Load",
+    "S Aer Pr Eff TSS Load",
+    "S Aer Pr Flow Mgd",
+    "S Aer Pr Inf CBOD Load",
+    "S Aer Pr Inf NH3-N Load",
+    "S Aer Pr Inf TSS Load",
+    "S Aer Pr NH3-N % Rem",
+    "S Aer Pr NH3-N Removal",
+    "S Aer Pr TSS % Rem",
+    "S Aer Pr TSS Removal",
+    "S Aer Sm Detention Time",
+    "S Aer Sm F/M",
+    "S Aer Sm Gould Sludge Age",
+    "S Aer Sm Inventory MLSS",
+    "S Aer Sm Inventory MLVSS",
+    "S Aer Sm MCRT",
+    "S Aer Sm Residue Tot NFLT",
+    "S Aer Sm Residue Tot NVLT",
+    "S Aer Sm SVI",
+    "S Aer Sm Solids Load",
+    "S Aer Sm Waste Flow",
+    "S Aer Sm Waste SS",
+    "S B1 EF CBOD",
+    "S B1 EF NH3-N",
+    "S B1 EF TSS",
+    "S B1 EF pH Lab",
+    "S B2 EF CBOD",
+    "S B2 EF NH3-N",
+    "S B2 EF TSS",
+    "S B2 EF pH Lab",
+    "S C1 EF CBOD",
+    "S C1 EF NH3-N",
+    "S C1 EF TSS",
+    "S C1 EF pH Lab",
+    "S C2 EF CBOD",
+    "S C2 EF NH3-N",
+    "S C2 EF TSS",
+    "S C2 EF pH Lab",
+    "S Clr 01 Depth Of Blanket",
+    "S Clr 01 Detention Time",
+    "S Clr 01 Flow Mgd",
+    "S Clr 01 Pump Rate",
+    "S Clr 01 Report Comments",
+    "S Clr 01 Solids Load",
+    "S Clr 01 Surface Overflow",
+    "S Clr 01 Wasting Hr/Day",
+    "S Clr 01 Wasting Min/Day",
+    "S Clr 01 Weir Overflow",
+    "S Clr 02 Depth Of Blanket",
+    "S Clr 02 Detention Time",
+    "S Clr 02 Flow Mgd",
+    "S Clr 02 Pump Rate",
+    "S Clr 02 Solids Load",
+    "S Clr 02 Surface Overflow",
+    "S Clr 02 Wasting Hr/Day",
+    "S Clr 02 Weir Overflow",
+    "S Clr 03 Depth Of Blanket",
+    "S Clr 03 Detention Time",
+    "S Clr 03 Flow Mgd",
+    "S Clr 03 Solids Load",
+    "S Clr 03 Surface Overflow",
+    "S Clr 03 Weir Overflow",
+    "S Clr 04 Depth Of Blanket",
+    "S Clr 04 Detention Time",
+    "S Clr 04 Flow Mgd",
+    "S Clr 04 Solids Load",
+    "S Clr 04 Surface Overflow",
+    "S Clr 04 Weir Overflow",
+    "S Clr 05 Depth Of Blanket",
+    "S Clr 05 Detention Time",
+    "S Clr 05 Flow Mgd",
+    "S Clr 05 Inf TSS Load",
+    "S Clr 05 Solids Load",
+    "S Clr 05 Surface Overflow",
+    "S Clr 05 Weir Overflow",
+    "S Clr 06 Depth Of Blanket",
+    "S Clr 06 Detention Time",
+    "S Clr 06 Flow Mgd",
+    "S Clr 06 Inf TSS Load",
+    "S Clr 06 Solids Load",
+    "S Clr 06 Surface Overflow",
+    "S Clr 06 Weir Overflow",
+    "S Clr 07 Depth Of Blanket",
+    "S Clr 07 Detention Time",
+    "S Clr 07 Flow Mgd",
+    "S Clr 07 Solids Load",
+    "S Clr 07 Surface Overflow",
+    "S Clr 07 Weir Overflow",
+    "S Clr 08 Depth Of Blanket",
+    "S Clr 08 Flow Mgd",
+    "S Clr 08 Surface Overflow",
+    "S Clr 09 Depth Of Blanket",
+    "S Clr 09 Flow Mgd",
+    "S Clr 09 Surface Overflow",
+    "S Clr 10 Depth Of Blanket",
+    "S Clr 10 Flow Mgd",
+    "S Clr 10 Surface Overflow",
+    "S Clr Sm Detention Time",
+    "S Clr Sm Solids Load",
+    "S Clr Sm Surface Overflow",
+    "S Clr Sm Weir Overflow",
+    "S D1 EF CBOD",
+    "S D1 EF NH3-N",
+    "S D1 EF TSS",
+    "S D1 EF pH Lab",
+    "S D2 EF CBOD",
+    "S D2 EF NH3-N",
+    "S D2 EF TSS",
+    "S D2 EF pH Lab",
+    "S E1 EF CBOD",
+    "S E1 EF NH3-N",
+    "S E1 EF TSS",
+    "S E1 EF pH Lab",
+    "S E2 EF CBOD",
+    "S E2 EF NH3-N",
+    "S E2 EF TSS",
+    "S E2 EF pH Lab",
+    "S F1 EF CBOD",
+    "S F1 EF NH3-N",
+    "S F1 EF TSS",
+    "S F1 EF pH Lab",
+    "S F2 EF CBOD",
+    "S F2 EF NH3-N",
+    "S F2 EF TSS",
+    "S F2 EF pH Lab",
+    "S G1 EF CBOD",
+    "S G1 EF NH3-N",
+    "S G1 EF TSS",
+    "S G1 EF pH Lab",
+    "S G2 EF CBOD",
+    "S G2 EF NH3-N",
+    "S G2 EF TSS",
+    "S G2 EF pH Lab",
+    "S H1 EF CBOD",
+    "S H1 EF NH3-N",
+    "S H1 EF TSS",
+    "S H1 EF pH Lab",
+    "S H2 EF CBOD",
+    "S H2 EF NH3-N",
+    "S H2 EF TSS",
+    "S H2 EF pH Lab",
+    "SCADA Entry Form Note",
+    "SCADA Plnt Daily Flow",
+    "SCADA Plnt Peak Flow, 2HR",
+    "SCADA Sludge Wasting",
+    "SCADA Sludge Wasting calc",
+    "SCADA Totalizer Reading",
+    "Solids Data Time of Day",
+    "Storm OF 1 BOD",
+    "Storm OF 1A BOD",
+    "Storm OF 1B BOD",
+    "Storm OF 2 BOD",
+    "Storm OF 3 BOD",
+    "Storm OF 3A BOD",
+    "Storm OF 3B BOD",
+    "Storm OF 4 BOD",
+    "Storm OF 5 BOD",
+    "Storm OF 6 BOD",
+    "TAS1 Clr Depth Of Blanket",
+    "TAS2 Clr Depth Of Blanket",
+    "TAS2 Clr Detention Time",
+    "TAS2 Clr Solids Load",
+    "TAS2 Clr Surface Overflow",
+    "TAS2 Clr Weir Overflow",
+    "TBS1 ASm Waste Flow",
+    "TBS1 Clr Depth Of Blanket",
+    "TBS2 Clr Depth Of Blanket",
+    "TCS1 Clr Depth Of Blanket",
+    "TCS2 Clr Depth Of Blanket",
+    "TDS1 Clr Depth Of Blanket",
+    "TDS2 Clr Depth Of Blanket",
+    "TES1 Clr Depth Of Blanket",
+    "TES2 Clr Depth Of Blanket",
+    "TFS1 Clr Depth Of Blanket",
+    "TFS2 Clr Depth Of Blanket",
+    "TGS1 Clr Depth Of Blanket",
+    "TGS2 Clr Depth Of Blanket",
+    "THS1 Clr Depth Of Blanket",
+    "THS2 Clr Depth Of Blanket",
+    "Thck 01 TSS Residue",
+    "Thck 01 TVSS Residue Volatile",
+    "Thck 01 VSS/TSS %",
+    "Total Gallons Wasted",
+    "Trailers Hauled Per Day",
+    "WAS  Flow Gpd",
+    "WAS  TSS",
+    "WAS  VSS",
+    "WAS  VSS/TSS %",
+    "WAS 01 Flow Gpd",
+    "WAS 01 TSS",
+    "WAS 01 TSS Residue Totnf",
+    "WAS 01 TVSS Residue Volatile",
+    "WAS 01 VAR",
+    "WAS 01 VSS",
+    "WAS 01 VSS/TSS %",
+    "WAS Gallons Per Day<>",
+    "WAS Gallons To Thk test only",
+    "WAS TSS",
+    "WAS VSS",
+    "WAS VSS/TSS %",
+    "WAS Variable",
+    "WAS Wasting Hr/Day",
+    "WAS Wasting Min/Day",
+    "WAS Wasting Pump Rate",
+    "WAS var01",
+    "WAS var02",
+    "WAS variable",
+    "WET 48Acute Cerio",
+    "WET Acute Cerio",
+    "WET Acute Pimephales",
+    "WET CerLethal",
+    "WET CerSub",
+    "WET Cerio Lethal",
+    "WET Cerio Sublethal",
+    "WET CerioSub",
+    "WET Limit",
+    "WET Limit Cerio Lethal",
+    "WET Limit Cerio Sublethal",
+    "WET Limit Pimephales Lethal",
+    "WET Limit Pimephales Sublethal",
+    "WET Pimephales Lethal",
+    "WET Pimephales Sublethal",
+    "WET Re#1AcCerio",
+    "WET Re#1AcPime",
+    "WET Re#1AcuteCerio",
+    "WET Re#1AcutePime",
+    "WET Re#1Cerio",
+    "WET Re#1Pime",
+    "WET Re#2AcCer",
+    "WET Re#2AcCerio",
+    "WET Re#2AcPime",
+    "WET Re#2Cerio",
+    "WET Re#2Pime",
+    "WET Retest #1 48Acute Cerio",
+    "WET Retest #1 Acute Cerio",
+    "WET Retest #1 Acute Pimephales",
+    "WET Retest #2 48Acute Cerio",
+    "WET Retest #2 Acute Cerio",
+    "WET Retest #2 Acute Pimephales",
+    "WET Retest#1",
+    "WET Retest#1 48Acute Pimephales",
+    "WET Retest#1 Acute Cerio",
+    "WET Retest#1 Acute Menidia",
+    "WET Retest#1 Acute Mysid",
+    "WET Retest#1 Acute Pimephales",
+    "WET Retest#1 Chronic Cerio",
+    "WET Retest#1 Chronic Menidia",
+    "WET Retest#1 Chronic Mysid",
+    "WET Retest#1 Chronic Pimephales",
+    "WET Retest#2",
+    "WET Retest#2 48Acute Pimephales",
+    "WET Retest#2 Acute Cerio",
+    "WET Retest#2 Acute Menidia",
+    "WET Retest#2 Acute Mysid",
+    "WET Retest#2 Acute Pimephales",
+    "WET Retest#2 Chronic Cerio",
+    "WET Retest#2 Chronic Menidia",
+    "WET Retest#2 Chronic Mysid",
+    "WET Retest#2 Chronic Pimephales",
+    "WET T4P3B",
+    "WET T4P3E",
+    "WET T4P6C",
+    "WET T4P6J",
+    "WET T5P3B",
+    "WET T5P3E",
+    "WET T5P6C",
+    "WET T5P6J",
+    "WET T6P3B",
+    "WET T6P3C",
+    "WET T6P3E",
+    "WET T6P6C",
+    "WET T6P6J",
+    "WET T7P3B",
+    "WET T7P3C",
+    "WET T7P3E",
+    "WET T7P6C",
+    "WET T7P6J",
+    "WET TEM3D",
+    "WET TEM6C",
+    "WET TIE3D",
+    "WET TIE3E",
+    "WET TIE6A",
+    "WET TIE6B",
+    "WET TIE6C",
+    "WET TLP3E",
+    "WET TLP6B",
+    "WET TOM3D",
+    "WET TOM6C",
+    "WET TOP3E",
+    "WET TOP6B",
+    "WET TPP3E",
+    "WET TPP6B",
+    "WET TWP6B",
+    "WET TXM3D",
+    "WET TXM6C",
+    "WET TXP6B",
+    "WET TXP6C",
+    "WET TYP3B",
+    "WET TYP3E",
+    "WET TYP6B",
+    "WET TYP6C",
+    "Wasting Hr/Day",
+    "Wasting Totalizer Begin",
+    "Wasting Totalizer End",
+    "West Elec Meter Reading",
+    "\\ SG Aer 3 DO",
+    "unused variable"
+  ],
+  "violation_categories": [
+    "2 Hour Peak Flow",
+    "CBOD Daily",
+    "CBOD Daily Load",
+    "CBOD Monthly",
+    "CBOD Monthly Load",
+    "CBOD Weekly",
+    "Daily Flow",
+    "E.Coli",
+    "Enterococci",
+    "Monthly Flow",
+    "NH3-N Daily",
+    "NH3-N Monthly",
+    "NH3-N Monthly Load",
+    "NH3-N Weekly",
+    "TSS Daily",
+    "TSS Monthly",
+    "TSS Monthly Load",
+    "TSS Weekly",
+    "pH"
+  ],
+  "primary_parameters": [
+    "CBOD",
+    "CBOD Load",
+    "E.Coli",
+    "Flow",
+    "NH3-N",
+    "NH3-N Load",
+    "TSS",
+    "TSS Load"
+  ],
+  "home_nav": [
+    {
+      "caption": "At-a-Glance Citywide WWTP Capacity Status",
+      "target_slug": "ef-flow-permit-eval",
+      "target_page_name": "Ef Flow Permit Eval",
+      "bookmark": "Bookmark3be251b924b563ae2c5c",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Forest Cove, Northside, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Tidwell Timbers, WCID-76, West Lake Hou., Westway, Willow Run, Northgate))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 128,
+        "width": 472,
+        "height": 40,
+        "z": 0
+      }
+    },
+    {
+      "caption": "Comparison of Permit Evaluation, AAF & MAF",
+      "target_slug": "ef-flow-aaf-maf",
+      "target_page_name": "Ef Flow (AAF & MAF)",
+      "bookmark": "Bookmarkf0b5130f7e1eca49b497",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 272.2167487684729,
+        "width": 471.7241379310345,
+        "height": 39.90147783251231,
+        "z": 2000
+      }
+    },
+    {
+      "caption": "Effluent Flow | ADF and 2-hour Peak",
+      "target_slug": "dt-daily-effluent-flow",
+      "target_page_name": "DT Daily Effluent Flow",
+      "bookmark": "Bookmark9c56f9d5579c53394eef",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 320,
+        "width": 472,
+        "height": 40,
+        "z": 3000
+      }
+    },
+    {
+      "caption": "Influent, % Rem & Effluent KPI",
+      "target_slug": "if-rem-ef-cbod-tss-nh3-n",
+      "target_page_name": "If, %Rem, ef CBOD, TSS & NH3-N",
+      "bookmark": "Bookmark26d782681865c3fa42cc",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 512,
+        "width": 472,
+        "height": 40,
+        "z": 4000
+      }
+    },
+    {
+      "caption": "Operational KPI",
+      "target_slug": "multi-var-operational-parameters",
+      "target_page_name": "Multi-Var Operational Parameters",
+      "bookmark": "Bookmarkc3caba78ab4db34b041f",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 240,
+        "y": 463.99999999999994,
+        "width": 231.99999999999997,
+        "height": 40,
+        "z": 5000
+      }
+    },
+    {
+      "caption": "(Charts) Influent Daily",
+      "target_slug": "dt-chart-plant-if-daily",
+      "target_page_name": "DT Chart) Plant If Daily",
+      "bookmark": "Bookmark81612873de5420654ed1",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 608,
+        "width": 472.00000000000006,
+        "height": 40,
+        "z": 6000
+      }
+    },
+    {
+      "caption": "Eff Charts w/Limits",
+      "target_slug": "dt-chart-plant-ef-daily",
+      "target_page_name": "DT (Chart) Plant Ef Daily",
+      "bookmark": "Bookmarkba987326a15d0eec7a36",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 656,
+        "width": 224,
+        "height": 40,
+        "z": 7000
+      }
+    },
+    {
+      "caption": "Plant Process Efficiency KPI",
+      "target_slug": "plant-efficiency-process-evaluation",
+      "target_page_name": "Plant Efficiency Process Evaluation",
+      "bookmark": "Bookmark7558d80a5beecdca2aad",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 559.6287703016242,
+        "width": 471.92575406032483,
+        "height": 40.09280742459397,
+        "z": 8000
+      }
+    },
+    {
+      "caption": "(Table) Annual Average Flow, Monthly",
+      "target_slug": "dmr-monthlyaaf-for-permit-evaluation",
+      "target_page_name": "(DMR) MonthlyAAF (For Permit Evaluation)",
+      "bookmark": "Bookmarkb92fe85d52e906cd7bde",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 80,
+        "width": 376,
+        "height": 40,
+        "z": 9000
+      }
+    },
+    {
+      "caption": "(Table) Monthly Average flow",
+      "target_slug": "dmr-monthlyadf-for-7590-rules",
+      "target_page_name": "(DMR) MonthlyADF (For 75/90 Rules)",
+      "bookmark": "Bookmarkb521dc12ca703abdf286",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 128,
+        "width": 376,
+        "height": 40,
+        "z": 10000
+      }
+    },
+    {
+      "caption": "Daily INF/EFF Report (Scott L)",
+      "target_slug": "infeff-daily-report",
+      "target_page_name": "INF/EFF Daily Report",
+      "bookmark": "Bookmarke95da9b2bbbe098664ba",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 560,
+        "width": 416,
+        "height": 40,
+        "z": 11000
+      }
+    },
+    {
+      "caption": "Daily AERATION Report (Scott L)",
+      "target_slug": "aeration-daily-report",
+      "target_page_name": "AERATION Daily Report",
+      "bookmark": "Bookmark55c072d9e7fc05302f05",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 608,
+        "width": 416,
+        "height": 40,
+        "z": 12000
+      }
+    },
+    {
+      "caption": "DMR Ef Flow (Historical)",
+      "target_slug": "dt-dmr-5yr-ef-flow-mgd",
+      "target_page_name": "DT (DMR 5yr) Ef Flow MGD",
+      "bookmark": "Bookmark5e0bfc4b3df353b29deb",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 176,
+        "width": 376,
+        "height": 40,
+        "z": 13000
+      }
+    },
+    {
+      "caption": "DMR Ef CBOD (Historical)",
+      "target_slug": "dt-dmr-5yr-ef-cbod",
+      "target_page_name": "DT (DMR 5yr) Ef CBOD",
+      "bookmark": "Bookmarka6d4111814f1f3e9d52b",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 224,
+        "width": 376,
+        "height": 40,
+        "z": 14000
+      }
+    },
+    {
+      "caption": "DMR Ef TSS (Historical)",
+      "target_slug": "dt-dmr-5yr-ef-tss",
+      "target_page_name": "DT (DMR 5yr) Ef TSS",
+      "bookmark": "Bookmark3e85a6c0239f6c262f47",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 272,
+        "width": 376,
+        "height": 40,
+        "z": 15000
+      }
+    },
+    {
+      "caption": "DMR Ef NH3-N (Historical)",
+      "target_slug": "dt-dmr-5yr-ef-nh3-n",
+      "target_page_name": "DT (DMR 5yr) Ef NH3-N",
+      "bookmark": "Bookmark5d36f6f365a5ac31d770",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 320,
+        "width": 376,
+        "height": 40,
+        "z": 16000
+      }
+    },
+    {
+      "caption": "DMR Diss Oxygen (Historical)",
+      "target_slug": "dmr-5yr-ef-do-loading",
+      "target_page_name": "(DMR 5yr) Ef D.O. Loading",
+      "bookmark": "Bookmarka87a430da45f20ed39bc",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 368,
+        "width": 376,
+        "height": 40,
+        "z": 17000
+      }
+    },
+    {
+      "caption": "DMR CL2 Residual (Historical)",
+      "target_slug": "dmr-5yr-ef-cl2-residual-loading",
+      "target_page_name": "(DMR 5yr) Ef CL2 Residual Loading",
+      "bookmark": "Bookmarkee6f2bc71d14009f520a",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 416,
+        "width": 376,
+        "height": 40,
+        "z": 18000
+      }
+    },
+    {
+      "caption": "DMR Ef TSS Loading (Historical)",
+      "target_slug": "dmr-5yr-ef-tss-loading",
+      "target_page_name": "(DMR 5yr) Ef TSS Loading",
+      "bookmark": "Bookmark427c19f6408e19f255e0",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 512,
+        "width": 376,
+        "height": 40,
+        "z": 19000
+      }
+    },
+    {
+      "caption": "DMR Ef CBOD Loading (Historical)",
+      "target_slug": "dmr-5yr-ef-cbod-loading",
+      "target_page_name": "(DMR 5yr) Ef CBOD Loading",
+      "bookmark": "Bookmark2b6e828c1c61fed14ce7",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 464,
+        "width": 376,
+        "height": 40,
+        "z": 20000
+      }
+    },
+    {
+      "caption": "Chemical Used",
+      "target_slug": "chemical-used",
+      "target_page_name": "Chemical Used",
+      "bookmark": "Bookmark0bfaec4951b299bc0fe2",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 1072,
+        "y": 416,
+        "width": 208,
+        "height": 40,
+        "z": 21000
+      }
+    },
+    {
+      "caption": "Electricity Used",
+      "target_slug": "elec",
+      "target_page_name": "ELEC",
+      "bookmark": "Bookmark0fb5b9a34c549e67ac5c",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 416,
+        "width": 200,
+        "height": 40,
+        "z": 22000
+      }
+    },
+    {
+      "caption": "Digestor 01 (TSS, VSS)",
+      "target_slug": "dig-01",
+      "target_page_name": "DIG 01",
+      "bookmark": "Bookmarkfde4a2dd1a65df9a8644",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 320,
+        "width": 416,
+        "height": 40,
+        "z": 23000
+      }
+    },
+    {
+      "caption": "RAS 01 (TSS, VSS, Setblty 30 min %)",
+      "target_slug": "ras-01",
+      "target_page_name": "RAS 01",
+      "bookmark": "Bookmark3a868c215fed0dbb284c",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 224,
+        "width": 416,
+        "height": 40,
+        "z": 24000
+      }
+    },
+    {
+      "caption": "S. Aeration (TSS, VSS, Setblty 30 min %)",
+      "target_slug": "s-aeration",
+      "target_page_name": "S Aeration",
+      "bookmark": "Bookmark0c09ad01780945cb6a61",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 80,
+        "width": 416,
+        "height": 40,
+        "z": 25000
+      }
+    },
+    {
+      "caption": "Clarifier (Blanket Depth & Wasting)",
+      "target_slug": "clarifier",
+      "target_page_name": "Clarifier",
+      "bookmark": "Bookmarkc2a2c096465115ad9637",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 128,
+        "width": 416,
+        "height": 40,
+        "z": 26000
+      }
+    },
+    {
+      "caption": "WAS 01 (TSS, VSS)",
+      "target_slug": "was-01",
+      "target_page_name": "WAS 01",
+      "bookmark": "Bookmarkaad1a1c8b2b4fbad3f89",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 272,
+        "width": 416,
+        "height": 40,
+        "z": 27000
+      }
+    },
+    {
+      "caption": "SVI (Sludge Volume Index)",
+      "target_slug": "svi",
+      "target_page_name": "SVI",
+      "bookmark": "Bookmark6668c9800891b0bd5943",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 176,
+        "width": 416,
+        "height": 40,
+        "z": 28000
+      }
+    },
+    {
+      "caption": "Explore Data Availability in HachWIMS",
+      "target_slug": "explore-data-availability-in-hachwims",
+      "target_page_name": "Explore Data Availability in HachWIMS",
+      "bookmark": "Bookmark12c6014a96bee3e36c5d",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 512,
+        "width": 416,
+        "height": 40,
+        "z": 29000
+      }
+    },
+    {
+      "caption": "Permit Evaluation, Annual Average Flow",
+      "target_slug": "permit-evaluation-aaf",
+      "target_page_name": "Permit Evaluation AAF",
+      "bookmark": "Bookmarkcc8ad353d0ce4467ffbc",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northgate))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 175.56650246305418,
+        "width": 471.7241379310345,
+        "height": 39.90147783251231,
+        "z": 30000
+      }
+    },
+    {
+      "caption": "Permit Evaluation, 75/90 Rule",
+      "target_slug": "permit-evaluation-7590",
+      "target_page_name": "Permit Evaluation 75/90",
+      "bookmark": "Bookmark85086107fb2eca53a69e",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northgate))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 224.33497536945814,
+        "width": 471.7241379310345,
+        "height": 39.90147783251231,
+        "z": 31000
+      }
+    },
+    {
+      "caption": "Regulatory KPI (1/3)",
+      "target_slug": "regulatory-parameters-1-3x3",
+      "target_page_name": "Regulatory Parameters (1)  3x3",
+      "bookmark": "Bookmark32da7aac84a654a2fae1",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 416,
+        "width": 232,
+        "height": 40,
+        "z": 32000
+      }
+    },
+    {
+      "caption": "Regulatory KPI (2/3)",
+      "target_slug": "regulatory-parameters-2-3x3",
+      "target_page_name": "Regulatory Parameters (2)  3x3",
+      "bookmark": "Bookmark04b0d9e59eabe5b09792",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 239.99999999999997,
+        "y": 416,
+        "width": 232,
+        "height": 40,
+        "z": 33000
+      }
+    },
+    {
+      "caption": "Permit Evaluation Summay Tables",
+      "target_slug": "tables-permitted-capacity-evaluation-pbi",
+      "target_page_name": "(Tables) Permitted Capacity Evaluation PBI",
+      "bookmark": "Bookmark3ce8b977a1dceed03940",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northgate))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 79.80295566502463,
+        "width": 471.7241379310345,
+        "height": 40.78817733990148,
+        "z": 34000
+      }
+    },
+    {
+      "caption": "DMR Ef NH3-N Loading (Historical)",
+      "target_slug": "dmr-5yr-ef-nh3-n-loading",
+      "target_page_name": "(DMR 5yr) Ef NH3-N Loading",
+      "bookmark": "Bookmark9d5a6513fb87ac66966d",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 560,
+        "width": 376,
+        "height": 40,
+        "z": 35000
+      }
+    },
+    {
+      "caption": "Thickener (TSS, VSS)",
+      "target_slug": "thck",
+      "target_page_name": "Thck",
+      "bookmark": "Bookmark376fff060e8bd86a5cc6",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 368,
+        "width": 416,
+        "height": 40,
+        "z": 36000
+      }
+    },
+    {
+      "caption": "DMR E.Coli (Historical)",
+      "target_slug": "dmr-5yr-ecoli",
+      "target_page_name": "(DMR 5yr) E.Coli",
+      "bookmark": "Bookmark1b5794bd11571765bb8e",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 608,
+        "width": 376,
+        "height": 40,
+        "z": 37000
+      }
+    },
+    {
+      "caption": "DMR PH Field (Historical)",
+      "target_slug": "dmr-5yr-ph-field",
+      "target_page_name": "(DMR 5yr) Ph Field",
+      "bookmark": "Bookmark3fb72be4686ed4dcdfc3",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 480,
+        "y": 656,
+        "width": 376,
+        "height": 40,
+        "z": 38000
+      }
+    },
+    {
+      "caption": "Permit Limits",
+      "target_slug": "permit-limits",
+      "target_page_name": "Permit Limits",
+      "bookmark": "Bookmarkd3d84c1d2373e9477612",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 656,
+        "width": 168,
+        "height": 40,
+        "z": 39000
+      }
+    },
+    {
+      "caption": "Flow Statistics",
+      "target_slug": "statistical-flows",
+      "target_page_name": "Statistical Flows",
+      "bookmark": "Bookmark63df00621f80843da006",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 368,
+        "width": 232,
+        "height": 40,
+        "z": 42000
+      }
+    },
+    {
+      "caption": "Permitted AAF Vs DMR",
+      "target_slug": "permitted-aaf-vs-dmr",
+      "target_page_name": "Permitted AAF Vs DMR",
+      "bookmark": "Bookmarkca395ae7b92fcc021446",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 239.99999999999997,
+        "y": 368,
+        "width": 232,
+        "height": 40,
+        "z": 43000
+      }
+    },
+    {
+      "caption": "Regulatory KPI (3/3)",
+      "target_slug": "regulatory-kpi-33",
+      "target_page_name": "Regulatory KPI (3/3)",
+      "bookmark": "Bookmark90ba564bfeb19ce49cc6",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 0,
+        "y": 463.99999999999994,
+        "width": 231.99999999999997,
+        "height": 40,
+        "z": 44000
+      }
+    },
+    {
+      "caption": "Benchmarking Plants",
+      "target_slug": "charts-plant-ef-daily-wolimits",
+      "target_page_name": "(Charts) Plant Ef Daily woLIMITS",
+      "bookmark": "Bookmarkf035ff8b69ca1e87c2b0",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 1040,
+        "y": 656,
+        "width": 240,
+        "height": 40,
+        "z": 45000
+      }
+    },
+    {
+      "caption": "Scott WWF",
+      "target_slug": "scott-wwf",
+      "target_page_name": "Scott WWF",
+      "bookmark": "ff6c991a8e75571f0f9d",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, SUM 23,BR, Willow Run))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 864,
+        "y": 464.00000000000006,
+        "width": 200,
+        "height": 40,
+        "z": 46000
+      }
+    },
+    {
+      "caption": "Northside WWF",
+      "target_slug": "northside-wwf",
+      "target_page_name": "Northside WWF",
+      "bookmark": "f1a4501b8d72f9da578a",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, SUM 23,BR, Willow Run))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 1072,
+        "y": 464.00000000000006,
+        "width": 208,
+        "height": 40,
+        "z": 47000
+      }
+    },
+    {
+      "caption": "69 & SB incld. WWF",
+      "target_slug": "permit-limits",
+      "target_page_name": "Permit Limits",
+      "bookmark": "Bookmarkd3d84c1d2373e9477612",
+      "applied_filters": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ],
+      "position": {
+        "x": 232.00000000000003,
+        "y": 656,
+        "width": 240,
+        "height": 40,
+        "z": 48000
+      }
+    }
+  ],
+  "pages": [
+    {
+      "slug": "home",
+      "guid": "ReportSectionbd43a8522927dde917fc",
+      "display_name": "Home",
+      "category": "home",
+      "ordinal": 0,
+      "width": 1280,
+      "height": 720,
+      "visible": true,
+      "visual_count": 49,
+      "data_visual_count": 48
+    },
+    {
+      "slug": "om-report",
+      "guid": "ReportSection505e79844884556296cb",
+      "display_name": "O&M Report",
+      "category": "data-tools",
+      "ordinal": 1,
+      "width": 1280,
+      "height": 720,
+      "visible": true,
+      "visual_count": 12,
+      "data_visual_count": 4
+    },
+    {
+      "slug": "wwtp-optimization",
+      "guid": "7d48f8de3188a8e3bc09",
+      "display_name": "WWTP Optimization",
+      "category": "wwtp-specific",
+      "ordinal": 2,
+      "width": 1280,
+      "height": 720,
+      "visible": true,
+      "visual_count": 1,
+      "data_visual_count": 0
+    },
+    {
+      "slug": "tables-permitted-capacity-evaluation-pbi",
+      "guid": "ReportSection3fc13f715ad0b20be320",
+      "display_name": "(Tables) Permitted Capacity Evaluation PBI",
+      "category": "permit",
+      "ordinal": 3,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 14,
+      "data_visual_count": 13
+    },
+    {
+      "slug": "ef-flow-aaf-maf",
+      "guid": "ReportSectionc50705d586257b339f6b",
+      "display_name": "Ef Flow (AAF & MAF)",
+      "category": "permit",
+      "ordinal": 4,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 5,
+      "data_visual_count": 5
+    },
+    {
+      "slug": "ef-flow-permit-eval",
+      "guid": "ReportSection622623abee884d99cfca",
+      "display_name": "Ef Flow Permit Eval",
+      "category": "permit",
+      "ordinal": 5,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 3
+    },
+    {
+      "slug": "dt-daily-effluent-flow",
+      "guid": "ReportSection54bf5b95ad5118397132",
+      "display_name": "DT Daily Effluent Flow",
+      "category": "data-tools",
+      "ordinal": 6,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "cbod-if-vs-ef",
+      "guid": "ReportSection5a9ddcde16aafa690a22",
+      "display_name": "CBOD (If Vs Ef)",
+      "category": "influent-effluent",
+      "ordinal": 7,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "tss-if-vs-ef",
+      "guid": "ReportSection8b037eda97d50155e1ea",
+      "display_name": "TSS (If Vs Ef)",
+      "category": "influent-effluent",
+      "ordinal": 8,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "nh3-n-if-vs-ef",
+      "guid": "ReportSection9b94b37039e3351d4dc2",
+      "display_name": "NH3-N (If Vs Ef)",
+      "category": "influent-effluent",
+      "ordinal": 9,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "multi-var-4x4-daily-1",
+      "guid": "ReportSection0d65773ebab58663d635",
+      "display_name": "Multi-Var 4x4 (Daily 1)",
+      "category": "regulatory-kpi",
+      "ordinal": 10,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 23,
+      "data_visual_count": 22
+    },
+    {
+      "slug": "daily-rem-cbod-tss-nh3-n",
+      "guid": "ReportSection049ef7d4571ed00c8005",
+      "display_name": "Daily %Rem CBOD, TSS & NH3-N",
+      "category": "other",
+      "ordinal": 11,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "mo-eff-load-cbod-tss-nh3-n",
+      "guid": "ReportSectionb0c16007e1b762d2a44c",
+      "display_name": "Mo Eff Load CBOD, TSS & NH3-N",
+      "category": "other",
+      "ordinal": 15,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dt-chart-plant-if-daily",
+      "guid": "ReportSectionf50770807606794e8cd0",
+      "display_name": "DT Chart) Plant If Daily",
+      "category": "data-tools",
+      "ordinal": 16,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 19,
+      "data_visual_count": 18
+    },
+    {
+      "slug": "dt-chart-plant-ef-daily",
+      "guid": "ReportSection68634f243b20964bed6c",
+      "display_name": "DT (Chart) Plant Ef Daily",
+      "category": "data-tools",
+      "ordinal": 17,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "chart-plant-other-daily",
+      "guid": "ReportSection047569b7c379be64c1c1",
+      "display_name": "(Chart) Plant Other Daily",
+      "category": "other",
+      "ordinal": 18,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dmr-monthlyaaf-for-permit-evaluation",
+      "guid": "ReportSectionba4d9d4b00c8e1fe6ed4",
+      "display_name": "(DMR) MonthlyAAF (For Permit Evaluation)",
+      "category": "permit",
+      "ordinal": 19,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dmr-monthlyadf-for-7590-rules",
+      "guid": "ReportSectiona2d8e59b59b52ab43cc9",
+      "display_name": "(DMR) MonthlyADF (For 75/90 Rules)",
+      "category": "permit",
+      "ordinal": 20,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 5,
+      "data_visual_count": 4
+    },
+    {
+      "slug": "infeff-daily-report",
+      "guid": "ReportSection48f72ef1b90ee35b8c4d",
+      "display_name": "INF/EFF Daily Report",
+      "category": "daily-reports",
+      "ordinal": 21,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "aeration-daily-report",
+      "guid": "ReportSectionf2c27e39a81a81d2e53d",
+      "display_name": "AERATION Daily Report",
+      "category": "daily-reports",
+      "ordinal": 22,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 5
+    },
+    {
+      "slug": "dt-dmr-5yr-ef-flow-mgd",
+      "guid": "ReportSectionc616dcde8dd0b148696c",
+      "display_name": "DT (DMR 5yr) Ef Flow MGD",
+      "category": "historical",
+      "ordinal": 23,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dt-dmr-5yr-ef-cbod",
+      "guid": "ReportSection393b1cfe60432e302250",
+      "display_name": "DT (DMR 5yr) Ef CBOD",
+      "category": "historical",
+      "ordinal": 24,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dt-dmr-5yr-ef-tss",
+      "guid": "ReportSection6f35b9432d00cca7c56b",
+      "display_name": "DT (DMR 5yr) Ef TSS",
+      "category": "historical",
+      "ordinal": 25,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dt-dmr-5yr-ef-nh3-n",
+      "guid": "ReportSection252653c6060d90d50013",
+      "display_name": "DT (DMR 5yr) Ef NH3-N",
+      "category": "historical",
+      "ordinal": 26,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dmr-5yr-ef-do-loading",
+      "guid": "ReportSection3a897fb5b0e60096e02a",
+      "display_name": "(DMR 5yr) Ef D.O. Loading",
+      "category": "historical",
+      "ordinal": 27,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dmr-5yr-ef-cl2-residual-loading",
+      "guid": "ReportSection850ba7dd1d9558ec0990",
+      "display_name": "(DMR 5yr) Ef CL2 Residual Loading",
+      "category": "historical",
+      "ordinal": 28,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dmr-5yr-ef-cbod-loading",
+      "guid": "ReportSection70cd15396a8cad2bcbd6",
+      "display_name": "(DMR 5yr) Ef CBOD Loading",
+      "category": "historical",
+      "ordinal": 29,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dmr-5yr-ef-tss-loading",
+      "guid": "ReportSectionc19726116575e2595d47",
+      "display_name": "(DMR 5yr) Ef TSS Loading",
+      "category": "historical",
+      "ordinal": 30,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dmr-5yr-ef-nh3-n-loading",
+      "guid": "ReportSection5cbcdad75b2ef7fc7c2b",
+      "display_name": "(DMR 5yr) Ef NH3-N Loading",
+      "category": "historical",
+      "ordinal": 31,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "s-aeration",
+      "guid": "ReportSection717859bf126616214410",
+      "display_name": "S Aeration",
+      "category": "process",
+      "ordinal": 32,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 10,
+      "data_visual_count": 9
+    },
+    {
+      "slug": "clarifier",
+      "guid": "ReportSectiond73182edb5d839208a38",
+      "display_name": "Clarifier",
+      "category": "process",
+      "ordinal": 33,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 9,
+      "data_visual_count": 8
+    },
+    {
+      "slug": "svi",
+      "guid": "ReportSection74efcc8d7b779adbe8f4",
+      "display_name": "SVI",
+      "category": "process",
+      "ordinal": 34,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 8,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "ras-01",
+      "guid": "ReportSection67c7603c943706c5a00d",
+      "display_name": "RAS 01",
+      "category": "process",
+      "ordinal": 35,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 10,
+      "data_visual_count": 9
+    },
+    {
+      "slug": "was-01",
+      "guid": "ReportSection8e81318772cc0deacecb",
+      "display_name": "WAS 01",
+      "category": "process",
+      "ordinal": 36,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 9,
+      "data_visual_count": 8
+    },
+    {
+      "slug": "dig-01",
+      "guid": "ReportSectione5b95cea6c9d6cd55c93",
+      "display_name": "DIG 01",
+      "category": "other",
+      "ordinal": 37,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 9,
+      "data_visual_count": 8
+    },
+    {
+      "slug": "thck",
+      "guid": "ReportSection56d2ab5d29d0e9b77018",
+      "display_name": "Thck",
+      "category": "process",
+      "ordinal": 38,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 8,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "elec",
+      "guid": "ReportSection4b4af7f5b57771bda089",
+      "display_name": "ELEC",
+      "category": "process",
+      "ordinal": 39,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 9,
+      "data_visual_count": 8
+    },
+    {
+      "slug": "chemical-used",
+      "guid": "ReportSection4f8b53519e771c8cc46d",
+      "display_name": "Chemical Used",
+      "category": "process",
+      "ordinal": 40,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 8,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "violations",
+      "guid": "ReportSection2bed45550a2b037b017d",
+      "display_name": "Violations",
+      "category": "other",
+      "ordinal": 41,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "explore-data-availability-in-hachwims",
+      "guid": "ReportSectionfeb8e0e11543f6fa31de",
+      "display_name": "Explore Data Availability in HachWIMS",
+      "category": "data-tools",
+      "ordinal": 52,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "permit-limits",
+      "guid": "ReportSection",
+      "display_name": "Permit Limits",
+      "category": "permit",
+      "ordinal": 55,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "permit-evaluation-7590",
+      "guid": "ReportSection53f08e66c4983127b86e",
+      "display_name": "Permit Evaluation 75/90",
+      "category": "permit",
+      "ordinal": 59,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "permit-evaluation-aaf",
+      "guid": "ReportSectionc54c52ce7fa453efa9d4",
+      "display_name": "Permit Evaluation AAF",
+      "category": "permit",
+      "ordinal": 60,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "multi-var-operational-parameters",
+      "guid": "ReportSectioned0cb42b256bc756f346",
+      "display_name": "Multi-Var Operational Parameters",
+      "category": "regulatory-kpi",
+      "ordinal": 61,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 23,
+      "data_visual_count": 22
+    },
+    {
+      "slug": "if-rem-ef-cbod-tss-nh3-n",
+      "guid": "ReportSectionc9bccc025eb60b3183b1",
+      "display_name": "If, %Rem, ef CBOD, TSS & NH3-N",
+      "category": "influent-effluent",
+      "ordinal": 63,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 16,
+      "data_visual_count": 15
+    },
+    {
+      "slug": "regulatory-parameters-1-3x3",
+      "guid": "ReportSection513830f4d8543b6375bc",
+      "display_name": "Regulatory Parameters (1)  3x3",
+      "category": "regulatory-kpi",
+      "ordinal": 64,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 16,
+      "data_visual_count": 15
+    },
+    {
+      "slug": "regulatory-parameters-2-3x3",
+      "guid": "ReportSectionae98c0ff49aacb502ba9",
+      "display_name": "Regulatory Parameters (2)  3x3",
+      "category": "regulatory-kpi",
+      "ordinal": 65,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 16,
+      "data_visual_count": 15
+    },
+    {
+      "slug": "dmr-5yr-ecoli",
+      "guid": "ReportSection203c4a333803371740cd",
+      "display_name": "(DMR 5yr) E.Coli",
+      "category": "historical",
+      "ordinal": 66,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "dmr-5yr-ph-field",
+      "guid": "ReportSection719147392256cafbefeb",
+      "display_name": "(DMR 5yr) Ph Field",
+      "category": "historical",
+      "ordinal": 67,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 6,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "adf-2hrpeak-to-download",
+      "guid": "ReportSectionbc67c17ad082af990e47",
+      "display_name": "ADF_2HrPeak_to_Download",
+      "category": "other",
+      "ordinal": 69,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "hist-mo-ef-flow-mgd",
+      "guid": "ReportSectionfe52ff0f173cfbd74129",
+      "display_name": "Hist Mo Ef Flow MGD",
+      "category": "other",
+      "ordinal": 73,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 5,
+      "data_visual_count": 5
+    },
+    {
+      "slug": "plant-efficiency-process-evaluation",
+      "guid": "ReportSectiondbdc936711ff5e986f57",
+      "display_name": "Plant Efficiency Process Evaluation",
+      "category": "data-tools",
+      "ordinal": 78,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 23,
+      "data_visual_count": 22
+    },
+    {
+      "slug": "statistical-flows",
+      "guid": "ReportSectione503aa96006fbdce764f",
+      "display_name": "Statistical Flows",
+      "category": "other",
+      "ordinal": 82,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 14,
+      "data_visual_count": 13
+    },
+    {
+      "slug": "permitted-aaf-vs-dmr",
+      "guid": "ReportSectionca79a34a5aba84d74143",
+      "display_name": "Permitted AAF Vs DMR",
+      "category": "permit",
+      "ordinal": 83,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 8,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "regulatory-kpi-33",
+      "guid": "ReportSectionfe09444cb141d56013fa",
+      "display_name": "Regulatory KPI (3/3)",
+      "category": "regulatory-kpi",
+      "ordinal": 84,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 23,
+      "data_visual_count": 22
+    },
+    {
+      "slug": "charts-plant-ef-daily-wolimits",
+      "guid": "ReportSection7f39371bab0047b0529e",
+      "display_name": "(Charts) Plant Ef Daily woLIMITS",
+      "category": "other",
+      "ordinal": 92,
+      "width": 1280,
+      "height": 720,
+      "visible": false,
+      "visual_count": 7,
+      "data_visual_count": 7
+    },
+    {
+      "slug": "scott-wwf",
+      "guid": "ecffda0e029f941bfd8c",
+      "display_name": "Scott WWF",
+      "category": "wwtp-specific",
+      "ordinal": 101,
+      "width": 1280,
+      "height": 720,
+      "visible": true,
+      "visual_count": 7,
+      "data_visual_count": 6
+    },
+    {
+      "slug": "northside-wwf",
+      "guid": "df6ca1f7070cf1f117dc",
+      "display_name": "Northside WWF",
+      "category": "wwtp-specific",
+      "ordinal": 102,
+      "width": 1280,
+      "height": 720,
+      "visible": true,
+      "visual_count": 7,
+      "data_visual_count": 6
+    }
+  ],
+  "bookmarks": [
+    {
+      "guid": "Bookmarkab071346b92ae0f98a13",
+      "display_name": "Home",
+      "target_slug": "home",
+      "target_page_name": "Home",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark3ce8b977a1dceed03940",
+      "display_name": "Permitted Capacity Evaluation Summary",
+      "target_slug": "tables-permitted-capacity-evaluation-pbi",
+      "target_page_name": "(Tables) Permitted Capacity Evaluation PBI",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northgate))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark3be251b924b563ae2c5c",
+      "display_name": "At-a-Glance WWTP Capacity Evaluation",
+      "target_slug": "ef-flow-permit-eval",
+      "target_page_name": "Ef Flow Permit Eval",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Forest Cove, Northside, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Tidwell Timbers, WCID-76, West Lake Hou., Westway, Willow Run, Northgate))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkcc8ad353d0ce4467ffbc",
+      "display_name": "Permit Evaluation, AAF",
+      "target_slug": "permit-evaluation-aaf",
+      "target_page_name": "Permit Evaluation AAF",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northgate))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark85086107fb2eca53a69e",
+      "display_name": "Permit Evaluation, 75/90 Rule",
+      "target_slug": "permit-evaluation-7590",
+      "target_page_name": "Permit Evaluation 75/90",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northgate))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkf0b5130f7e1eca49b497",
+      "display_name": "Comparison Eff Flow (AAF Vs MAF)",
+      "target_slug": "ef-flow-aaf-maf",
+      "target_page_name": "Ef Flow (AAF & MAF)",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark9c56f9d5579c53394eef",
+      "display_name": "Daily Eff Flows (MGD & GPM)",
+      "target_slug": "dt-daily-effluent-flow",
+      "target_page_name": "DT Daily Effluent Flow",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark32da7aac84a654a2fae1",
+      "display_name": "Regulatory KPI (1/3)",
+      "target_slug": "regulatory-parameters-1-3x3",
+      "target_page_name": "Regulatory Parameters (1)  3x3",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark04b0d9e59eabe5b09792",
+      "display_name": "Regulatory KPI (2/3)",
+      "target_slug": "regulatory-parameters-2-3x3",
+      "target_page_name": "Regulatory Parameters (2)  3x3",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark90ba564bfeb19ce49cc6",
+      "display_name": "Regulatory KPI (3/3)",
+      "target_slug": "regulatory-kpi-33",
+      "target_page_name": "Regulatory KPI (3/3)",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark8ac41b0b57ec27176bb0",
+      "display_name": "At-a-Glance Daily Parameters",
+      "target_slug": "multi-var-4x4-daily-1",
+      "target_page_name": "Multi-Var 4x4 (Daily 1)",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkc3caba78ab4db34b041f",
+      "display_name": "At-a-Glance Operational Parameters",
+      "target_slug": "multi-var-operational-parameters",
+      "target_page_name": "Multi-Var Operational Parameters",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark26d782681865c3fa42cc",
+      "display_name": "If, %Rem, Ef, CBOD, TSS, NH3-N",
+      "target_slug": "if-rem-ef-cbod-tss-nh3-n",
+      "target_page_name": "If, %Rem, ef CBOD, TSS & NH3-N",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark7558d80a5beecdca2aad",
+      "display_name": "Plant Efficiency Process Evaluation",
+      "target_slug": "plant-efficiency-process-evaluation",
+      "target_page_name": "Plant Efficiency Process Evaluation",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark81612873de5420654ed1",
+      "display_name": "Chart, Plant If Daily",
+      "target_slug": "dt-chart-plant-if-daily",
+      "target_page_name": "DT Chart) Plant If Daily",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkba987326a15d0eec7a36",
+      "display_name": "Chart, Plant Ef Daily",
+      "target_slug": "dt-chart-plant-ef-daily",
+      "target_page_name": "DT (Chart) Plant Ef Daily",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkf035ff8b69ca1e87c2b0",
+      "display_name": "Benchmarking woLIMITS",
+      "target_slug": "charts-plant-ef-daily-wolimits",
+      "target_page_name": "(Charts) Plant Ef Daily woLIMITS",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark3da10b4b7fd78cdaf9d9",
+      "display_name": "Chart, Plant Other Daily",
+      "target_slug": "chart-plant-other-daily",
+      "target_page_name": "(Chart) Plant Other Daily",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkb92fe85d52e906cd7bde",
+      "display_name": "Table, Monthly AAF",
+      "target_slug": "dmr-monthlyaaf-for-permit-evaluation",
+      "target_page_name": "(DMR) MonthlyAAF (For Permit Evaluation)",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkb521dc12ca703abdf286",
+      "display_name": "Table, Monthly ADF",
+      "target_slug": "dmr-monthlyadf-for-7590-rules",
+      "target_page_name": "(DMR) MonthlyADF (For 75/90 Rules)",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark5e0bfc4b3df353b29deb",
+      "display_name": "Mo DMR Ef Flow",
+      "target_slug": "dt-dmr-5yr-ef-flow-mgd",
+      "target_page_name": "DT (DMR 5yr) Ef Flow MGD",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarka6d4111814f1f3e9d52b",
+      "display_name": "Mo DMR Ef CBOD",
+      "target_slug": "dt-dmr-5yr-ef-cbod",
+      "target_page_name": "DT (DMR 5yr) Ef CBOD",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark3e85a6c0239f6c262f47",
+      "display_name": "Mo DMR Ef TSS",
+      "target_slug": "dt-dmr-5yr-ef-tss",
+      "target_page_name": "DT (DMR 5yr) Ef TSS",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark5d36f6f365a5ac31d770",
+      "display_name": "Mo DMR Ef NH3-N",
+      "target_slug": "dt-dmr-5yr-ef-nh3-n",
+      "target_page_name": "DT (DMR 5yr) Ef NH3-N",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarka87a430da45f20ed39bc",
+      "display_name": "Mo DMR Ef DO Loading",
+      "target_slug": "dmr-5yr-ef-do-loading",
+      "target_page_name": "(DMR 5yr) Ef D.O. Loading",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkee6f2bc71d14009f520a",
+      "display_name": "Mo DMR CL2 Res Loading",
+      "target_slug": "dmr-5yr-ef-cl2-residual-loading",
+      "target_page_name": "(DMR 5yr) Ef CL2 Residual Loading",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark2b6e828c1c61fed14ce7",
+      "display_name": "Mo DMR CBOD Loading",
+      "target_slug": "dmr-5yr-ef-cbod-loading",
+      "target_page_name": "(DMR 5yr) Ef CBOD Loading",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark427c19f6408e19f255e0",
+      "display_name": "Mo DMR TSS Loading",
+      "target_slug": "dmr-5yr-ef-tss-loading",
+      "target_page_name": "(DMR 5yr) Ef TSS Loading",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark9d5a6513fb87ac66966d",
+      "display_name": "Mo DMR, Ef NH3-N Loading",
+      "target_slug": "dmr-5yr-ef-nh3-n-loading",
+      "target_page_name": "(DMR 5yr) Ef NH3-N Loading",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark1b5794bd11571765bb8e",
+      "display_name": "Mo DMR E.Coli",
+      "target_slug": "dmr-5yr-ecoli",
+      "target_page_name": "(DMR 5yr) E.Coli",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark3fb72be4686ed4dcdfc3",
+      "display_name": "Mo DMR Ph Field",
+      "target_slug": "dmr-5yr-ph-field",
+      "target_page_name": "(DMR 5yr) Ph Field",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark0c09ad01780945cb6a61",
+      "display_name": "S Aeration",
+      "target_slug": "s-aeration",
+      "target_page_name": "S Aeration",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkc2a2c096465115ad9637",
+      "display_name": "Clarifier",
+      "target_slug": "clarifier",
+      "target_page_name": "Clarifier",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark6668c9800891b0bd5943",
+      "display_name": "SVI",
+      "target_slug": "svi",
+      "target_page_name": "SVI",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark3a868c215fed0dbb284c",
+      "display_name": "RAS",
+      "target_slug": "ras-01",
+      "target_page_name": "RAS 01",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkaad1a1c8b2b4fbad3f89",
+      "display_name": "WAS 01",
+      "target_slug": "was-01",
+      "target_page_name": "WAS 01",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkfde4a2dd1a65df9a8644",
+      "display_name": "Digestor 01",
+      "target_slug": "dig-01",
+      "target_page_name": "DIG 01",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark376fff060e8bd86a5cc6",
+      "display_name": "Thickener",
+      "target_slug": "thck",
+      "target_page_name": "Thck",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark0fb5b9a34c549e67ac5c",
+      "display_name": "Electricity",
+      "target_slug": "elec",
+      "target_page_name": "ELEC",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark0bfaec4951b299bc0fe2",
+      "display_name": "Chemical",
+      "target_slug": "chemical-used",
+      "target_page_name": "Chemical Used",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark12c6014a96bee3e36c5d",
+      "display_name": "Explore Data Availability in HachWIMS",
+      "target_slug": "explore-data-availability-in-hachwims",
+      "target_page_name": "Explore Data Availability in HachWIMS",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark9304f244a931e9864fe6",
+      "display_name": "Violations (Calc)",
+      "target_slug": "violations",
+      "target_page_name": "Violations",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarke95da9b2bbbe098664ba",
+      "display_name": "INF/EFF Daily Report (ScottL)",
+      "target_slug": "infeff-daily-report",
+      "target_page_name": "INF/EFF Daily Report",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark55c072d9e7fc05302f05",
+      "display_name": "AERATION Daily Report (ScottL)",
+      "target_slug": "aeration-daily-report",
+      "target_page_name": "AERATION Daily Report",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkd3d84c1d2373e9477612",
+      "display_name": "Permit Limits",
+      "target_slug": "permit-limits",
+      "target_page_name": "Permit Limits",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark8972f3e137dfc249ee08",
+      "display_name": "%Rem (CBOD, TSS & NH3-N)",
+      "target_slug": "daily-rem-cbod-tss-nh3-n",
+      "target_page_name": "Daily %Rem CBOD, TSS & NH3-N",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark363fc9c67e50b2a82821",
+      "display_name": "CBOD (Influent Vs. Effluent)",
+      "target_slug": "cbod-if-vs-ef",
+      "target_page_name": "CBOD (If Vs Ef)",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark984458c215405a6c61c0",
+      "display_name": "TSS (Influent Vs. Effluent)",
+      "target_slug": "tss-if-vs-ef",
+      "target_page_name": "TSS (If Vs Ef)",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarke6fa97b194a40f9136a9",
+      "display_name": "NH3-N (Influent Vs. Effluent)",
+      "target_slug": "nh3-n-if-vs-ef",
+      "target_page_name": "NH3-N (If Vs Ef)",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark2578bb13e585ba3966f0",
+      "display_name": "Mo Eff Load (CBOD, TSS & NH3-N)",
+      "target_slug": "mo-eff-load-cbod-tss-nh3-n",
+      "target_page_name": "Mo Eff Load CBOD, TSS & NH3-N",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark2a3be17e22147ac5644f",
+      "display_name": "INF/EFF Daily Report (ScottL)",
+      "target_slug": "infeff-daily-report",
+      "target_page_name": "INF/EFF Daily Report",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark8e044e4e27a0fddf789f",
+      "display_name": "Aeration Daily Report (ScottL)",
+      "target_slug": "aeration-daily-report",
+      "target_page_name": "AERATION Daily Report",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark35735fda2785c3bdac3a",
+      "display_name": "ADF_Peak2Download",
+      "target_slug": "adf-2hrpeak-to-download",
+      "target_page_name": "ADF_2HrPeak_to_Download",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkaf7cd17263afc627c364",
+      "display_name": "At-a-Glance Reg Parameters (1)",
+      "target_slug": "regulatory-parameters-1-3x3",
+      "target_page_name": "Regulatory Parameters (1)  3x3",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkd31b13099b444dd415c2",
+      "display_name": "At-a-Glance Reg Parameters (2)",
+      "target_slug": "regulatory-parameters-2-3x3",
+      "target_page_name": "Regulatory Parameters (2)  3x3",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkf56ac20dcbf0abe6ec36",
+      "display_name": "Hist Mo Ef Flow",
+      "target_slug": "hist-mo-ef-flow-mgd",
+      "target_page_name": "Hist Mo Ef Flow MGD",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark85dbbe9282f4a9e697fd",
+      "display_name": "Regulatory Flow (217.34)",
+      "target_slug": null,
+      "target_page_name": null,
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark63df00621f80843da006",
+      "display_name": "Flow Statistics",
+      "target_slug": "statistical-flows",
+      "target_page_name": "Statistical Flows",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmarkca395ae7b92fcc021446",
+      "display_name": "Permitted AAF Vs DMR",
+      "target_slug": "permitted-aaf-vs-dmr",
+      "target_page_name": "Permitted AAF Vs DMR",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark8b02a2d87e780c322c15",
+      "display_name": "AAF, Northbelt",
+      "target_slug": "permit-evaluation-aaf",
+      "target_page_name": "Permit Evaluation AAF",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "Bookmark14b4fe9ccdba0a188b0e",
+      "display_name": "AAF, Cedar Bayou",
+      "target_slug": "permit-evaluation-aaf",
+      "target_page_name": "Permit Evaluation AAF",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, Northside WWF, Scott St., Scott WWF, SUM 23,BR, SUM 69, NS, SUM SB, SS, SC, Willow Run, Northside))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "ff6c991a8e75571f0f9d",
+      "display_name": "Scott WWF",
+      "target_slug": "scott-wwf",
+      "target_page_name": "Scott WWF",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, SUM 23,BR, Willow Run))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    },
+    {
+      "guid": "f1a4501b8d72f9da578a",
+      "display_name": "Northside WWF",
+      "target_slug": "northside-wwf",
+      "target_page_name": "Northside WWF",
+      "filters_applied": [
+        "NOT(v.WWTP IN (null, Bretshire, Bretshire WWF, Eastheven, SUM 23,BR, Willow Run))",
+        "d.DATESTAMP>={'DateSpan': {'Expression': {'Literal': {'Value': \"datetime'2005-01-01T00:00:00'"
+      ]
+    }
+  ],
+  "visual_type_counts": {
+    "slicer": 171,
+    "actionButton": 109,
+    "areaChart": 75,
+    "lineClusteredColumnComboChart": 50,
+    "textbox": 35,
+    "pivotTable": 31,
+    "tableEx": 26,
+    "clusteredColumnChart": 25,
+    "card": 24,
+    "shape": 8,
+    "columnChart": 3,
+    "lineStackedColumnComboChart": 3,
+    "image": 1,
+    "hundredPercentStackedColumnChart": 1
+  }
+}

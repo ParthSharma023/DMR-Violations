@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WWiP Plant-Intelligence-System — City of Houston</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+
+    <!-- ── Header ── -->
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">City of Houston — Public Works & Engineering</p>
+        <h1>WWiP Plant-Intelligence-System</h1>
+        <p style="color:var(--muted);font-size:0.92rem;margin-top:6px;">
+          transforms <strong style="color:var(--accent)">HachWIMS</strong> laboratory and process data into actionable insights
+        </p>
+      </div>
+      <div class="report-meta">
+        <span id="meta-refresh">Last Refreshed: —</span>
+        <span id="meta-plants">— Plants</span>
+        <span id="meta-violations">— Violations</span>
+      </div>
+    </header>
+
+    <!-- ── Tab Bar ── -->
+    <nav class="tab-bar">
+      <button class="tab-btn active" data-tab="home">Home</button>
+      <button class="tab-btn" data-tab="violations">Violations</button>
+      <button class="tab-btn" data-tab="permit">Permit Eval</button>
+      <button class="tab-btn" data-tab="historical">Historical DMR</button>
+      <button class="tab-btn" data-tab="process">Process Control</button>
+      <button class="tab-btn" data-tab="kpis">KPIs &amp; Utilities</button>
+      <button class="tab-btn" data-tab="om">O&amp;M Report</button>
+      <button class="tab-btn" data-tab="plants">Plant Reports</button>
+      <button class="tab-btn" data-tab="explorer">Data Tools</button>
+    </nav>
+
+    <!-- ════════════════════════════════════════════════════
+         TAB: HOME (mirrors PowerBI navigation grid)
+    ════════════════════════════════════════════════════ -->
+    <section id="tab-home" class="tab-content active">
+
+      <p class="home-refresh-line">
+        <span class="refresh-label">Last Refreshed:</span>
+        <span id="home-refresh-stamp">—</span>
+      </p>
+
+      <div class="home-nav-grid">
+        <!-- ── Column 1: Permit + KPI + Flow ── -->
+        <div class="home-nav-col">
+          <button class="home-btn" data-target="permit:permit-summary">Permit Evaluation Summay Tables</button>
+          <button class="home-btn" data-target="permit:permit-at-a-glance">At-a-Glance Citywide WWTP Capacity Status</button>
+          <button class="home-btn" data-target="permit:permit-npdes">Permit Evaluation, Annual Average Flow</button>
+          <button class="home-btn" data-target="permit:permit-75-90">Permit Evaluation, 75/90 Rule</button>
+          <button class="home-btn" data-target="permit:permit-comparison">Comparison of Permit Evaluation, AAF &amp; MAF</button>
+          <button class="home-btn" data-target="kpis:kpi-effluent-flow">Effluent Flow | ADF and 2-hour Peak</button>
+
+          <div class="home-btn-split">
+            <button class="home-btn" data-target="permit:permit-flow-stats">Flow Statistics</button>
+            <button class="home-btn" data-target="permit:permit-vs-dmr">Permitted AAF Vs DMR</button>
+          </div>
+          <div class="home-btn-split">
+            <button class="home-btn" data-target="violations:viol-overview">Regulatory KPI (1/3)</button>
+            <button class="home-btn" data-target="violations:viol-by-plant">Regulatory KPI (2/3)</button>
+          </div>
+          <div class="home-btn-split">
+            <button class="home-btn" data-target="violations:viol-trend">Regulatory KPI (3/3)</button>
+            <button class="home-btn" data-target="kpis:kpi-operational">Operational KPI</button>
+          </div>
+
+          <button class="home-btn" data-target="kpis:kpi-influent-eff">Influent, % Rem &amp; Effluent KPI</button>
+          <button class="home-btn" data-target="kpis:kpi-process-eff">Plant Process Efficiency KPI</button>
+          <button class="home-btn" data-target="kpis:kpi-influent-daily">(Charts) Influent Daily</button>
+
+          <div class="home-btn-split">
+            <button class="home-btn" data-target="kpis:kpi-eff-charts">Eff Charts w/Limits</button>
+            <button class="home-btn" data-target="plants:plant-69-sb">69 &amp; SB incld. WWF</button>
+          </div>
+        </div>
+
+        <!-- ── Column 2: Historical DMR ── -->
+        <div class="home-nav-col">
+          <button class="home-btn" data-target="kpis:kpi-annual-flow">(Table) Annual Average Flow, Monthly</button>
+          <button class="home-btn" data-target="kpis:kpi-monthly-flow">(Table) Monthly Average flow</button>
+          <button class="home-btn" data-target="historical:hist-flow">DMR Ef Flow (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-cbod">DMR Ef CBOD (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-tss">DMR Ef TSS (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-nh3">DMR Ef NH3-N (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-do">DMR Diss Oxygen (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-cl2">DMR CL2 Residual (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-cbod-load">DMR Ef CBOD Loading (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-tss-load">DMR Ef TSS Loading (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-nh3-load">DMR Ef NH3-N Loading (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-ecoli">DMR E.Coli (Historical)</button>
+          <button class="home-btn" data-target="historical:hist-ph">DMR PH Field (Historical)</button>
+        </div>
+
+        <!-- ── Column 3: Process / Plant-specific / Meta ── -->
+        <div class="home-nav-col">
+          <button class="home-btn" data-target="process:proc-s-aeration">S. Aeration (TSS, VSS, Setblty 30 min %)</button>
+          <button class="home-btn" data-target="process:proc-clarifier">Clarifier (Blanket Depth &amp; Wasting)</button>
+          <button class="home-btn" data-target="process:proc-svi">SVI (Sludge Volume Index)</button>
+          <button class="home-btn" data-target="process:proc-ras">RAS 01 (TSS, VSS, Setblty 30 min %)</button>
+          <button class="home-btn" data-target="process:proc-was">WAS 01 (TSS, VSS)</button>
+          <button class="home-btn" data-target="process:proc-digestor">Digestor 01 (TSS, VSS)</button>
+          <button class="home-btn pending" data-target="_coming" title="No Thickener-specific short-names found in DATATBL">Thickener (TSS, VSS)</button>
+
+          <div class="home-btn-split">
+            <button class="home-btn" data-target="kpis:kpi-electricity">Electricity Used</button>
+            <button class="home-btn" data-target="kpis:kpi-chemical">Chemical Used</button>
+          </div>
+          <div class="home-btn-split">
+            <button class="home-btn" data-target="plants:plant-scott">Scott WWF</button>
+            <button class="home-btn" data-target="plants:plant-northside">Northside WWF</button>
+          </div>
+
+          <button class="home-btn" data-target="explorer:explorer-avail">Explore Data Availability in HachWIMS</button>
+          <button class="home-btn" data-target="plants:plant-daily-inf-eff">Daily INF/EFF Report (Scott L)</button>
+          <button class="home-btn" data-target="plants:plant-daily-aeration">Daily AERATION Report (Scott L)</button>
+
+          <div class="home-btn-split">
+            <button class="home-btn" data-target="permit:permit-npdes">Permit Limits</button>
+            <button class="home-btn" data-target="permit:permit-benchmarking">Benchmarking Plants</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legend -->
+      <div class="home-legend">
+        <span><span class="legend-swatch legend-swatch-active"></span> Available</span>
+        <span><span class="legend-swatch legend-swatch-pending"></span> Pending data audit (Phase 2)</span>
+      </div>
+
+    </section>
+
+    <!-- ── Toast notification ── -->
+    <div id="toast" class="toast"></div>
+
+    <!-- ════════════════════════════════════════════════════
+         TAB: DMR VIOLATIONS
+    ════════════════════════════════════════════════════ -->
+    <section id="tab-violations" class="tab-content">
+
+      <!-- Sub-nav -->
+      <div class="sub-nav" id="viol-subnav">
+        <button class="sub-btn active" data-section="viol-overview">Overview</button>
+        <button class="sub-btn" data-section="viol-by-plant">By Plant</button>
+        <button class="sub-btn" data-section="viol-trend">Trend</button>
+        <button class="sub-btn" data-section="viol-table">Records Table</button>
+      </div>
+
+      <!-- Filters -->
+      <div class="filters-panel">
+        <div class="filter-field">
+          <label>WWTP</label>
+          <select id="viol-filter-wwtp" multiple size="4"><option value="">All Plants</option></select>
+        </div>
+        <div class="filter-field">
+          <label>Category</label>
+          <select id="viol-filter-cat" multiple size="4"><option value="">All Categories</option></select>
+        </div>
+        <div class="filter-field">
+          <label>Year From</label>
+          <input type="number" id="viol-filter-year-from" placeholder="2005" min="2005" max="2025" />
+        </div>
+        <div class="filter-field">
+          <label>Year To</label>
+          <input type="number" id="viol-filter-year-to" placeholder="2025" min="2005" max="2025" />
+        </div>
+        <div class="filter-field" style="align-self:end;">
+          <button class="reset-button" onclick="resetViolFilters()">Reset Filters</button>
+        </div>
+      </div>
+
+      <!-- Sub-section: Overview -->
+      <div id="viol-overview" class="sub-section">
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span class="kpi-label">Total Violations</span>
+            <strong id="viol-kpi-total">—</strong>
+            <span class="kpi-note" id="viol-kpi-range">—</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-label">Plants Affected</span>
+            <strong id="viol-kpi-plants">—</strong>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-label">Peak Year</span>
+            <strong id="viol-kpi-peak-year">—</strong>
+            <span class="kpi-note" id="viol-kpi-peak-count">—</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-label">Top Violation Type</span>
+            <strong id="viol-kpi-top-cat" style="font-size:clamp(0.95rem,1.5vw,1.3rem);line-height:1.2;">—</strong>
+            <span class="kpi-note" id="viol-kpi-top-cat-pct">—</span>
+          </div>
+        </div>
+        <div class="dashboard-grid">
+          <div class="panel">
+            <div class="panel-header">
+              <div><h2>Violations by Category</h2></div>
+              <span class="panel-stat" id="viol-cat-stat">—</span>
+            </div>
+            <div class="chart-box"><canvas id="viol-cat-chart"></canvas></div>
+          </div>
+          <div class="panel">
+            <div class="panel-header">
+              <div><h2>Daily vs Monthly vs Weekly</h2></div>
+            </div>
+            <div class="chart-box"><canvas id="viol-freq-chart"></canvas></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub-section: By Plant -->
+      <div id="viol-by-plant" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header">
+            <div><h2>Violations by Plant</h2><p>All-time violation count per WWTP</p></div>
+            <span class="panel-stat" id="viol-plant-stat">—</span>
+          </div>
+          <div class="chart-box chart-box-large"><canvas id="viol-plant-chart"></canvas></div>
+        </div>
+        <div class="panel panel-wide" style="margin-top:16px;">
+          <div class="panel-header">
+            <div><h2>Violation Heatmap — Plant × Category</h2><p>Color intensity = violation count</p></div>
+          </div>
+          <div id="viol-heatmap" class="heatmap-container"></div>
+        </div>
+      </div>
+
+      <!-- Sub-section: Trend -->
+      <div id="viol-trend" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header">
+            <div><h2>Annual Violation Trend</h2><p>2005 – 2025</p></div>
+          </div>
+          <div class="chart-box chart-box-large"><canvas id="viol-trend-chart"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Sub-section: Records Table -->
+      <div id="viol-table" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header">
+            <div><h2>Violation Records</h2></div>
+            <span class="panel-stat" id="viol-table-count">— records</span>
+          </div>
+          <div style="overflow-x:auto;">
+            <table class="data-table" id="viol-records-table">
+              <thead>
+                <tr>
+                  <th>Date</th><th>WWTP</th><th>Parameter</th>
+                  <th>Category</th><th>Measured</th><th>Limit</th><th>Compare</th>
+                </tr>
+              </thead>
+              <tbody id="viol-records-tbody"></tbody>
+            </table>
+          </div>
+          <div class="table-pagination">
+            <button id="viol-prev" onclick="violPage(-1)">‹ Prev</button>
+            <span id="viol-page-info">Page 1</span>
+            <button id="viol-next" onclick="violPage(1)">Next ›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════════════
+         TAB: PERMIT EVALUATION
+    ════════════════════════════════════════════════════ -->
+    <section id="tab-permit" class="tab-content">
+
+      <div class="sub-nav" id="permit-subnav">
+        <button class="sub-btn active" data-section="permit-summary">Summary Tables</button>
+        <button class="sub-btn" data-section="permit-npdes">NPDES Limits</button>
+        <button class="sub-btn" data-section="permit-75-90">75/90 Rule</button>
+        <button class="sub-btn" data-section="permit-monthly">Monthly Flow</button>
+      </div>
+
+      <!-- Sub-section: Summary (mirrors Image 2) -->
+      <div id="permit-summary" class="sub-section">
+        <div class="permit-data-period">
+          <strong>DATA PERIOD</strong>
+          <div style="display:flex;gap:8px;align-items:center;margin-top:8px;flex-wrap:wrap;">
+            <select id="permit-period-type" style="min-height:36px;padding:4px 8px;">
+              <option value="last">Last</option>
+            </select>
+            <input type="number" id="permit-period-n" value="60" min="1" max="120" style="width:60px;min-height:36px;" />
+            <select id="permit-period-unit" style="min-height:36px;padding:4px 8px;">
+              <option value="months">Months</option>
+            </select>
+          </div>
+          <div style="margin-top:12px;display:flex;flex-direction:column;gap:6px;">
+            <button class="nav-btn" onclick="switchSubSection('permit','permit-npdes')">NPDES Permit Limits</button>
+            <button class="nav-btn" onclick="switchSubSection('permit','permit-75-90')">75/90 Rule</button>
+            <button class="nav-btn" onclick="switchSubSection('permit','permit-monthly')">Monthly Flow</button>
+          </div>
+        </div>
+        <div class="permit-tables-grid">
+          <!-- Table 1: NPDES Permit Limits -->
+          <div class="panel">
+            <div class="panel-header"><h2>NPDES Permit Limits</h2></div>
+            <div style="overflow-y:auto;max-height:520px;">
+              <table class="data-table compact" id="permit-npdes-inline">
+                <thead><tr><th>WWTP</th><th>Permit Limit (MGD)</th></tr></thead>
+                <tbody id="permit-npdes-inline-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Table 2: AAF Evaluation -->
+          <div class="panel">
+            <div class="panel-header"><h2>Permit Evaluation, AAF</h2></div>
+            <div style="overflow-y:auto;max-height:520px;">
+              <table class="data-table compact" id="permit-aaf-inline">
+                <thead><tr><th>WWTP</th><th>Eval Flow, AAF</th><th>% Permit</th></tr></thead>
+                <tbody id="permit-aaf-inline-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Table 3: 75/90 Rule -->
+          <div class="panel">
+            <div class="panel-header"><h2>Permit Evaluation, 75/90 (≤1 MGD Plants)</h2></div>
+            <div style="overflow-y:auto;max-height:520px;">
+              <table class="data-table compact" id="permit-75-inline">
+                <thead><tr><th>WWTP</th><th>Eval Flow, 75/90</th><th>% Permit</th></tr></thead>
+                <tbody id="permit-75-inline-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub-section: NPDES full table -->
+      <div id="permit-npdes" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>NPDES Permit Limits — All Plants</h2><p>Maximum permitted annual average flow (MGD)</p></div></div>
+          <div style="overflow-x:auto;">
+            <table class="data-table" id="permit-npdes-table">
+              <thead><tr><th>WWTP</th><th>Permit Limit (MGD)</th><th>75% Threshold</th><th>90% Threshold</th></tr></thead>
+              <tbody id="permit-npdes-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel panel-wide" style="margin-top:16px;">
+          <div class="panel-header"><h2>Permit Limits by Plant</h2></div>
+          <div class="chart-box chart-box-large"><canvas id="permit-limits-chart"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Sub-section: 75/90 Rule -->
+      <div id="permit-75-90" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header">
+            <div><h2>75/90 Rule Compliance</h2><p>Plants using ≥75% of permitted capacity are at risk</p></div>
+          </div>
+          <div class="chart-box chart-box-large"><canvas id="permit-7590-chart"></canvas></div>
+        </div>
+        <div class="panel panel-wide" style="margin-top:16px;">
+          <div style="overflow-x:auto;">
+            <table class="data-table" id="permit-7590-table">
+              <thead><tr><th>WWTP</th><th>Permit (MGD)</th><th>Evaluated Flow (AAF)</th><th>% of Permit</th><th>Status</th></tr></thead>
+              <tbody id="permit-7590-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub-section: Monthly Flow -->
+      <div id="permit-monthly" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>Monthly Flow Permit Limits</h2><p>Current active monthly permitted flow by plant</p></div></div>
+          <div class="chart-box chart-box-large"><canvas id="permit-monthly-chart"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Dynamically-generated permit pages -->
+      <div id="permit-dynamic"></div>
+    </section>
+
+    <!-- ════════════════════════════════════════════════════
+         TAB: O&M REPORT
+    ════════════════════════════════════════════════════ -->
+    <section id="tab-om" class="tab-content">
+
+      <div class="sub-nav" id="om-subnav">
+        <button class="sub-btn active" data-section="om-capacity">Capacity Summary</button>
+        <button class="sub-btn" data-section="om-aeration">Aeration</button>
+        <button class="sub-btn" data-section="om-clarifier">Clarifier</button>
+        <button class="sub-btn" data-section="om-pumps">Pumps</button>
+      </div>
+
+      <div class="filters-panel" style="grid-template-columns:1fr 1fr auto;">
+        <div class="filter-field">
+          <label>Plant</label>
+          <select id="om-filter-plant" multiple size="3"><option value="">All Plants</option></select>
+        </div>
+        <div class="filter-field">
+          <label>System</label>
+          <select id="om-filter-system" multiple size="3"><option value="">All Systems</option></select>
+        </div>
+        <div class="filter-field" style="align-self:end;">
+          <button class="reset-button" onclick="resetOmFilters()">Reset</button>
+        </div>
+      </div>
+
+      <div id="om-capacity" class="sub-section">
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span class="kpi-label">Plants in Inventory</span>
+            <strong id="om-kpi-plants">—</strong>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-label">Total Equipment Items</span>
+            <strong id="om-kpi-items">—</strong>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-label">Aeration Records</span>
+            <strong id="om-kpi-aeration">—</strong>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-label">Pump Records</span>
+            <strong id="om-kpi-pumps">—</strong>
+          </div>
+        </div>
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>Aeration Basin Capacity by Plant (MGD)</h2></div></div>
+          <div class="chart-box chart-box-large"><canvas id="om-capacity-chart"></canvas></div>
+        </div>
+        <div class="panel panel-wide" style="margin-top:16px;">
+          <div class="panel-header"><div><h2>O&amp;M Inventory</h2></div><span class="panel-stat" id="om-table-count">—</span></div>
+          <div style="overflow-x:auto;">
+            <table class="data-table" id="om-main-table">
+              <thead><tr><th>Plant</th><th>System</th><th>Position</th><th>Pump (MGD)</th><th>Aeration (MGD)</th><th>Clarifier (MGD)</th><th>Nitrification</th></tr></thead>
+              <tbody id="om-main-tbody"></tbody>
+            </table>
+          </div>
+          <div class="table-pagination">
+            <button onclick="omPage(-1)">‹ Prev</button>
+            <span id="om-page-info">Page 1</span>
+            <button onclick="omPage(1)">Next ›</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="om-aeration" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>Aeration Basin Data</h2></div></div>
+          <div style="overflow-x:auto;">
+            <table class="data-table" id="om-aeration-table">
+              <thead><tr><th>Plant</th><th>Position</th><th>Basin Cap (MGD)</th><th>O₂ Req (lb/lb BOD)</th><th>Air Flow (scfm)</th><th>WOTE</th></tr></thead>
+              <tbody id="om-aeration-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div id="om-clarifier" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>Clarifier Capacity Data</h2></div></div>
+          <div style="overflow-x:auto;">
+            <table class="data-table" id="om-clarifier-table">
+              <thead><tr><th>Plant</th><th>Position</th><th>Cap (Surface, MGD)</th><th>Cap (HDT, MGD)</th><th>Firm Cap</th></tr></thead>
+              <tbody id="om-clarifier-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div id="om-pumps" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>Pump Inventory</h2></div></div>
+          <div style="overflow-x:auto;">
+            <table class="data-table" id="om-pumps-table">
+              <thead><tr><th>Plant</th><th>System</th><th>Position</th><th>Pump (gpm)</th><th>Pump (MGD)</th></tr></thead>
+              <tbody id="om-pumps-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════════════
+         TAB: HISTORICAL DMR
+    ════════════════════════════════════════════════════ -->
+    <section id="tab-historical" class="tab-content">
+
+      <div class="sub-nav" id="hist-subnav">
+        <button class="sub-btn active" data-section="hist-flow">Flow</button>
+        <button class="sub-btn" data-section="hist-cbod">CBOD</button>
+        <button class="sub-btn" data-section="hist-tss">TSS</button>
+        <button class="sub-btn" data-section="hist-nh3">NH3-N</button>
+        <button class="sub-btn" data-section="hist-ecoli">E.Coli</button>
+      </div>
+
+      <div class="filters-panel" style="grid-template-columns:1fr 1fr 1fr auto;">
+        <div class="filter-field">
+          <label>Plant</label>
+          <select id="hist-filter-wwtp" style="min-height:42px;"><option value="">Select Plant…</option></select>
+        </div>
+        <div class="filter-field">
+          <label>Year From</label>
+          <input type="number" id="hist-year-from" value="2015" min="2015" max="2025" />
+        </div>
+        <div class="filter-field">
+          <label>Year To</label>
+          <input type="number" id="hist-year-to" value="2025" min="2015" max="2025" />
+        </div>
+        <div class="filter-field" style="align-self:end;">
+          <button class="reset-button" onclick="resetHistFilters()">Reset</button>
+        </div>
+      </div>
+
+      <div id="hist-flow" class="sub-section">
+        <div class="panel panel-wide">
+          <div class="panel-header">
+            <div><h2>DMR Effluent Flow — Historical</h2><p>Monthly average flow (select a plant above)</p></div>
+            <span class="panel-stat" id="hist-flow-stat">—</span>
+          </div>
+          <div class="chart-box chart-box-large"><canvas id="hist-flow-chart"></canvas></div>
+        </div>
+      </div>
+      <div id="hist-cbod" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>DMR Effluent CBOD — Historical</h2></div></div>
+          <div class="chart-box chart-box-large"><canvas id="hist-cbod-chart"></canvas></div>
+        </div>
+      </div>
+      <div id="hist-tss" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>DMR Effluent TSS — Historical</h2></div></div>
+          <div class="chart-box chart-box-large"><canvas id="hist-tss-chart"></canvas></div>
+        </div>
+      </div>
+      <div id="hist-nh3" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>DMR Effluent NH3-N — Historical</h2></div></div>
+          <div class="chart-box chart-box-large"><canvas id="hist-nh3-chart"></canvas></div>
+        </div>
+      </div>
+      <div id="hist-ecoli" class="sub-section" style="display:none;">
+        <div class="panel panel-wide">
+          <div class="panel-header"><div><h2>DMR E.Coli — Historical</h2></div></div>
+          <div class="chart-box chart-box-large"><canvas id="hist-ecoli-chart"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Dynamically-generated historical DMR pages (DO, CL2, pH, Loading) -->
+      <div id="historical-dynamic"></div>
+    </section>
+
+    <!-- Dynamically-generated pages in existing tabs -->
+    <section id="tab-permit-extra" style="display:none;"></section>
+
+    <!-- ════════════════════════════════════════════════════
+         TAB: PROCESS CONTROL (all dynamic)
+    ════════════════════════════════════════════════════ -->
+    <section id="tab-process" class="tab-content">
+      <div class="sub-nav" id="process-subnav"></div>
+      <div id="process-pages"></div>
+    </section>
+
+    <!-- ════════════════════════════════════════════════════
+         TAB: KPIs & UTILITIES (all dynamic)
+    ════════════════════════════════════════════════════ -->
+    <section id="tab-kpis" class="tab-content">
+      <div class="sub-nav" id="kpis-subnav"></div>
+      <div id="kpis-pages"></div>
+    </section>
+
+    <!-- ════════════════════════════════════════════════════
+         TAB: PLANT REPORTS (all dynamic)
+    ════════════════════════════════════════════════════ -->
+    <section id="tab-plants" class="tab-content">
+      <div class="sub-nav" id="plants-subnav"></div>
+      <div id="plants-pages"></div>
+    </section>
+
+    <!-- ════════════════════════════════════════════════════
+         TAB: DATA TOOLS / EXPLORER (all dynamic)
+    ════════════════════════════════════════════════════ -->
+    <section id="tab-explorer" class="tab-content">
+      <div class="sub-nav" id="explorer-subnav"></div>
+      <div id="explorer-pages"></div>
+    </section>
+
+  </div><!-- /.app-shell -->
+  <script src="app.js"></script>
+</body>
+</html>

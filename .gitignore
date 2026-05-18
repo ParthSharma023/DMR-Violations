@@ -1,0 +1,25 @@
+.DS_Store
+
+# Python / local env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS noise
+.vscode/
+*.swp
+
+# Local live-source cache
+live/.cache/
+
+# Generated intermediate rebuild data
+build/tier2/
+
+# Optional local-only raw inputs
+source/exported_csv/
+source/*.pbix
+
+# One-off probe artifacts
+tools/probe_output.txt
+tools/probe2_output.txt
